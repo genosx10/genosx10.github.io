@@ -1,65 +1,107 @@
+/* =======================================================
+   Utilidades DOM y helpers
+======================================================= */
+
+// Atajos para seleccionar elementos del DOM
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+
+// Función debounce: evita ejecutar una función muchas veces seguidas.
+// Espera 'wait' ms desde la última llamada antes de ejecutarla.
+function debounce(fn, wait = 200) {
+  let t;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), wait);
+  };
+}
+
+/* =======================================================
+   Carga de datos
+======================================================= */
+
+// Carga un CSV remoto y lo convierte en un array de objetos
 async function loadCSV(url) {
   const res = await fetch(url);
   const text = await res.text();
-  const lines = text.trim().split(/\r?\n/);
-  const headers = lines.shift().split(",");
+  const lines = text.trim().split(/\r?\n/); // separar líneas
+  const headers = lines.shift().split(","); // primera línea son los encabezados
+
+  // Mapear cada línea del CSV a un objeto {header: valor}
   return lines.map((line) => {
     const cols = line.split(",");
     const obj = {};
-    headers.forEach((h, i) => (obj[h.trim()] = cols[i]?.trim() || ""));
+    headers.forEach((h, i) => (obj[h.trim()] = (cols[i] ?? "").trim()));
     return obj;
   });
 }
 
-function renderTable(rows) {
-  const tbody = document.querySelector("#matchesTable tbody");
-  tbody.innerHTML = "";
+/* =======================================================
+   Renderizado de tabla
+======================================================= */
 
+// Rellena la tabla con las filas filtradas/ordenadas
+function renderTable(rows) {
+  const tbody = $("#matchesTable tbody");
+  tbody.innerHTML = ""; // limpiar contenido anterior
+
+  // Crear fila por cada partido
   rows.forEach((r) => {
     const tr = document.createElement("tr");
 
     ["Round", "Date", "Team 1", "Team 2", "Venue"].forEach((k) => {
       const td = document.createElement("td");
+
       if (k === "Round") {
-        // Eliminar la palabra "Jornada" y dejar solo el número
-        const roundNum = (r[k] || "").replace(/\D/g, ""); 
+        // De "Jornada X" nos quedamos solo con el número
+        const roundNum = (r[k] || "").replace(/\D/g, "");
         td.textContent = roundNum;
+      } else if (k === "Date") {
+        // Mostrar fecha en formato local español
+        const d = new Date(r[k]);
+        td.textContent = isNaN(d)
+          ? (r[k] || "")
+          : d.toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "numeric" });
       } else {
         td.textContent = r[k] || "";
       }
+
       tr.appendChild(td);
     });
 
     tbody.appendChild(tr);
   });
 
-  // Contador en inglés
-  document.getElementById("count").textContent = `${rows.length} matches found`;
+  // Mostrar/ocultar tabla, contador y estado vacío
+  const hasRows = rows.length > 0;
+  $("#tableWrapper").classList.toggle("d-none", !hasRows);
+  $("#emptyState").classList.toggle("d-none", hasRows);
+  $("#count").classList.toggle("d-none", !hasRows);
 
-  const visible = rows.length > 0;
-  document.getElementById("tableWrapper").classList.toggle("d-none", !visible);
-  document.getElementById("count").classList.toggle("d-none", !visible);
+  // Actualizar contador
+  $("#count").textContent = `${rows.length} ${rows.length === 1 ? "partido" : "partidos"}`;
 }
 
-function applyFilters(rows) {
-  const teamValRaw = document.getElementById("teamFilter").value;
-  const teamVal = (teamValRaw || "").trim().toLowerCase(); // <- clave: trim()
+/* =======================================================
+   Filtrado
+======================================================= */
 
-  const from = document.getElementById("fromDate").value;
-  const to   = document.getElementById("toDate").value;
+// Extrae el número de la jornada de un string
+function getRoundNum(v) {
+  return parseInt((v || "").replace(/\D/g, "")) || 0;
+}
 
-  if (!teamVal) {
-    // Si el campo está vacío o son solo espacios, ocultamos tabla y contador
-    document.getElementById("tableWrapper").classList.add("d-none");
-    document.getElementById("count").classList.add("d-none");
-    return [];
-  }
+function applyFilters(sourceRows) {
+  const teamVal = ($("#teamFilter").value || "").trim().toLowerCase();
+  const from = $("#fromDate").value;
+  const to   = $("#toDate").value;
 
-  // Filtrar por equipo + fechas
-  let filtered = rows.filter(r => {
-    const teamMatch =
-      (r["Team 1"] || "").toLowerCase().includes(teamVal) ||
-      (r["Team 2"] || "").toLowerCase().includes(teamVal);
+  if (!teamVal) return [];
+
+  const filtered = sourceRows.filter((r) => {
+    const t1 = (r["Team 1"] || "").toLowerCase();
+    const t2 = (r["Team 2"] || "").toLowerCase();
+    const teamMatch = t1.includes(teamVal) || t2.includes(teamVal);
 
     const d = new Date(r["Date"]);
     const fromOk = !from || d >= new Date(from);
@@ -68,127 +110,156 @@ function applyFilters(rows) {
     return teamMatch && fromOk && toOk;
   });
 
-  // Ordenar por jornada ascendente (numérica)
-  filtered.sort((a, b) => {
-    const numA = parseInt((a["Round"] || "").replace(/\D/g, "")) || 0;
-    const numB = parseInt((b["Round"] || "").replace(/\D/g, "")) || 0;
-    return numA - numB;
-  });
+  // >>> Orden: 1) Jornada (asc), 2) Fecha (asc)
+  if (filtered.length > 1) {
+    filtered.sort((a, b) => {
+      const ra = getRoundNum(a["Round"]);
+      const rb = getRoundNum(b["Round"]);
+      if (ra !== rb) return ra - rb;
+
+      const da = new Date(a["Date"]);
+      const db = new Date(b["Date"]);
+      return da - db; // ascendente
+    });
+  }
 
   return filtered;
 }
 
 
-function addFilters(rows) {
-  ["teamFilter", "fromDate", "toDate"].forEach((id) => {
-    document.getElementById(id).addEventListener("input", () => {
-      renderTable(applyFilters(rows));
-    });
+/* =======================================================
+   Eventos de filtros (inputs)
+======================================================= */
+
+// Conecta los inputs de búsqueda/fechas a la tabla
+function wireFilters(sourceRows) {
+  // Debounce para no renderizar en exceso
+  const onChange = debounce(() => renderTable(applyFilters(sourceRows)), 150);
+
+  // Escuchar cambios en inputs
+  ["#teamFilter", "#fromDate", "#toDate"].forEach((sel) => {
+    $(sel).addEventListener("input", onChange);
   });
 
-  document.getElementById("resetBtn").addEventListener("click", () => {
-    document.getElementById("teamFilter").value = "";
-    document.getElementById("fromDate").value = "";
-    document.getElementById("toDate").value = "";
-    document.getElementById("tableWrapper").classList.add("d-none");
-    document.getElementById("count").classList.add("d-none");
+  // Botón borrar solo el filtro de equipo
+  $("#clearTeamBtn").addEventListener("click", () => {
+    $("#teamFilter").value = "";
+    onChange();
+  });
+
+  // Botón reset: limpia todos los filtros y oculta la tabla
+  $("#resetBtn").addEventListener("click", () => {
+    $("#teamFilter").value = "";
+    $("#fromDate").value = "";
+    $("#toDate").value = "";
+    $("#tableWrapper").classList.add("d-none");
+    $("#emptyState").classList.add("d-none");
+    $("#count").classList.add("d-none");
   });
 }
 
-function addSorting(rows) {
-  const headers = document.querySelectorAll("th[data-col]");
-  let sortState = {};
+/* =======================================================
+   Ordenación por columnas
+======================================================= */
 
-  headers.forEach((th) => {
-    th.addEventListener("click", () => {
-      const col = th.getAttribute("data-col");
-      sortState[col] = !sortState[col];
-      const asc = sortState[col];
+// Conecta los <th> con funcionalidad de ordenación
+function wireSorting(sourceRows) {
+  const headers = $$("th[data-col]");
+  const sortState = {}; // Guarda estado asc/desc de cada columna
 
-      let filtered = applyFilters(rows);
+  // Ordena por columna y re-renderiza
+  function sortAndRender(col) {
+    const asc = (sortState[col] = !sortState[col]); // toggle asc/desc
+    let rows = applyFilters(sourceRows);
 
-      filtered.sort((a, b) => {
-        if (col === "Date") {
-          return asc
-            ? new Date(a[col]) - new Date(b[col])
-            : new Date(b[col]) - new Date(a[col]);
-        }
-        if (col === "Round") {
-          const numA = parseInt((a[col] || "").replace(/\D/g, "")) || 0;
-          const numB = parseInt((b[col] || "").replace(/\D/g, "")) || 0;
-          return asc ? numA - numB : numB - numA;
-        }
-        return asc
-          ? (a[col] || "").localeCompare(b[col] || "")
-          : (b[col] || "").localeCompare(a[col] || "");
-      });
-
-      headers.forEach((h) => {
-        const icon = h.querySelector(".sort-icon");
-        if (!icon) return;
-        icon.className = "bi sort-icon bi-arrow-down-up";
-      });
-      const icon = th.querySelector(".sort-icon");
-      if (icon) {
-        icon.className = asc
-          ? "bi sort-icon bi-arrow-down"
-          : "bi sort-icon bi-arrow-up";
+    rows.sort((a, b) => {
+      if (col === "Date") {
+        return asc ? new Date(a[col]) - new Date(b[col])
+                   : new Date(b[col]) - new Date(a[col]);
       }
+      if (col === "Round") {
+        const na = getRoundNum(a[col]);
+        const nb = getRoundNum(b[col]);
+        return asc ? na - nb : nb - na;
+      }
+      const av = (a[col] || "");
+      const bv = (b[col] || "");
+      return asc ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
 
-      renderTable(filtered);
+    // Resetear iconos de sort
+    headers.forEach((h) => {
+      const icon = h.querySelector(".sort-icon");
+      if (!icon) return;
+      icon.className = "bi sort-icon bi-arrow-down-up";
+      h.classList.remove("active");
+    });
+
+    // Activar icono de la columna seleccionada
+    const th = [...headers].find((h) => h.getAttribute("data-col") === col);
+    const icon = th?.querySelector(".sort-icon");
+    if (icon) icon.className = asc ? "bi sort-icon bi-arrow-down"
+                                   : "bi sort-icon bi-arrow-up";
+    th?.classList.add("active");
+
+    renderTable(rows);
+  }
+
+  // Asociar eventos a cada cabecera (click + teclado accesible)
+  headers.forEach((th) => {
+    const col = th.getAttribute("data-col");
+    th.addEventListener("click", () => sortAndRender(col));
+    th.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        sortAndRender(col);
+      }
     });
   });
 }
+
+/* =======================================================
+   Inicialización
+======================================================= */
 
 (async function init() {
   const TEAM_SLUGS = [
-    "athletic-club",
-    "atletico-de-madrid",
-    "c-a-osasuna",
-    "d-alaves",
-    "elche-c-f",
-    "fc-barcelona",
-    "getafe-cf",
-    "girona-fc",
-    "levante-ud",
-    "rayo-vallecano",
-    "rc-celta",
-    "rcd-espanyol",
-    "rcd-mallorca",
-    "real-betis",
-    "real-madrid",
-    "real-oviedo",
-    "real-sociedad",
-    "sevilla-fc",
-    "valencia-cf",
-    "villarreal-cf",
+    "athletic-club","atletico-de-madrid","c-a-osasuna","d-alaves","elche-c-f",
+    "fc-barcelona","getafe-cf","girona-fc","levante-ud","rayo-vallecano",
+    "rc-celta","rcd-espanyol","rcd-mallorca","real-betis","real-madrid",
+    "real-oviedo","real-sociedad","sevilla-fc","valencia-cf","villarreal-cf",
   ];
-
   const files = TEAM_SLUGS.map((slug) => `data/matches_${slug}.csv`);
 
-  let allData = [];
-  for (const f of files) {
-    const data = await loadCSV(f);
-    allData = allData.concat(data);
+  try {
+    // Cargar todos los CSVs
+    let all = [];
+    for (const f of files) {
+      const data = await loadCSV(f);
+      all = all.concat(data);
+    }
+
+    // Eliminar duplicados (mismo día, mismo partido)
+    const seen = new Set();
+    const unique = all.filter((m) => {
+      const key = `${m["Date"]}_${m["Team 1"]}_${m["Team 2"]}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    // Conectar filtros y ordenación
+    wireFilters(unique);
+    wireSorting(unique);
+
+    // Ocultar spinner y preparar arranque en blanco
+    $("#loading").classList.add("d-none");
+    $("#tableWrapper").classList.add("d-none");
+    $("#count").classList.add("d-none");
+  } catch (e) {
+    console.error(e);
+    // Mostrar mensaje de error en UI
+    $("#loading").innerHTML =
+      `<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>Error cargando datos</span>`;
   }
-
-  const seen = new Set();
-  const uniqueData = allData.filter((match) => {
-    const key = `${match["Date"]}_${match["Team 1"]}_${match["Team 2"]}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-
-  addFilters(uniqueData);
-  addSorting(uniqueData);
-
-  document.getElementById("tableWrapper").classList.add("d-none");
-  document.getElementById("count").classList.add("d-none");
 })();
-
-document.getElementById("teamFilter").addEventListener("input", (e) => {
-  // si el usuario mete solo espacios, lo dejamos vacío
-  if (!e.target.value.trim()) e.target.value = "";
-  renderTable(applyFilters(rows)); // donde 'rows' sea tu dataset original
-});
