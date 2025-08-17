@@ -184,10 +184,16 @@
             <span>Cargando calendario…</span>
           </div>
         </div>
-        <div class="m-3 d-none" id="exportWrapper">
-          <button id="exportBtn" class="btn btn-primary">
-            <i class="bi bi-calendar-plus me-1"></i> Exportar a Google Calendar
-          </button>
+        <div class="d-flex flex-column align-items-end">
+          <div class="mt-3 d-none" id="exportWrapper">
+            <button id="exportBtn" class="btn btn-primary">
+              <i class="bi bi-calendar-plus me-1"></i> Exportar a Google
+              Calendar
+            </button>
+          </div>
+          <p class="text-danger fw-bold m-0">
+            Antes de exportar los partidos asegúrate de que estén filtrados.
+          </p>
         </div>
       </div>
 
@@ -202,6 +208,7 @@
               <tr>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Jornada"
                   aria-label="Ordenar por jornada"
@@ -210,6 +217,7 @@
                 </th>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Fecha"
                   aria-label="Ordenar por fecha"
@@ -218,6 +226,7 @@
                 </th>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Horario"
                   aria-label="Ordenar por hora"
@@ -226,6 +235,7 @@
                 </th>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Local"
                   aria-label="Ordenar por equipo local"
@@ -234,6 +244,7 @@
                 </th>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Visitante"
                   aria-label="Ordenar por equipo visitante"
@@ -242,13 +253,14 @@
                 </th>
                 <th
                   scope="col"
+                  class="text-nowrap"
                   tabindex="0"
                   data-col="Estado"
                   aria-label="Ordenar por estado"
                 >
                   Estado <i class="bi bi-arrow-down-up sort-icon"></i>
                 </th>
-                <th scope="col" style="width:1%"></th>
+                <th scope="col" style="width: 1%"></th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -267,7 +279,9 @@
           <p class="mb-0">No hay resultados con los filtros actuales.</p>
         </div>
       </div>
-      <p class="text-danger d-none" id="advise">*Fecha u horario pendiente de asignación</p>
+      <p class="text-danger d-none" id="advise">
+        *La fecha del partido puede cambiar, tenlo en cuenta antes de exportarlo.
+      </p>
     </main>
 
     <!-- Bootstrap JS (bundle) -->

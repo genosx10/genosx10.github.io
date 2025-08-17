@@ -56,23 +56,27 @@ function normalizeRow(r) {
 
 function loadCSV(url) {
   return fetch(url)
-    .then(function (res) {
-      return res.text();
-    })
-    .then(function (text) {
-      var lines = text.trim().split(/\r?\n/);
+    .then(res => res.text())
+    .then(text => {
+      var lines = text.split(/\r?\n/).filter(l => l.trim() !== "");
       var headers = lines.shift().split(",");
-      return lines.map(function (line) {
-        var cols = line.split(",");
-        var obj = {};
-        for (var i = 0; i < headers.length; i++) {
-          var h = headers[i].trim();
-          obj[h] = (cols[i] != null ? cols[i] : "").trim();
-        }
-        return normalizeRow(obj);
-      });
+      return lines
+        .map(function (line) {
+          var cols = line.split(",");
+          var obj = {};
+          for (var i = 0; i < headers.length; i++) {
+            var h = headers[i].trim();
+            obj[h] = (cols[i] != null ? cols[i] : "").trim();
+          }
+          return normalizeRow(obj);
+        })
+        // ⬇️ descartar filas totalmente vacías
+        .filter(function (r) {
+          return (r.Jornada || r.Fecha || r.Horario || r.Local || r.Visitante || r.Estado);
+        });
     });
 }
+
 
 /* =========================
    Estado global
@@ -207,7 +211,6 @@ function sortRows(rows) {
   });
 }
 
-
 /* =========================
    Filtrado
 ========================= */
@@ -259,7 +262,6 @@ function applyFilters(sourceRows, opts) {
 
   return out;
 }
-
 
 /* =========================
    Render tabla + paginación
@@ -363,11 +365,12 @@ function renderTable(rows) {
     tdStar.style.width = "1%";
 
     // regex para validar formato HH:MM
-    var esHoraValida = /^\d{2}:\d{2}$/.test(r.Horario || "");
-    tdStar.textContent = esHoraValida ? "" : "*";
+    var v = r.Horario || "";
+    var mostrarAviso = v !== "" && !/^\d{2}:\d{2}$/.test(v);
+    tdStar.textContent = mostrarAviso ? "*" : "";
+
     tdStar.style.color = "red";
     tdStar.style.textAlign = "left";
-
     tr.appendChild(tdStar);
 
     tbody.appendChild(tr);
@@ -377,7 +380,7 @@ function renderTable(rows) {
   document.getElementById("tableWrapper").classList.toggle("d-none", !hasRows);
   document.getElementById("emptyState").classList.toggle("d-none", hasRows);
   document.getElementById("count").classList.toggle("d-none", !hasRows);
-    document.getElementById("advise").classList.toggle("d-none", !hasRows);
+  document.getElementById("advise").classList.toggle("d-none", !hasRows);
   document.getElementById("count").textContent =
     __FILTERED_ROWS__.length +
     " " +
