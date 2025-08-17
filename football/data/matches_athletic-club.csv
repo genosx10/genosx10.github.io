@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Sun Aug 17 2025,Athletic Club,Sevilla FC,Estadio San Mamés
-Jornada 2,Mon Aug 25 2025,Athletic Club,Rayo Vallecano de Madrid,Estadio San Mamés
-Jornada 3,Sun Aug 31 2025,Real Betis Balompié,Athletic Club,Estadio Olímpico de la Cartuja
-Jornada 4,Sun Sep 14 2025,Athletic Club,Deportivo Alavés,Estadio San Mamés
-Jornada 5,Sun Sep 21 2025,Valencia CF,Athletic Club,Camp de Mestalla
-Jornada 6,Wed Sep 24 2025,Athletic Club,Girona FC,Estadio San Mamés
-Jornada 7,Sun Sep 28 2025,Villarreal CF,Athletic Club,Estadio de la Cerámica
-Jornada 8,Sun Oct 05 2025,Athletic Club,Real Club Deportivo Mallorca,Estadio San Mamés
-Jornada 9,Sun Oct 19 2025,Elche CF,Athletic Club,Estadio Martínez Valero
-Jornada 10,Sun Oct 26 2025,Athletic Club,Getafe CF,Estadio San Mamés
-Jornada 11,Sun Nov 02 2025,Real Sociedad de Fútbol,Athletic Club,Reale Arena
-Jornada 12,Sun Nov 09 2025,Athletic Club,Real Oviedo,Estadio San Mamés
-Jornada 13,Sun Nov 23 2025,FC Barcelona,Athletic Club,Spotify Camp Nou
-Jornada 14,Sun Nov 30 2025,Levante Unión Deportiva,Athletic Club,Estadio Ciutat de València
-Jornada 15,Sun Dec 07 2025,Athletic Club,Club Atlético de Madrid,Estadio San Mamés
-Jornada 16,Sun Dec 14 2025,Real Club Celta de Vigo,Athletic Club,Estadio ABANCA Balaídos
-Jornada 17,Sun Dec 21 2025,Athletic Club,RCD Espanyol de Barcelona,Estadio San Mamés
-Jornada 18,Sun Jan 04 2026,Club Atlético Osasuna,Athletic Club,Estadio El Sadar
-Jornada 19,Sun Jan 11 2026,Athletic Club,Real Madrid CF,Estadio San Mamés
-Jornada 20,Sun Jan 18 2026,Real Club Deportivo Mallorca,Athletic Club,Estadi Mallorca Son Moix
-Jornada 21,Sun Jan 25 2026,Sevilla FC,Athletic Club,Ramón Sánchez-Pizjuán
-Jornada 22,Sun Feb 01 2026,Athletic Club,Real Sociedad de Fútbol,Estadio San Mamés
-Jornada 23,Sun Feb 08 2026,Athletic Club,Levante Unión Deportiva,Estadio San Mamés
-Jornada 24,Sun Feb 15 2026,Real Oviedo,Athletic Club,Estadio Carlos Tartiere
-Jornada 25,Sun Feb 22 2026,Athletic Club,Elche CF,Estadio San Mamés
-Jornada 26,Sun Mar 01 2026,Rayo Vallecano de Madrid,Athletic Club,Estadio de Vallecas
-Jornada 27,Sun Mar 08 2026,Athletic Club,FC Barcelona,Estadio San Mamés
-Jornada 28,Sun Mar 15 2026,Girona FC,Athletic Club,Estadio Municipal de Montilivi
-Jornada 29,Sun Mar 22 2026,Athletic Club,Real Betis Balompié,Estadio San Mamés
-Jornada 30,Sun Apr 05 2026,Getafe CF,Athletic Club,Coliseum
-Jornada 31,Sun Apr 12 2026,Athletic Club,Villarreal CF,Estadio San Mamés
-Jornada 32,Sun Apr 19 2026,Club Atlético de Madrid,Athletic Club,Riyadh Air Metropolitano
-Jornada 33,Wed Apr 22 2026,Athletic Club,Club Atlético Osasuna,Estadio San Mamés
-Jornada 34,Sun May 03 2026,Deportivo Alavés,Athletic Club,Mendizorroza
-Jornada 35,Sun May 10 2026,Athletic Club,Valencia CF,Estadio San Mamés
-Jornada 36,Wed May 13 2026,RCD Espanyol de Barcelona,Athletic Club,RCDE Stadium
-Jornada 37,Sun May 17 2026,Athletic Club,Real Club Celta de Vigo,Estadio San Mamés
-Jornada 38,Sun May 24 2026,Real Madrid CF,Athletic Club,Estadio Santiago Bernabéu
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Dom 17-08-2025,19:30,Athletic Club,Sevilla FC,Finalizado
+2,Lun 25-08-2025,19:30,Athletic Club,Rayo Vallecano,Pendiente
+3,Dom 31-08-2025,19:00,Real Betis,Athletic Club,Pendiente
+4,Dom 14-09-2025,--:--,Athletic Club,Deportivo Alavés,Pendiente
+5,Dom 21-09-2025,--:--,Valencia CF,Athletic Club,Pendiente
+6,Mié 24-09-2025,--:--,Athletic Club,Girona FC,Pendiente
+7,Dom 28-09-2025,--:--,Villarreal CF,Athletic Club,Pendiente
+8,Dom 05-10-2025,--:--,Athletic Club,RCD Mallorca,Pendiente
+9,Dom 19-10-2025,--:--,Elche CF,Athletic Club,Pendiente
+10,Dom 26-10-2025,--:--,Athletic Club,Getafe CF,Pendiente
+11,Dom 02-11-2025,--:--,Real Sociedad,Athletic Club,Pendiente
+12,Dom 09-11-2025,--:--,Athletic Club,Real Oviedo,Pendiente
+13,Dom 23-11-2025,--:--,FC Barcelona,Athletic Club,Pendiente
+14,Dom 30-11-2025,--:--,Levante UD,Athletic Club,Pendiente
+15,Dom 07-12-2025,--:--,Athletic Club,Atlético de Madrid,Pendiente
+16,Dom 14-12-2025,--:--,Celta,Athletic Club,Pendiente
+17,Dom 21-12-2025,--:--,Athletic Club,RCD Espanyol de Barcelona,Pendiente
+18,Dom 04-01-2026,--:--,CA Osasuna,Athletic Club,Pendiente
+19,Dom 11-01-2026,--:--,Athletic Club,Real Madrid,Pendiente
+20,Dom 18-01-2026,--:--,RCD Mallorca,Athletic Club,Pendiente
+21,Dom 25-01-2026,--:--,Sevilla FC,Athletic Club,Pendiente
+22,Dom 01-02-2026,--:--,Athletic Club,Real Sociedad,Pendiente
+23,Dom 08-02-2026,--:--,Athletic Club,Levante UD,Pendiente
+24,Dom 15-02-2026,--:--,Real Oviedo,Athletic Club,Pendiente
+25,Dom 22-02-2026,--:--,Athletic Club,Elche CF,Pendiente
+26,Dom 01-03-2026,--:--,Rayo Vallecano,Athletic Club,Pendiente
+27,Dom 08-03-2026,--:--,Athletic Club,FC Barcelona,Pendiente
+28,Dom 15-03-2026,--:--,Girona FC,Athletic Club,Pendiente
+29,Dom 22-03-2026,--:--,Athletic Club,Real Betis,Pendiente
+30,Dom 05-04-2026,--:--,Getafe CF,Athletic Club,Pendiente
+31,Dom 12-04-2026,--:--,Athletic Club,Villarreal CF,Pendiente
+32,Dom 19-04-2026,--:--,Atlético de Madrid,Athletic Club,Pendiente
+33,Mié 22-04-2026,--:--,Athletic Club,CA Osasuna,Pendiente
+34,Dom 03-05-2026,--:--,Deportivo Alavés,Athletic Club,Pendiente
+35,Dom 10-05-2026,--:--,Athletic Club,Valencia CF,Pendiente
+36,Mié 13-05-2026,--:--,RCD Espanyol de Barcelona,Athletic Club,Pendiente
+37,Dom 17-05-2026,--:--,Athletic Club,Celta,Pendiente
+38,Dom 24-05-2026,--:--,Real Madrid,Athletic Club,Pendiente

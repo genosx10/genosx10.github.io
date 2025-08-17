@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Sun Aug 17 2025,RCD Espanyol de Barcelona,Club Atlético de Madrid,RCDE Stadium
-Jornada 2,Sat Aug 23 2025,Club Atlético de Madrid,Elche CF,Riyadh Air Metropolitano
-Jornada 3,Sat Aug 30 2025,Deportivo Alavés,Club Atlético de Madrid,Mendizorroza
-Jornada 4,Sun Sep 14 2025,Club Atlético de Madrid,Villarreal CF,Riyadh Air Metropolitano
-Jornada 5,Sun Sep 21 2025,Real Club Deportivo Mallorca,Club Atlético de Madrid,Estadi Mallorca Son Moix
-Jornada 6,Wed Sep 24 2025,Club Atlético de Madrid,Rayo Vallecano de Madrid,Riyadh Air Metropolitano
-Jornada 7,Sun Sep 28 2025,Club Atlético de Madrid,Real Madrid CF,Riyadh Air Metropolitano
-Jornada 8,Sun Oct 05 2025,Real Club Celta de Vigo,Club Atlético de Madrid,Estadio ABANCA Balaídos
-Jornada 9,Sun Oct 19 2025,Club Atlético de Madrid,Club Atlético Osasuna,Riyadh Air Metropolitano
-Jornada 10,Sun Oct 26 2025,Real Betis Balompié,Club Atlético de Madrid,Estadio Olímpico de la Cartuja
-Jornada 11,Sun Nov 02 2025,Club Atlético de Madrid,Sevilla FC,Riyadh Air Metropolitano
-Jornada 12,Sun Nov 09 2025,Club Atlético de Madrid,Levante Unión Deportiva,Riyadh Air Metropolitano
-Jornada 13,Sun Nov 23 2025,Getafe CF,Club Atlético de Madrid,Coliseum
-Jornada 14,Sun Nov 30 2025,Club Atlético de Madrid,Real Oviedo,Riyadh Air Metropolitano
-Jornada 15,Sun Dec 07 2025,Athletic Club,Club Atlético de Madrid,Estadio San Mamés
-Jornada 16,Sun Dec 14 2025,Club Atlético de Madrid,Valencia CF,Riyadh Air Metropolitano
-Jornada 17,Sun Dec 21 2025,Girona FC,Club Atlético de Madrid,Estadio Municipal de Montilivi
-Jornada 18,Sun Jan 04 2026,Real Sociedad de Fútbol,Club Atlético de Madrid,Reale Arena
-Jornada 19,Sun Jan 11 2026,FC Barcelona,Club Atlético de Madrid,Spotify Camp Nou
-Jornada 20,Sun Jan 18 2026,Club Atlético de Madrid,Deportivo Alavés,Riyadh Air Metropolitano
-Jornada 21,Sun Jan 25 2026,Club Atlético de Madrid,Real Club Deportivo Mallorca,Riyadh Air Metropolitano
-Jornada 22,Sun Feb 01 2026,Levante Unión Deportiva,Club Atlético de Madrid,Estadio Ciutat de València
-Jornada 23,Sun Feb 08 2026,Club Atlético de Madrid,Real Betis Balompié,Riyadh Air Metropolitano
-Jornada 24,Sun Feb 15 2026,Rayo Vallecano de Madrid,Club Atlético de Madrid,Estadio de Vallecas
-Jornada 25,Sun Feb 22 2026,Club Atlético de Madrid,RCD Espanyol de Barcelona,Riyadh Air Metropolitano
-Jornada 26,Sun Mar 01 2026,Real Oviedo,Club Atlético de Madrid,Estadio Carlos Tartiere
-Jornada 27,Sun Mar 08 2026,Club Atlético de Madrid,Real Sociedad de Fútbol,Riyadh Air Metropolitano
-Jornada 28,Sun Mar 15 2026,Club Atlético de Madrid,Getafe CF,Riyadh Air Metropolitano
-Jornada 29,Sun Mar 22 2026,Real Madrid CF,Club Atlético de Madrid,Estadio Santiago Bernabéu
-Jornada 30,Sun Apr 05 2026,Club Atlético de Madrid,FC Barcelona,Riyadh Air Metropolitano
-Jornada 31,Sun Apr 12 2026,Sevilla FC,Club Atlético de Madrid,Ramón Sánchez-Pizjuán
-Jornada 32,Sun Apr 19 2026,Club Atlético de Madrid,Athletic Club,Riyadh Air Metropolitano
-Jornada 33,Wed Apr 22 2026,Elche CF,Club Atlético de Madrid,Estadio Martínez Valero
-Jornada 34,Sun May 03 2026,Valencia CF,Club Atlético de Madrid,Camp de Mestalla
-Jornada 35,Sun May 10 2026,Club Atlético de Madrid,Real Club Celta de Vigo,Riyadh Air Metropolitano
-Jornada 36,Wed May 13 2026,Club Atlético Osasuna,Club Atlético de Madrid,Estadio El Sadar
-Jornada 37,Sun May 17 2026,Club Atlético de Madrid,Girona FC,Riyadh Air Metropolitano
-Jornada 38,Sun May 24 2026,Villarreal CF,Club Atlético de Madrid,Estadio de la Cerámica
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Dom 17-08-2025,21:30,RCD Espanyol de Barcelona,Atlético de Madrid,Pendiente
+2,Sáb 23-08-2025,19:30,Atlético de Madrid,Elche CF,Pendiente
+3,Sáb 30-08-2025,17:00,Deportivo Alavés,Atlético de Madrid,Pendiente
+4,Dom 14-09-2025,--:--,Atlético de Madrid,Villarreal CF,Pendiente
+5,Dom 21-09-2025,--:--,RCD Mallorca,Atlético de Madrid,Pendiente
+6,Mié 24-09-2025,--:--,Atlético de Madrid,Rayo Vallecano,Pendiente
+7,Dom 28-09-2025,--:--,Atlético de Madrid,Real Madrid,Pendiente
+8,Dom 05-10-2025,--:--,Celta,Atlético de Madrid,Pendiente
+9,Dom 19-10-2025,--:--,Atlético de Madrid,CA Osasuna,Pendiente
+10,Dom 26-10-2025,--:--,Real Betis,Atlético de Madrid,Pendiente
+11,Dom 02-11-2025,--:--,Atlético de Madrid,Sevilla FC,Pendiente
+12,Dom 09-11-2025,--:--,Atlético de Madrid,Levante UD,Pendiente
+13,Dom 23-11-2025,--:--,Getafe CF,Atlético de Madrid,Pendiente
+14,Dom 30-11-2025,--:--,Atlético de Madrid,Real Oviedo,Pendiente
+15,Dom 07-12-2025,--:--,Athletic Club,Atlético de Madrid,Pendiente
+16,Dom 14-12-2025,--:--,Atlético de Madrid,Valencia CF,Pendiente
+17,Dom 21-12-2025,--:--,Girona FC,Atlético de Madrid,Pendiente
+18,Dom 04-01-2026,--:--,Real Sociedad,Atlético de Madrid,Pendiente
+19,Dom 11-01-2026,--:--,FC Barcelona,Atlético de Madrid,Pendiente
+20,Dom 18-01-2026,--:--,Atlético de Madrid,Deportivo Alavés,Pendiente
+21,Dom 25-01-2026,--:--,Atlético de Madrid,RCD Mallorca,Pendiente
+22,Dom 01-02-2026,--:--,Levante UD,Atlético de Madrid,Pendiente
+23,Dom 08-02-2026,--:--,Atlético de Madrid,Real Betis,Pendiente
+24,Dom 15-02-2026,--:--,Rayo Vallecano,Atlético de Madrid,Pendiente
+25,Dom 22-02-2026,--:--,Atlético de Madrid,RCD Espanyol de Barcelona,Pendiente
+26,Dom 01-03-2026,--:--,Real Oviedo,Atlético de Madrid,Pendiente
+27,Dom 08-03-2026,--:--,Atlético de Madrid,Real Sociedad,Pendiente
+28,Dom 15-03-2026,--:--,Atlético de Madrid,Getafe CF,Pendiente
+29,Dom 22-03-2026,--:--,Real Madrid,Atlético de Madrid,Pendiente
+30,Dom 05-04-2026,--:--,Atlético de Madrid,FC Barcelona,Pendiente
+31,Dom 12-04-2026,--:--,Sevilla FC,Atlético de Madrid,Pendiente
+32,Dom 19-04-2026,--:--,Atlético de Madrid,Athletic Club,Pendiente
+33,Mié 22-04-2026,--:--,Elche CF,Atlético de Madrid,Pendiente
+34,Dom 03-05-2026,--:--,Valencia CF,Atlético de Madrid,Pendiente
+35,Dom 10-05-2026,--:--,Atlético de Madrid,Celta,Pendiente
+36,Mié 13-05-2026,--:--,CA Osasuna,Atlético de Madrid,Pendiente
+37,Dom 17-05-2026,--:--,Atlético de Madrid,Girona FC,Pendiente
+38,Dom 24-05-2026,--:--,Villarreal CF,Atlético de Madrid,Pendiente

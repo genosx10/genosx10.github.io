@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Fri Aug 15 2025,Villarreal CF,Real Oviedo,Estadio de la Cerámica
-Jornada 2,Sun Aug 24 2025,Real Oviedo,Real Madrid CF,Estadio Carlos Tartiere
-Jornada 3,Sat Aug 30 2025,Real Oviedo,Real Sociedad de Fútbol,Estadio Carlos Tartiere
-Jornada 4,Sat Sep 13 2025,Getafe CF,Real Oviedo,Coliseum
-Jornada 5,Sun Sep 21 2025,Elche CF,Real Oviedo,Estadio Martínez Valero
-Jornada 6,Wed Sep 24 2025,Real Oviedo,FC Barcelona,Estadio Carlos Tartiere
-Jornada 7,Sun Sep 28 2025,Valencia CF,Real Oviedo,Camp de Mestalla
-Jornada 8,Sun Oct 05 2025,Real Oviedo,Levante Unión Deportiva,Estadio Carlos Tartiere
-Jornada 9,Sun Oct 19 2025,Real Oviedo,RCD Espanyol de Barcelona,Estadio Carlos Tartiere
-Jornada 10,Sun Oct 26 2025,Girona FC,Real Oviedo,Estadio Municipal de Montilivi
-Jornada 11,Sun Nov 02 2025,Real Oviedo,Club Atlético Osasuna,Estadio Carlos Tartiere
-Jornada 12,Sun Nov 09 2025,Athletic Club,Real Oviedo,Estadio San Mamés
-Jornada 13,Sun Nov 23 2025,Real Oviedo,Rayo Vallecano de Madrid,Estadio Carlos Tartiere
-Jornada 14,Sun Nov 30 2025,Club Atlético de Madrid,Real Oviedo,Riyadh Air Metropolitano
-Jornada 15,Sun Dec 07 2025,Real Oviedo,Real Club Deportivo Mallorca,Estadio Carlos Tartiere
-Jornada 16,Sun Dec 14 2025,Sevilla FC,Real Oviedo,Ramón Sánchez-Pizjuán
-Jornada 17,Sun Dec 21 2025,Real Oviedo,Real Club Celta de Vigo,Estadio Carlos Tartiere
-Jornada 18,Sun Jan 04 2026,Deportivo Alavés,Real Oviedo,Mendizorroza
-Jornada 19,Sun Jan 11 2026,Real Oviedo,Real Betis Balompié,Estadio Carlos Tartiere
-Jornada 20,Sun Jan 18 2026,Club Atlético Osasuna,Real Oviedo,Estadio El Sadar
-Jornada 21,Sun Jan 25 2026,FC Barcelona,Real Oviedo,Spotify Camp Nou
-Jornada 22,Sun Feb 01 2026,Real Oviedo,Girona FC,Estadio Carlos Tartiere
-Jornada 23,Sun Feb 08 2026,Rayo Vallecano de Madrid,Real Oviedo,Estadio de Vallecas
-Jornada 24,Sun Feb 15 2026,Real Oviedo,Athletic Club,Estadio Carlos Tartiere
-Jornada 25,Sun Feb 22 2026,Real Sociedad de Fútbol,Real Oviedo,Reale Arena
-Jornada 26,Sun Mar 01 2026,Real Oviedo,Club Atlético de Madrid,Estadio Carlos Tartiere
-Jornada 27,Sun Mar 08 2026,RCD Espanyol de Barcelona,Real Oviedo,RCDE Stadium
-Jornada 28,Sun Mar 15 2026,Real Oviedo,Valencia CF,Estadio Carlos Tartiere
-Jornada 29,Sun Mar 22 2026,Levante Unión Deportiva,Real Oviedo,Estadio Ciutat de València
-Jornada 30,Sun Apr 05 2026,Real Oviedo,Sevilla FC,Estadio Carlos Tartiere
-Jornada 31,Sun Apr 12 2026,Real Club Celta de Vigo,Real Oviedo,Estadio ABANCA Balaídos
-Jornada 32,Sun Apr 19 2026,Real Oviedo,Elche CF,Estadio Carlos Tartiere
-Jornada 33,Wed Apr 22 2026,Real Oviedo,Villarreal CF,Estadio Carlos Tartiere
-Jornada 34,Sun May 03 2026,Real Betis Balompié,Real Oviedo,Estadio Olímpico de la Cartuja
-Jornada 35,Sun May 10 2026,Real Oviedo,Getafe CF,Estadio Carlos Tartiere
-Jornada 36,Wed May 13 2026,Real Madrid CF,Real Oviedo,Estadio Santiago Bernabéu
-Jornada 37,Sun May 17 2026,Real Oviedo,Deportivo Alavés,Estadio Carlos Tartiere
-Jornada 38,Sun May 24 2026,Real Club Deportivo Mallorca,Real Oviedo,Estadi Mallorca Son Moix
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Vie 15-08-2025,21:30,Villarreal CF,Real Oviedo,Finalizado
+2,Dom 24-08-2025,21:30,Real Oviedo,Real Madrid,Pendiente
+3,Sáb 30-08-2025,19:00,Real Oviedo,Real Sociedad,Pendiente
+4,Sáb 13-09-2025,14:00,Getafe CF,Real Oviedo,Pendiente
+5,Dom 21-09-2025,--:--,Elche CF,Real Oviedo,Pendiente
+6,Mié 24-09-2025,--:--,Real Oviedo,FC Barcelona,Pendiente
+7,Dom 28-09-2025,--:--,Valencia CF,Real Oviedo,Pendiente
+8,Dom 05-10-2025,--:--,Real Oviedo,Levante UD,Pendiente
+9,Dom 19-10-2025,--:--,Real Oviedo,RCD Espanyol de Barcelona,Pendiente
+10,Dom 26-10-2025,--:--,Girona FC,Real Oviedo,Pendiente
+11,Dom 02-11-2025,--:--,Real Oviedo,CA Osasuna,Pendiente
+12,Dom 09-11-2025,--:--,Athletic Club,Real Oviedo,Pendiente
+13,Dom 23-11-2025,--:--,Real Oviedo,Rayo Vallecano,Pendiente
+14,Dom 30-11-2025,--:--,Atlético de Madrid,Real Oviedo,Pendiente
+15,Dom 07-12-2025,--:--,Real Oviedo,RCD Mallorca,Pendiente
+16,Dom 14-12-2025,--:--,Sevilla FC,Real Oviedo,Pendiente
+17,Dom 21-12-2025,--:--,Real Oviedo,Celta,Pendiente
+18,Dom 04-01-2026,--:--,Deportivo Alavés,Real Oviedo,Pendiente
+19,Dom 11-01-2026,--:--,Real Oviedo,Real Betis,Pendiente
+20,Dom 18-01-2026,--:--,CA Osasuna,Real Oviedo,Pendiente
+21,Dom 25-01-2026,--:--,FC Barcelona,Real Oviedo,Pendiente
+22,Dom 01-02-2026,--:--,Real Oviedo,Girona FC,Pendiente
+23,Dom 08-02-2026,--:--,Rayo Vallecano,Real Oviedo,Pendiente
+24,Dom 15-02-2026,--:--,Real Oviedo,Athletic Club,Pendiente
+25,Dom 22-02-2026,--:--,Real Sociedad,Real Oviedo,Pendiente
+26,Dom 01-03-2026,--:--,Real Oviedo,Atlético de Madrid,Pendiente
+27,Dom 08-03-2026,--:--,RCD Espanyol de Barcelona,Real Oviedo,Pendiente
+28,Dom 15-03-2026,--:--,Real Oviedo,Valencia CF,Pendiente
+29,Dom 22-03-2026,--:--,Levante UD,Real Oviedo,Pendiente
+30,Dom 05-04-2026,--:--,Real Oviedo,Sevilla FC,Pendiente
+31,Dom 12-04-2026,--:--,Celta,Real Oviedo,Pendiente
+32,Dom 19-04-2026,--:--,Real Oviedo,Elche CF,Pendiente
+33,Mié 22-04-2026,--:--,Real Oviedo,Villarreal CF,Pendiente
+34,Dom 03-05-2026,--:--,Real Betis,Real Oviedo,Pendiente
+35,Dom 10-05-2026,--:--,Real Oviedo,Getafe CF,Pendiente
+36,Mié 13-05-2026,--:--,Real Madrid,Real Oviedo,Pendiente
+37,Dom 17-05-2026,--:--,Real Oviedo,Deportivo Alavés,Pendiente
+38,Dom 24-05-2026,--:--,RCD Mallorca,Real Oviedo,Pendiente

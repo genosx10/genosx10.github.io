@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Sun Aug 17 2025,Athletic Club,Sevilla FC,Estadio San Mamés
-Jornada 2,Mon Aug 25 2025,Sevilla FC,Getafe CF,Ramón Sánchez-Pizjuán
-Jornada 3,Sat Aug 30 2025,Girona FC,Sevilla FC,Estadio Municipal de Montilivi
-Jornada 4,Fri Sep 12 2025,Sevilla FC,Elche CF,Ramón Sánchez-Pizjuán
-Jornada 5,Sun Sep 21 2025,Deportivo Alavés,Sevilla FC,Mendizorroza
-Jornada 6,Wed Sep 24 2025,Sevilla FC,Villarreal CF,Ramón Sánchez-Pizjuán
-Jornada 7,Sun Sep 28 2025,Rayo Vallecano de Madrid,Sevilla FC,Estadio de Vallecas
-Jornada 8,Sun Oct 05 2025,Sevilla FC,FC Barcelona,Ramón Sánchez-Pizjuán
-Jornada 9,Sun Oct 19 2025,Sevilla FC,Real Club Deportivo Mallorca,Ramón Sánchez-Pizjuán
-Jornada 10,Sun Oct 26 2025,Real Sociedad de Fútbol,Sevilla FC,Reale Arena
-Jornada 11,Sun Nov 02 2025,Club Atlético de Madrid,Sevilla FC,Riyadh Air Metropolitano
-Jornada 12,Sun Nov 09 2025,Sevilla FC,Club Atlético Osasuna,Ramón Sánchez-Pizjuán
-Jornada 13,Sun Nov 23 2025,RCD Espanyol de Barcelona,Sevilla FC,RCDE Stadium
-Jornada 14,Sun Nov 30 2025,Sevilla FC,Real Betis Balompié,Ramón Sánchez-Pizjuán
-Jornada 15,Sun Dec 07 2025,Valencia CF,Sevilla FC,Camp de Mestalla
-Jornada 16,Sun Dec 14 2025,Sevilla FC,Real Oviedo,Ramón Sánchez-Pizjuán
-Jornada 17,Sun Dec 21 2025,Real Madrid CF,Sevilla FC,Estadio Santiago Bernabéu
-Jornada 18,Sun Jan 04 2026,Sevilla FC,Levante Unión Deportiva,Ramón Sánchez-Pizjuán
-Jornada 19,Sun Jan 11 2026,Sevilla FC,Real Club Celta de Vigo,Ramón Sánchez-Pizjuán
-Jornada 20,Sun Jan 18 2026,Elche CF,Sevilla FC,Estadio Martínez Valero
-Jornada 21,Sun Jan 25 2026,Sevilla FC,Athletic Club,Ramón Sánchez-Pizjuán
-Jornada 22,Sun Feb 01 2026,Real Club Deportivo Mallorca,Sevilla FC,Estadi Mallorca Son Moix
-Jornada 23,Sun Feb 08 2026,Sevilla FC,Girona FC,Ramón Sánchez-Pizjuán
-Jornada 24,Sun Feb 15 2026,Sevilla FC,Deportivo Alavés,Ramón Sánchez-Pizjuán
-Jornada 25,Sun Feb 22 2026,Getafe CF,Sevilla FC,Coliseum
-Jornada 26,Sun Mar 01 2026,Real Betis Balompié,Sevilla FC,Estadio Olímpico de la Cartuja
-Jornada 27,Sun Mar 08 2026,Sevilla FC,Rayo Vallecano de Madrid,Ramón Sánchez-Pizjuán
-Jornada 28,Sun Mar 15 2026,FC Barcelona,Sevilla FC,Spotify Camp Nou
-Jornada 29,Sun Mar 22 2026,Sevilla FC,Valencia CF,Ramón Sánchez-Pizjuán
-Jornada 30,Sun Apr 05 2026,Real Oviedo,Sevilla FC,Estadio Carlos Tartiere
-Jornada 31,Sun Apr 12 2026,Sevilla FC,Club Atlético de Madrid,Ramón Sánchez-Pizjuán
-Jornada 32,Sun Apr 19 2026,Club Atlético Osasuna,Sevilla FC,Estadio El Sadar
-Jornada 33,Wed Apr 22 2026,Levante Unión Deportiva,Sevilla FC,Estadio Ciutat de València
-Jornada 34,Sun May 03 2026,Sevilla FC,Real Sociedad de Fútbol,Ramón Sánchez-Pizjuán
-Jornada 35,Sun May 10 2026,Sevilla FC,RCD Espanyol de Barcelona,Ramón Sánchez-Pizjuán
-Jornada 36,Wed May 13 2026,Villarreal CF,Sevilla FC,Estadio de la Cerámica
-Jornada 37,Sun May 17 2026,Sevilla FC,Real Madrid CF,Ramón Sánchez-Pizjuán
-Jornada 38,Sun May 24 2026,Real Club Celta de Vigo,Sevilla FC,Estadio ABANCA Balaídos
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Dom 17-08-2025,19:30,Athletic Club,Sevilla FC,Finalizado
+2,Lun 25-08-2025,21:30,Sevilla FC,Getafe CF,Pendiente
+3,Sáb 30-08-2025,19:30,Girona FC,Sevilla FC,Pendiente
+4,Vie 12-09-2025,21:00,Sevilla FC,Elche CF,Pendiente
+5,Dom 21-09-2025,--:--,Deportivo Alavés,Sevilla FC,Pendiente
+6,Mié 24-09-2025,--:--,Sevilla FC,Villarreal CF,Pendiente
+7,Dom 28-09-2025,--:--,Rayo Vallecano,Sevilla FC,Pendiente
+8,Dom 05-10-2025,--:--,Sevilla FC,FC Barcelona,Pendiente
+9,Dom 19-10-2025,--:--,Sevilla FC,RCD Mallorca,Pendiente
+10,Dom 26-10-2025,--:--,Real Sociedad,Sevilla FC,Pendiente
+11,Dom 02-11-2025,--:--,Atlético de Madrid,Sevilla FC,Pendiente
+12,Dom 09-11-2025,--:--,Sevilla FC,CA Osasuna,Pendiente
+13,Dom 23-11-2025,--:--,RCD Espanyol de Barcelona,Sevilla FC,Pendiente
+14,Dom 30-11-2025,--:--,Sevilla FC,Real Betis,Pendiente
+15,Dom 07-12-2025,--:--,Valencia CF,Sevilla FC,Pendiente
+16,Dom 14-12-2025,--:--,Sevilla FC,Real Oviedo,Pendiente
+17,Dom 21-12-2025,--:--,Real Madrid,Sevilla FC,Pendiente
+18,Dom 04-01-2026,--:--,Sevilla FC,Levante UD,Pendiente
+19,Dom 11-01-2026,--:--,Sevilla FC,Celta,Pendiente
+20,Dom 18-01-2026,--:--,Elche CF,Sevilla FC,Pendiente
+21,Dom 25-01-2026,--:--,Sevilla FC,Athletic Club,Pendiente
+22,Dom 01-02-2026,--:--,RCD Mallorca,Sevilla FC,Pendiente
+23,Dom 08-02-2026,--:--,Sevilla FC,Girona FC,Pendiente
+24,Dom 15-02-2026,--:--,Sevilla FC,Deportivo Alavés,Pendiente
+25,Dom 22-02-2026,--:--,Getafe CF,Sevilla FC,Pendiente
+26,Dom 01-03-2026,--:--,Real Betis,Sevilla FC,Pendiente
+27,Dom 08-03-2026,--:--,Sevilla FC,Rayo Vallecano,Pendiente
+28,Dom 15-03-2026,--:--,FC Barcelona,Sevilla FC,Pendiente
+29,Dom 22-03-2026,--:--,Sevilla FC,Valencia CF,Pendiente
+30,Dom 05-04-2026,--:--,Real Oviedo,Sevilla FC,Pendiente
+31,Dom 12-04-2026,--:--,Sevilla FC,Atlético de Madrid,Pendiente
+32,Dom 19-04-2026,--:--,CA Osasuna,Sevilla FC,Pendiente
+33,Mié 22-04-2026,--:--,Levante UD,Sevilla FC,Pendiente
+34,Dom 03-05-2026,--:--,Sevilla FC,Real Sociedad,Pendiente
+35,Dom 10-05-2026,--:--,Sevilla FC,RCD Espanyol de Barcelona,Pendiente
+36,Mié 13-05-2026,--:--,Villarreal CF,Sevilla FC,Pendiente
+37,Dom 17-05-2026,--:--,Sevilla FC,Real Madrid,Pendiente
+38,Dom 24-05-2026,--:--,Celta,Sevilla FC,Pendiente

@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Mon Aug 18 2025,Elche CF,Real Betis Balompié,Estadio Martínez Valero
-Jornada 2,Fri Aug 22 2025,Real Betis Balompié,Deportivo Alavés,Estadio Olímpico de la Cartuja
-Jornada 6,Wed Aug 27 2025,Real Club Celta de Vigo,Real Betis Balompié,Estadio ABANCA Balaídos
-Jornada 3,Sun Aug 31 2025,Real Betis Balompié,Athletic Club,Estadio Olímpico de la Cartuja
-Jornada 4,Sat Sep 13 2025,Levante Unión Deportiva,Real Betis Balompié,Estadio Ciutat de València
-Jornada 5,Sun Sep 21 2025,Real Betis Balompié,Real Sociedad de Fútbol,Estadio Olímpico de la Cartuja
-Jornada 7,Sun Sep 28 2025,Real Betis Balompié,Club Atlético Osasuna,Estadio Olímpico de la Cartuja
-Jornada 8,Sun Oct 05 2025,RCD Espanyol de Barcelona,Real Betis Balompié,RCDE Stadium
-Jornada 9,Sun Oct 19 2025,Villarreal CF,Real Betis Balompié,Estadio de la Cerámica
-Jornada 10,Sun Oct 26 2025,Real Betis Balompié,Club Atlético de Madrid,Estadio Olímpico de la Cartuja
-Jornada 11,Sun Nov 02 2025,Real Betis Balompié,Real Club Deportivo Mallorca,Estadio Olímpico de la Cartuja
-Jornada 12,Sun Nov 09 2025,Valencia CF,Real Betis Balompié,Camp de Mestalla
-Jornada 13,Sun Nov 23 2025,Real Betis Balompié,Girona FC,Estadio Olímpico de la Cartuja
-Jornada 14,Sun Nov 30 2025,Sevilla FC,Real Betis Balompié,Ramón Sánchez-Pizjuán
-Jornada 15,Sun Dec 07 2025,Real Betis Balompié,FC Barcelona,Estadio Olímpico de la Cartuja
-Jornada 16,Sun Dec 14 2025,Rayo Vallecano de Madrid,Real Betis Balompié,Estadio de Vallecas
-Jornada 17,Sun Dec 21 2025,Real Betis Balompié,Getafe CF,Estadio Olímpico de la Cartuja
-Jornada 18,Sun Jan 04 2026,Real Madrid CF,Real Betis Balompié,Estadio Santiago Bernabéu
-Jornada 19,Sun Jan 11 2026,Real Oviedo,Real Betis Balompié,Estadio Carlos Tartiere
-Jornada 20,Sun Jan 18 2026,Real Betis Balompié,Villarreal CF,Estadio Olímpico de la Cartuja
-Jornada 21,Sun Jan 25 2026,Deportivo Alavés,Real Betis Balompié,Mendizorroza
-Jornada 22,Sun Feb 01 2026,Real Betis Balompié,Valencia CF,Estadio Olímpico de la Cartuja
-Jornada 23,Sun Feb 08 2026,Club Atlético de Madrid,Real Betis Balompié,Riyadh Air Metropolitano
-Jornada 24,Sun Feb 15 2026,Real Club Deportivo Mallorca,Real Betis Balompié,Estadi Mallorca Son Moix
-Jornada 25,Sun Feb 22 2026,Real Betis Balompié,Rayo Vallecano de Madrid,Estadio Olímpico de la Cartuja
-Jornada 26,Sun Mar 01 2026,Real Betis Balompié,Sevilla FC,Estadio Olímpico de la Cartuja
-Jornada 27,Sun Mar 08 2026,Getafe CF,Real Betis Balompié,Coliseum
-Jornada 28,Sun Mar 15 2026,Real Betis Balompié,Real Club Celta de Vigo,Estadio Olímpico de la Cartuja
-Jornada 29,Sun Mar 22 2026,Athletic Club,Real Betis Balompié,Estadio San Mamés
-Jornada 30,Sun Apr 05 2026,Real Betis Balompié,RCD Espanyol de Barcelona,Estadio Olímpico de la Cartuja
-Jornada 31,Sun Apr 12 2026,Club Atlético Osasuna,Real Betis Balompié,Estadio El Sadar
-Jornada 32,Sun Apr 19 2026,Real Betis Balompié,Real Madrid CF,Estadio Olímpico de la Cartuja
-Jornada 33,Wed Apr 22 2026,Girona FC,Real Betis Balompié,Estadio Municipal de Montilivi
-Jornada 34,Sun May 03 2026,Real Betis Balompié,Real Oviedo,Estadio Olímpico de la Cartuja
-Jornada 35,Sun May 10 2026,Real Sociedad de Fútbol,Real Betis Balompié,Reale Arena
-Jornada 36,Wed May 13 2026,Real Betis Balompié,Elche CF,Estadio Olímpico de la Cartuja
-Jornada 37,Sun May 17 2026,FC Barcelona,Real Betis Balompié,Spotify Camp Nou
-Jornada 38,Sun May 24 2026,Real Betis Balompié,Levante Unión Deportiva,Estadio Olímpico de la Cartuja
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Lun 18-08-2025,21:00,Elche CF,Real Betis,Pendiente
+2,Vie 22-08-2025,21:30,Real Betis,Deportivo Alavés,Pendiente
+6,Mié 27-08-2025,21:00,Celta,Real Betis,Pendiente
+3,Dom 31-08-2025,19:00,Real Betis,Athletic Club,Pendiente
+4,Sáb 13-09-2025,16:15,Levante UD,Real Betis,Pendiente
+5,Dom 21-09-2025,--:--,Real Betis,Real Sociedad,Pendiente
+7,Dom 28-09-2025,--:--,Real Betis,CA Osasuna,Pendiente
+8,Dom 05-10-2025,--:--,RCD Espanyol de Barcelona,Real Betis,Pendiente
+9,Dom 19-10-2025,--:--,Villarreal CF,Real Betis,Pendiente
+10,Dom 26-10-2025,--:--,Real Betis,Atlético de Madrid,Pendiente
+11,Dom 02-11-2025,--:--,Real Betis,RCD Mallorca,Pendiente
+12,Dom 09-11-2025,--:--,Valencia CF,Real Betis,Pendiente
+13,Dom 23-11-2025,--:--,Real Betis,Girona FC,Pendiente
+14,Dom 30-11-2025,--:--,Sevilla FC,Real Betis,Pendiente
+15,Dom 07-12-2025,--:--,Real Betis,FC Barcelona,Pendiente
+16,Dom 14-12-2025,--:--,Rayo Vallecano,Real Betis,Pendiente
+17,Dom 21-12-2025,--:--,Real Betis,Getafe CF,Pendiente
+18,Dom 04-01-2026,--:--,Real Madrid,Real Betis,Pendiente
+19,Dom 11-01-2026,--:--,Real Oviedo,Real Betis,Pendiente
+20,Dom 18-01-2026,--:--,Real Betis,Villarreal CF,Pendiente
+21,Dom 25-01-2026,--:--,Deportivo Alavés,Real Betis,Pendiente
+22,Dom 01-02-2026,--:--,Real Betis,Valencia CF,Pendiente
+23,Dom 08-02-2026,--:--,Atlético de Madrid,Real Betis,Pendiente
+24,Dom 15-02-2026,--:--,RCD Mallorca,Real Betis,Pendiente
+25,Dom 22-02-2026,--:--,Real Betis,Rayo Vallecano,Pendiente
+26,Dom 01-03-2026,--:--,Real Betis,Sevilla FC,Pendiente
+27,Dom 08-03-2026,--:--,Getafe CF,Real Betis,Pendiente
+28,Dom 15-03-2026,--:--,Real Betis,Celta,Pendiente
+29,Dom 22-03-2026,--:--,Athletic Club,Real Betis,Pendiente
+30,Dom 05-04-2026,--:--,Real Betis,RCD Espanyol de Barcelona,Pendiente
+31,Dom 12-04-2026,--:--,CA Osasuna,Real Betis,Pendiente
+32,Dom 19-04-2026,--:--,Real Betis,Real Madrid,Pendiente
+33,Mié 22-04-2026,--:--,Girona FC,Real Betis,Pendiente
+34,Dom 03-05-2026,--:--,Real Betis,Real Oviedo,Pendiente
+35,Dom 10-05-2026,--:--,Real Sociedad,Real Betis,Pendiente
+36,Mié 13-05-2026,--:--,Real Betis,Elche CF,Pendiente
+37,Dom 17-05-2026,--:--,FC Barcelona,Real Betis,Pendiente
+38,Dom 24-05-2026,--:--,Real Betis,Levante UD,Pendiente

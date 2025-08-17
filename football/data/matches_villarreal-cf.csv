@@ -1,39 +1,39 @@
-Round,Date,Team 1,Team 2,Venue
-Jornada 1,Fri Aug 15 2025,Villarreal CF,Real Oviedo,Estadio de la Cerámica
-Jornada 2,Sun Aug 24 2025,Villarreal CF,Girona FC,Estadio de la Cerámica
-Jornada 3,Sun Aug 31 2025,Real Club Celta de Vigo,Villarreal CF,Estadio ABANCA Balaídos
-Jornada 4,Sun Sep 14 2025,Club Atlético de Madrid,Villarreal CF,Riyadh Air Metropolitano
-Jornada 5,Sun Sep 21 2025,Villarreal CF,Club Atlético Osasuna,Estadio de la Cerámica
-Jornada 6,Wed Sep 24 2025,Sevilla FC,Villarreal CF,Ramón Sánchez-Pizjuán
-Jornada 7,Sun Sep 28 2025,Villarreal CF,Athletic Club,Estadio de la Cerámica
-Jornada 8,Sun Oct 05 2025,Real Madrid CF,Villarreal CF,Estadio Santiago Bernabéu
-Jornada 9,Sun Oct 19 2025,Villarreal CF,Real Betis Balompié,Estadio de la Cerámica
-Jornada 10,Sun Oct 26 2025,Valencia CF,Villarreal CF,Camp de Mestalla
-Jornada 11,Sun Nov 02 2025,Villarreal CF,Rayo Vallecano de Madrid,Estadio de la Cerámica
-Jornada 12,Sun Nov 09 2025,RCD Espanyol de Barcelona,Villarreal CF,RCDE Stadium
-Jornada 13,Sun Nov 23 2025,Villarreal CF,Real Club Deportivo Mallorca,Estadio de la Cerámica
-Jornada 14,Sun Nov 30 2025,Real Sociedad de Fútbol,Villarreal CF,Reale Arena
-Jornada 15,Sun Dec 07 2025,Villarreal CF,Getafe CF,Estadio de la Cerámica
-Jornada 16,Sun Dec 14 2025,Levante Unión Deportiva,Villarreal CF,Estadio Ciutat de València
-Jornada 17,Sun Dec 21 2025,Villarreal CF,FC Barcelona,Estadio de la Cerámica
-Jornada 18,Sun Jan 04 2026,Elche CF,Villarreal CF,Estadio Martínez Valero
-Jornada 19,Sun Jan 11 2026,Villarreal CF,Deportivo Alavés,Estadio de la Cerámica
-Jornada 20,Sun Jan 18 2026,Real Betis Balompié,Villarreal CF,Estadio Olímpico de la Cartuja
-Jornada 21,Sun Jan 25 2026,Villarreal CF,Real Madrid CF,Estadio de la Cerámica
-Jornada 22,Sun Feb 01 2026,Club Atlético Osasuna,Villarreal CF,Estadio El Sadar
-Jornada 23,Sun Feb 08 2026,Villarreal CF,RCD Espanyol de Barcelona,Estadio de la Cerámica
-Jornada 24,Sun Feb 15 2026,Getafe CF,Villarreal CF,Coliseum
-Jornada 25,Sun Feb 22 2026,Villarreal CF,Valencia CF,Estadio de la Cerámica
-Jornada 26,Sun Mar 01 2026,FC Barcelona,Villarreal CF,Spotify Camp Nou
-Jornada 27,Sun Mar 08 2026,Villarreal CF,Elche CF,Estadio de la Cerámica
-Jornada 28,Sun Mar 15 2026,Deportivo Alavés,Villarreal CF,Mendizorroza
-Jornada 29,Sun Mar 22 2026,Villarreal CF,Real Sociedad de Fútbol,Estadio de la Cerámica
-Jornada 30,Sun Apr 05 2026,Girona FC,Villarreal CF,Estadio Municipal de Montilivi
-Jornada 31,Sun Apr 12 2026,Athletic Club,Villarreal CF,Estadio San Mamés
-Jornada 32,Sun Apr 19 2026,Villarreal CF,Real Club Celta de Vigo,Estadio de la Cerámica
-Jornada 33,Wed Apr 22 2026,Real Oviedo,Villarreal CF,Estadio Carlos Tartiere
-Jornada 34,Sun May 03 2026,Villarreal CF,Levante Unión Deportiva,Estadio de la Cerámica
-Jornada 35,Sun May 10 2026,Real Club Deportivo Mallorca,Villarreal CF,Estadi Mallorca Son Moix
-Jornada 36,Wed May 13 2026,Villarreal CF,Sevilla FC,Estadio de la Cerámica
-Jornada 37,Sun May 17 2026,Rayo Vallecano de Madrid,Villarreal CF,Estadio de Vallecas
-Jornada 38,Sun May 24 2026,Villarreal CF,Club Atlético de Madrid,Estadio de la Cerámica
+Jornada,Fecha,Horario,Local,Visitante,Estado
+1,Vie 15-08-2025,21:30,Villarreal CF,Real Oviedo,Finalizado
+2,Dom 24-08-2025,19:30,Villarreal CF,Girona FC,Pendiente
+3,Dom 31-08-2025,17:00,Celta,Villarreal CF,Pendiente
+4,Dom 14-09-2025,--:--,Atlético de Madrid,Villarreal CF,Pendiente
+5,Dom 21-09-2025,--:--,Villarreal CF,CA Osasuna,Pendiente
+6,Mié 24-09-2025,--:--,Sevilla FC,Villarreal CF,Pendiente
+7,Dom 28-09-2025,--:--,Villarreal CF,Athletic Club,Pendiente
+8,Dom 05-10-2025,--:--,Real Madrid,Villarreal CF,Pendiente
+9,Dom 19-10-2025,--:--,Villarreal CF,Real Betis,Pendiente
+10,Dom 26-10-2025,--:--,Valencia CF,Villarreal CF,Pendiente
+11,Dom 02-11-2025,--:--,Villarreal CF,Rayo Vallecano,Pendiente
+12,Dom 09-11-2025,--:--,RCD Espanyol de Barcelona,Villarreal CF,Pendiente
+13,Dom 23-11-2025,--:--,Villarreal CF,RCD Mallorca,Pendiente
+14,Dom 30-11-2025,--:--,Real Sociedad,Villarreal CF,Pendiente
+15,Dom 07-12-2025,--:--,Villarreal CF,Getafe CF,Pendiente
+16,Dom 14-12-2025,--:--,Levante UD,Villarreal CF,Pendiente
+17,Dom 21-12-2025,--:--,Villarreal CF,FC Barcelona,Pendiente
+18,Dom 04-01-2026,--:--,Elche CF,Villarreal CF,Pendiente
+19,Dom 11-01-2026,--:--,Villarreal CF,Deportivo Alavés,Pendiente
+20,Dom 18-01-2026,--:--,Real Betis,Villarreal CF,Pendiente
+21,Dom 25-01-2026,--:--,Villarreal CF,Real Madrid,Pendiente
+22,Dom 01-02-2026,--:--,CA Osasuna,Villarreal CF,Pendiente
+23,Dom 08-02-2026,--:--,Villarreal CF,RCD Espanyol de Barcelona,Pendiente
+24,Dom 15-02-2026,--:--,Getafe CF,Villarreal CF,Pendiente
+25,Dom 22-02-2026,--:--,Villarreal CF,Valencia CF,Pendiente
+26,Dom 01-03-2026,--:--,FC Barcelona,Villarreal CF,Pendiente
+27,Dom 08-03-2026,--:--,Villarreal CF,Elche CF,Pendiente
+28,Dom 15-03-2026,--:--,Deportivo Alavés,Villarreal CF,Pendiente
+29,Dom 22-03-2026,--:--,Villarreal CF,Real Sociedad,Pendiente
+30,Dom 05-04-2026,--:--,Girona FC,Villarreal CF,Pendiente
+31,Dom 12-04-2026,--:--,Athletic Club,Villarreal CF,Pendiente
+32,Dom 19-04-2026,--:--,Villarreal CF,Celta,Pendiente
+33,Mié 22-04-2026,--:--,Real Oviedo,Villarreal CF,Pendiente
+34,Dom 03-05-2026,--:--,Villarreal CF,Levante UD,Pendiente
+35,Dom 10-05-2026,--:--,RCD Mallorca,Villarreal CF,Pendiente
+36,Mié 13-05-2026,--:--,Villarreal CF,Sevilla FC,Pendiente
+37,Dom 17-05-2026,--:--,Rayo Vallecano,Villarreal CF,Pendiente
+38,Dom 24-05-2026,--:--,Villarreal CF,Atlético de Madrid,Pendiente
