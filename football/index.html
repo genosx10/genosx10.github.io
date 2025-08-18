@@ -105,7 +105,7 @@
             <div class="card-body">
               <div class="row g-3 align-items-end">
                 <!-- Equipo (con botones dentro del mismo input-group) -->
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-12 col-lg-6">
                   <label for="teamFilter" class="form-label fw-semibold"
                     >Equipo/s</label
                   >
@@ -144,7 +144,7 @@
                 </div>
 
                 <!-- Desde -->
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-6 col-lg-3">
                   <label for="fromDate" class="form-label fw-semibold"
                     >Desde</label
                   >
@@ -158,7 +158,7 @@
                 </div>
 
                 <!-- Hasta -->
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-6 col-lg-3">
                   <label for="toDate" class="form-label fw-semibold"
                     >Hasta</label
                   >
@@ -174,7 +174,7 @@
 
               <!-- Ayuda -->
               <div class="form-text mt-2">
-                Escribe los equipos que quieras, puedes acotar por fechas.
+                Escribe los equipos que quieras, puedes acotar por fecha.
               </div>
             </div>
           </div>
@@ -272,8 +272,8 @@
           </table>
         </div>
         <!-- Controles de paginación -->
-        <div class="d-flex justify-content-between align-items-center p-2">
-          <small id="rangeInfo" class="text-muted"></small>
+        <div class="d-flex justify-content-center justify-content-md-between align-items-center p-2">
+          <small id="rangeInfo" class="text-muted d-none d-md-inline"></small>
           <nav aria-label="Paginación de resultados">
             <ul id="pagination" class="pagination pagination-sm mb-0"></ul>
           </nav>
