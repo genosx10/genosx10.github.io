@@ -34,7 +34,7 @@
         word-break: keep-all; /* no romper palabras */
         hyphens: none; /* sin guiones automáticos */
       }
-      
+
       .table-responsive {
         max-height: 70vh;
       }
@@ -107,7 +107,7 @@
                 <!-- Equipo (con botones dentro del mismo input-group) -->
                 <div class="col-12 col-md-5">
                   <label for="teamFilter" class="form-label fw-semibold"
-                    >Equipo</label
+                    >Equipo/s</label
                   >
                   <div class="input-group">
                     <span class="input-group-text bg-success text-white">
@@ -117,7 +117,7 @@
                       type="text"
                       id="teamFilter"
                       class="form-control"
-                      placeholder="p. ej., FC Barcelona"
+                      placeholder="p. ej., Real Madrid, Sevilla"
                       inputmode="search"
                       autocomplete="off"
                     />
@@ -231,45 +231,40 @@
                   class="text-nowrap"
                   tabindex="0"
                   data-col="Fecha"
-                  aria-label="Ordenar por fecha"
                 >
-                  Fecha <i class="bi bi-arrow-down-up sort-icon"></i>
+                  Fecha
                 </th>
                 <th
                   scope="col"
                   class="text-nowrap"
                   tabindex="0"
                   data-col="Horario"
-                  aria-label="Ordenar por hora"
                 >
-                  Horario <i class="bi bi-arrow-down-up sort-icon"></i>
+                  Horario
                 </th>
                 <th
                   scope="col"
                   class="text-nowrap"
                   tabindex="0"
                   data-col="Local"
-                  aria-label="Ordenar por equipo local"
                 >
-                  Local <i class="bi bi-arrow-down-up sort-icon"></i>
+                  Local
+                </th>
+                <th
+                  scope="col"
+                  class="text-nowrap"
+                  tabindex="0"
+                  data-col="Resultado"
+                >
+                  Resultado
                 </th>
                 <th
                   scope="col"
                   class="text-nowrap"
                   tabindex="0"
                   data-col="Visitante"
-                  aria-label="Ordenar por equipo visitante"
                 >
-                  Visitante <i class="bi bi-arrow-down-up sort-icon"></i>
-                </th>
-                <th
-                  scope="col"
-                  class="text-nowrap"
-                  tabindex="0"
-                  data-col="Estado"
-                  aria-label="Ordenar por estado"
-                >
-                  Estado <i class="bi bi-arrow-down-up sort-icon"></i>
+                  Visitante
                 </th>
                 <th scope="col" style="width: 1%"></th>
               </tr>

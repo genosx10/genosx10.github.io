@@ -16,7 +16,7 @@ function debounce(fn, wait) {
 
 function parseFecha(str) {
   const s = String(str || "");
-  const parts = s.trim().split(/\s+/); // "JornadaX 16-08-2025" o "16-08-2025"
+  const parts = s.trim().split(/\s+/); // "Dom 17-08-2025" o "17-08-2025"
   const fechaToken = parts.length > 1 ? parts[1] : parts[0];
   const [dd, mm, yyyy] = (fechaToken || "").split("-");
   return yyyy && mm && dd ? `${yyyy}-${mm}-${dd}` : "";
@@ -45,8 +45,9 @@ function normalizeRow(r) {
     FechaISO: parseFecha(r["Fecha"]),
     Horario: r["Horario"],
     Local: r["Local"],
+    Resultado: r["Resultado"], // ⬅️ incluido
     Visitante: r["Visitante"],
-    Estado: r["Estado"],
+    // Estado eliminado completamente
   };
 }
 
@@ -79,7 +80,7 @@ function loadCSV(url) {
               r.Horario ||
               r.Local ||
               r.Visitante ||
-              r.Estado
+              r.Resultado
             );
           })
       );
@@ -101,14 +102,6 @@ var __SORT__ = { col: "multi", asc: true };
 /* =========================
    Ordenación
 ========================= */
-
-function parseHHMM(hhmm) {
-  if (/^\d{2}:\d{2}$/.test(hhmm || "")) {
-    const [hh, mm] = hhmm.split(":").map(Number);
-    return { hh, mm, total: hh * 60 + mm };
-  }
-  return null;
-}
 
 function cmpFecha(a, b) {
   const da = dateStamp(a.FechaISO);
@@ -172,7 +165,6 @@ function sortRows(rows) {
       const ja = parseInt(a.Jornada) || 0;
       const jb = parseInt(b.Jornada) || 0;
       if (ja !== jb) return asc * (ja - jb);
-      // Desempate consistente con la jornada seleccionada
       const cf = withDir(cmpFecha(a, b));
       if (cf !== 0) return cf;
       return withDir(cmpHorario(a, b));
@@ -181,14 +173,12 @@ function sortRows(rows) {
     if (col === "Fecha") {
       const cf = withDir(cmpFecha(a, b));
       if (cf !== 0) return cf;
-      // Si la fecha es igual, usa jornada y hora en el mismo sentido
       const cj = withDir(cmpJornada(a, b));
       if (cj !== 0) return cj;
       return withDir(cmpHorario(a, b));
     }
 
     if (col === "Horario") {
-      // Mantén el orden lógico también en el mismo sentido elegido
       const ch = withDir(cmpHorario(a, b));
       if (ch !== 0) return ch;
       const cf = withDir(cmpFecha(a, b));
@@ -196,29 +186,15 @@ function sortRows(rows) {
       return withDir(cmpJornada(a, b));
     }
 
-    if (col === "Estado") {
-      const orden = ["Pendiente", "Finalizado"];
-      const rank = (v) => {
-        const i = orden.indexOf(v);
-        return i === -1 ? orden.length : i;
-      };
-
-      const ra = rank(a.Estado);
-      const rb = rank(b.Estado);
-      if (ra !== rb) return asc * (ra - rb);
-
-      // Desempates en el mismo sentido
-      const cj = withDir(cmpJornada(a, b));
-      if (cj !== 0) return cj;
-      const cf = withDir(cmpFecha(a, b));
-      if (cf !== 0) return cf;
-      return withDir(cmpHorario(a, b));
-    }
-
-    // 🔹 CASO NUEVO: Local / Visitante con desempates en cascada
+    // 🔹 Local / Visitante con desempates en cascada
     if (col === "Local" || col === "Visitante") {
-      const cTeam = asc * ( (a[col] || "").toString()
-        .localeCompare((b[col] || "").toString(), "es", { sensitivity: "base" }) );
+      const cTeam =
+        asc *
+        (a[col] || "")
+          .toString()
+          .localeCompare((b[col] || "").toString(), "es", {
+            sensitivity: "base",
+          });
       if (cTeam !== 0) return cTeam;
 
       const cj = withDir(cmpJornada(a, b));
@@ -230,13 +206,12 @@ function sortRows(rows) {
       return withDir(cmpHorario(a, b));
     }
 
-    // Alfabético genérico (por si añades otras columnas de texto)
+    // Genérico alfabético (por si en el futuro añades otras columnas de texto).
     const av = (a[col] || "").toString();
     const bv = (b[col] || "").toString();
     return asc * av.localeCompare(bv, "es", { sensitivity: "base" });
   });
 }
-
 
 /* =========================
    Filtrado
@@ -266,13 +241,8 @@ function applyFilters(sourceRows, opts) {
     if (!ignoreTeam && teamVal) {
       var t1 = String(r.Local || "").toLowerCase();
       var t2 = String(r.Visitante || "").toLowerCase();
-      var estado = String(r.Estado || "").toLowerCase();
-      // Coincidencia en Local, Visitante o Estado (como tenías)
-      if (
-        t1.indexOf(teamVal) === -1 &&
-        t2.indexOf(teamVal) === -1 &&
-        estado.indexOf(teamVal) === -1
-      ) {
+      // Coincidencia en Local o Visitante (Estado eliminado)
+      if (t1.indexOf(teamVal) === -1 && t2.indexOf(teamVal) === -1) {
         continue;
       }
     }
@@ -379,7 +349,15 @@ function renderTable(rows) {
     var r = rows[i];
     var tr = document.createElement("tr");
 
-    var order = ["Jornada", "Fecha", "Horario", "Local", "Visitante", "Estado"];
+    // Orden alineado con tu THEAD, pero sin "Estado"
+    var order = [
+      "Jornada",
+      "Fecha",
+      "Horario",
+      "Local",
+      "Resultado", // ⬅️ mostrado
+      "Visitante",
+    ];
     for (var j = 0; j < order.length; j++) {
       var k = order[j];
       var td = document.createElement("td");
@@ -387,15 +365,12 @@ function renderTable(rows) {
       tr.appendChild(td);
     }
 
-    // 🔹 Nueva columna con * si NO es una hora hh:mm válida
+    // 🔹 Columna extra con * si NO es una hora hh:mm válida
     var tdStar = document.createElement("td");
     tdStar.style.width = "1%";
-
-    // regex para validar formato HH:MM
     var v = r.Horario || "";
     var mostrarAviso = v !== "" && !/^\d{2}:\d{2}$/.test(v);
     tdStar.textContent = mostrarAviso ? "*" : "";
-
     tdStar.style.color = "red";
     tdStar.style.textAlign = "left";
     tr.appendChild(tdStar);
@@ -532,6 +507,16 @@ function wireSorting() {
 
   function attach(th) {
     var col = th.getAttribute("data-col");
+    // 🚫 No se ordena por Resultado, Fecha, Horario, Local ni Visitante
+    if (["Resultado", "Fecha", "Horario", "Local", "Visitante"].includes(col)) {
+      th.classList.remove("active");
+      var ic = th.querySelector(".sort-icon");
+      if (ic) ic.className = "bi sort-icon bi-arrow-down-up";
+      th.style.cursor = "default";
+      th.setAttribute("aria-disabled", "true");
+      return;
+    }
+
     th.addEventListener("click", function () {
       handleSort(col);
     });
@@ -548,7 +533,6 @@ function wireSorting() {
   // estado inicial: orden múltiple por defecto (sin ninguna columna activa)
   updateIcons(null);
 }
-
 
 /* =========================
    Exportar a Google Calendar (.ics)
@@ -671,12 +655,8 @@ function generateICS(rows) {
     }
 
     ics += "SUMMARY:" + (r.Local || "") + " vs " + (r.Visitante || "") + "\n";
-    ics +=
-      "DESCRIPTION:Jornada " +
-      (r.Jornada || "") +
-      " — Estado: " +
-      (r.Estado || "") +
-      "\n";
+    // Estado eliminado de DESCRIPTION
+    ics += "DESCRIPTION:Jornada " + (r.Jornada || "") + "\n";
     ics += "END:VEVENT\n";
   }
 
