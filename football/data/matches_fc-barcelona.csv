@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Sáb 16-08-2025,19:30,RCD Mallorca,FC Barcelona,Finalizado
-2,Sáb 23-08-2025,21:30,Levante UD,FC Barcelona,Pendiente
-3,Dom 31-08-2025,21:30,Rayo Vallecano,FC Barcelona,Pendiente
-4,Dom 14-09-2025,--:--,FC Barcelona,Valencia CF,Pendiente
-5,Dom 21-09-2025,--:--,FC Barcelona,Getafe CF,Pendiente
-6,Mié 24-09-2025,--:--,Real Oviedo,FC Barcelona,Pendiente
-7,Dom 28-09-2025,--:--,FC Barcelona,Real Sociedad,Pendiente
-8,Dom 05-10-2025,--:--,Sevilla FC,FC Barcelona,Pendiente
-9,Dom 19-10-2025,--:--,FC Barcelona,Girona FC,Pendiente
-10,Dom 26-10-2025,--:--,Real Madrid,FC Barcelona,Pendiente
-11,Dom 02-11-2025,--:--,FC Barcelona,Elche CF,Pendiente
-12,Dom 09-11-2025,--:--,Celta,FC Barcelona,Pendiente
-13,Dom 23-11-2025,--:--,FC Barcelona,Athletic Club,Pendiente
-14,Dom 30-11-2025,--:--,FC Barcelona,Deportivo Alavés,Pendiente
-15,Dom 07-12-2025,--:--,Real Betis,FC Barcelona,Pendiente
-16,Dom 14-12-2025,--:--,FC Barcelona,CA Osasuna,Pendiente
-17,Dom 21-12-2025,--:--,Villarreal CF,FC Barcelona,Pendiente
-18,Dom 04-01-2026,--:--,RCD Espanyol de Barcelona,FC Barcelona,Pendiente
-19,Dom 11-01-2026,--:--,FC Barcelona,Atlético de Madrid,Pendiente
-20,Dom 18-01-2026,--:--,Real Sociedad,FC Barcelona,Pendiente
-21,Dom 25-01-2026,--:--,FC Barcelona,Real Oviedo,Pendiente
-22,Dom 01-02-2026,--:--,Elche CF,FC Barcelona,Pendiente
-23,Dom 08-02-2026,--:--,FC Barcelona,RCD Mallorca,Pendiente
-24,Dom 15-02-2026,--:--,Girona FC,FC Barcelona,Pendiente
-25,Dom 22-02-2026,--:--,FC Barcelona,Levante UD,Pendiente
-26,Dom 01-03-2026,--:--,FC Barcelona,Villarreal CF,Pendiente
-27,Dom 08-03-2026,--:--,Athletic Club,FC Barcelona,Pendiente
-28,Dom 15-03-2026,--:--,FC Barcelona,Sevilla FC,Pendiente
-29,Dom 22-03-2026,--:--,FC Barcelona,Rayo Vallecano,Pendiente
-30,Dom 05-04-2026,--:--,Atlético de Madrid,FC Barcelona,Pendiente
-31,Dom 12-04-2026,--:--,FC Barcelona,RCD Espanyol de Barcelona,Pendiente
-32,Dom 19-04-2026,--:--,Getafe CF,FC Barcelona,Pendiente
-33,Mié 22-04-2026,--:--,FC Barcelona,Celta,Pendiente
-34,Dom 03-05-2026,--:--,CA Osasuna,FC Barcelona,Pendiente
-35,Dom 10-05-2026,--:--,FC Barcelona,Real Madrid,Pendiente
-36,Mié 13-05-2026,--:--,Deportivo Alavés,FC Barcelona,Pendiente
-37,Dom 17-05-2026,--:--,FC Barcelona,Real Betis,Pendiente
-38,Dom 24-05-2026,--:--,Valencia CF,FC Barcelona,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Sáb 16-08-2025,19:30,RCD Mallorca,0 - 3,FC Barcelona
+2,Sáb 23-08-2025,21:30,Levante UD,VS,FC Barcelona
+3,Dom 31-08-2025,21:30,Rayo Vallecano,VS,FC Barcelona
+4,Dom 14-09-2025,--:--,FC Barcelona,VS,Valencia CF
+5,Dom 21-09-2025,--:--,FC Barcelona,VS,Getafe CF
+6,Mié 24-09-2025,--:--,Real Oviedo,VS,FC Barcelona
+7,Dom 28-09-2025,--:--,FC Barcelona,VS,Real Sociedad
+8,Dom 05-10-2025,--:--,Sevilla FC,VS,FC Barcelona
+9,Dom 19-10-2025,--:--,FC Barcelona,VS,Girona FC
+10,Dom 26-10-2025,--:--,Real Madrid,VS,FC Barcelona
+11,Dom 02-11-2025,--:--,FC Barcelona,VS,Elche CF
+12,Dom 09-11-2025,--:--,Celta,VS,FC Barcelona
+13,Dom 23-11-2025,--:--,FC Barcelona,VS,Athletic Club
+14,Dom 30-11-2025,--:--,FC Barcelona,VS,Deportivo Alavés
+15,Dom 07-12-2025,--:--,Real Betis,VS,FC Barcelona
+16,Dom 14-12-2025,--:--,FC Barcelona,VS,CA Osasuna
+17,Dom 21-12-2025,--:--,Villarreal CF,VS,FC Barcelona
+18,Dom 04-01-2026,--:--,RCD Espanyol de Barcelona,VS,FC Barcelona
+19,Dom 11-01-2026,--:--,FC Barcelona,VS,Atlético de Madrid
+20,Dom 18-01-2026,--:--,Real Sociedad,VS,FC Barcelona
+21,Dom 25-01-2026,--:--,FC Barcelona,VS,Real Oviedo
+22,Dom 01-02-2026,--:--,Elche CF,VS,FC Barcelona
+23,Dom 08-02-2026,--:--,FC Barcelona,VS,RCD Mallorca
+24,Dom 15-02-2026,--:--,Girona FC,VS,FC Barcelona
+25,Dom 22-02-2026,--:--,FC Barcelona,VS,Levante UD
+26,Dom 01-03-2026,--:--,FC Barcelona,VS,Villarreal CF
+27,Dom 08-03-2026,--:--,Athletic Club,VS,FC Barcelona
+28,Dom 15-03-2026,--:--,FC Barcelona,VS,Sevilla FC
+29,Dom 22-03-2026,--:--,FC Barcelona,VS,Rayo Vallecano
+30,Dom 05-04-2026,--:--,Atlético de Madrid,VS,FC Barcelona
+31,Dom 12-04-2026,--:--,FC Barcelona,VS,RCD Espanyol de Barcelona
+32,Dom 19-04-2026,--:--,Getafe CF,VS,FC Barcelona
+33,Mié 22-04-2026,--:--,FC Barcelona,VS,Celta
+34,Dom 03-05-2026,--:--,CA Osasuna,VS,FC Barcelona
+35,Dom 10-05-2026,--:--,FC Barcelona,VS,Real Madrid
+36,Mié 13-05-2026,--:--,Deportivo Alavés,VS,FC Barcelona
+37,Dom 17-05-2026,--:--,FC Barcelona,VS,Real Betis
+38,Dom 24-05-2026,--:--,Valencia CF,VS,FC Barcelona

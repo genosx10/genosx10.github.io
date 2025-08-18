@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Dom 17-08-2025,21:30,RCD Espanyol de Barcelona,Atlético de Madrid,Pendiente
-2,Sáb 23-08-2025,19:30,Atlético de Madrid,Elche CF,Pendiente
-3,Sáb 30-08-2025,17:00,Deportivo Alavés,Atlético de Madrid,Pendiente
-4,Dom 14-09-2025,--:--,Atlético de Madrid,Villarreal CF,Pendiente
-5,Dom 21-09-2025,--:--,RCD Mallorca,Atlético de Madrid,Pendiente
-6,Mié 24-09-2025,--:--,Atlético de Madrid,Rayo Vallecano,Pendiente
-7,Dom 28-09-2025,--:--,Atlético de Madrid,Real Madrid,Pendiente
-8,Dom 05-10-2025,--:--,Celta,Atlético de Madrid,Pendiente
-9,Dom 19-10-2025,--:--,Atlético de Madrid,CA Osasuna,Pendiente
-10,Dom 26-10-2025,--:--,Real Betis,Atlético de Madrid,Pendiente
-11,Dom 02-11-2025,--:--,Atlético de Madrid,Sevilla FC,Pendiente
-12,Dom 09-11-2025,--:--,Atlético de Madrid,Levante UD,Pendiente
-13,Dom 23-11-2025,--:--,Getafe CF,Atlético de Madrid,Pendiente
-14,Dom 30-11-2025,--:--,Atlético de Madrid,Real Oviedo,Pendiente
-15,Dom 07-12-2025,--:--,Athletic Club,Atlético de Madrid,Pendiente
-16,Dom 14-12-2025,--:--,Atlético de Madrid,Valencia CF,Pendiente
-17,Dom 21-12-2025,--:--,Girona FC,Atlético de Madrid,Pendiente
-18,Dom 04-01-2026,--:--,Real Sociedad,Atlético de Madrid,Pendiente
-19,Dom 11-01-2026,--:--,FC Barcelona,Atlético de Madrid,Pendiente
-20,Dom 18-01-2026,--:--,Atlético de Madrid,Deportivo Alavés,Pendiente
-21,Dom 25-01-2026,--:--,Atlético de Madrid,RCD Mallorca,Pendiente
-22,Dom 01-02-2026,--:--,Levante UD,Atlético de Madrid,Pendiente
-23,Dom 08-02-2026,--:--,Atlético de Madrid,Real Betis,Pendiente
-24,Dom 15-02-2026,--:--,Rayo Vallecano,Atlético de Madrid,Pendiente
-25,Dom 22-02-2026,--:--,Atlético de Madrid,RCD Espanyol de Barcelona,Pendiente
-26,Dom 01-03-2026,--:--,Real Oviedo,Atlético de Madrid,Pendiente
-27,Dom 08-03-2026,--:--,Atlético de Madrid,Real Sociedad,Pendiente
-28,Dom 15-03-2026,--:--,Atlético de Madrid,Getafe CF,Pendiente
-29,Dom 22-03-2026,--:--,Real Madrid,Atlético de Madrid,Pendiente
-30,Dom 05-04-2026,--:--,Atlético de Madrid,FC Barcelona,Pendiente
-31,Dom 12-04-2026,--:--,Sevilla FC,Atlético de Madrid,Pendiente
-32,Dom 19-04-2026,--:--,Atlético de Madrid,Athletic Club,Pendiente
-33,Mié 22-04-2026,--:--,Elche CF,Atlético de Madrid,Pendiente
-34,Dom 03-05-2026,--:--,Valencia CF,Atlético de Madrid,Pendiente
-35,Dom 10-05-2026,--:--,Atlético de Madrid,Celta,Pendiente
-36,Mié 13-05-2026,--:--,CA Osasuna,Atlético de Madrid,Pendiente
-37,Dom 17-05-2026,--:--,Atlético de Madrid,Girona FC,Pendiente
-38,Dom 24-05-2026,--:--,Villarreal CF,Atlético de Madrid,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Dom 17-08-2025,21:30,RCD Espanyol de Barcelona,2 - 1,Atlético de Madrid
+2,Sáb 23-08-2025,19:30,Atlético de Madrid,VS,Elche CF
+3,Sáb 30-08-2025,17:00,Deportivo Alavés,VS,Atlético de Madrid
+4,Dom 14-09-2025,--:--,Atlético de Madrid,VS,Villarreal CF
+5,Dom 21-09-2025,--:--,RCD Mallorca,VS,Atlético de Madrid
+6,Mié 24-09-2025,--:--,Atlético de Madrid,VS,Rayo Vallecano
+7,Dom 28-09-2025,--:--,Atlético de Madrid,VS,Real Madrid
+8,Dom 05-10-2025,--:--,Celta,VS,Atlético de Madrid
+9,Dom 19-10-2025,--:--,Atlético de Madrid,VS,CA Osasuna
+10,Dom 26-10-2025,--:--,Real Betis,VS,Atlético de Madrid
+11,Dom 02-11-2025,--:--,Atlético de Madrid,VS,Sevilla FC
+12,Dom 09-11-2025,--:--,Atlético de Madrid,VS,Levante UD
+13,Dom 23-11-2025,--:--,Getafe CF,VS,Atlético de Madrid
+14,Dom 30-11-2025,--:--,Atlético de Madrid,VS,Real Oviedo
+15,Dom 07-12-2025,--:--,Athletic Club,VS,Atlético de Madrid
+16,Dom 14-12-2025,--:--,Atlético de Madrid,VS,Valencia CF
+17,Dom 21-12-2025,--:--,Girona FC,VS,Atlético de Madrid
+18,Dom 04-01-2026,--:--,Real Sociedad,VS,Atlético de Madrid
+19,Dom 11-01-2026,--:--,FC Barcelona,VS,Atlético de Madrid
+20,Dom 18-01-2026,--:--,Atlético de Madrid,VS,Deportivo Alavés
+21,Dom 25-01-2026,--:--,Atlético de Madrid,VS,RCD Mallorca
+22,Dom 01-02-2026,--:--,Levante UD,VS,Atlético de Madrid
+23,Dom 08-02-2026,--:--,Atlético de Madrid,VS,Real Betis
+24,Dom 15-02-2026,--:--,Rayo Vallecano,VS,Atlético de Madrid
+25,Dom 22-02-2026,--:--,Atlético de Madrid,VS,RCD Espanyol de Barcelona
+26,Dom 01-03-2026,--:--,Real Oviedo,VS,Atlético de Madrid
+27,Dom 08-03-2026,--:--,Atlético de Madrid,VS,Real Sociedad
+28,Dom 15-03-2026,--:--,Atlético de Madrid,VS,Getafe CF
+29,Dom 22-03-2026,--:--,Real Madrid,VS,Atlético de Madrid
+30,Dom 05-04-2026,--:--,Atlético de Madrid,VS,FC Barcelona
+31,Dom 12-04-2026,--:--,Sevilla FC,VS,Atlético de Madrid
+32,Dom 19-04-2026,--:--,Atlético de Madrid,VS,Athletic Club
+33,Mié 22-04-2026,--:--,Elche CF,VS,Atlético de Madrid
+34,Dom 03-05-2026,--:--,Valencia CF,VS,Atlético de Madrid
+35,Dom 10-05-2026,--:--,Atlético de Madrid,VS,Celta
+36,Mié 13-05-2026,--:--,CA Osasuna,VS,Atlético de Madrid
+37,Dom 17-05-2026,--:--,Atlético de Madrid,VS,Girona FC
+38,Dom 24-05-2026,--:--,Villarreal CF,VS,Atlético de Madrid

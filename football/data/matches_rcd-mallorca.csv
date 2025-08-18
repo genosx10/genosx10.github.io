@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Sáb 16-08-2025,19:30,RCD Mallorca,FC Barcelona,Finalizado
-2,Sáb 23-08-2025,17:00,RCD Mallorca,Celta,Pendiente
-3,Sáb 30-08-2025,21:30,Real Madrid,RCD Mallorca,Pendiente
-4,Lun 15-09-2025,21:00,RCD Espanyol de Barcelona,RCD Mallorca,Pendiente
-5,Dom 21-09-2025,--:--,RCD Mallorca,Atlético de Madrid,Pendiente
-6,Mié 24-09-2025,--:--,Real Sociedad,RCD Mallorca,Pendiente
-7,Dom 28-09-2025,--:--,RCD Mallorca,Deportivo Alavés,Pendiente
-8,Dom 05-10-2025,--:--,Athletic Club,RCD Mallorca,Pendiente
-9,Dom 19-10-2025,--:--,Sevilla FC,RCD Mallorca,Pendiente
-10,Dom 26-10-2025,--:--,RCD Mallorca,Levante UD,Pendiente
-11,Dom 02-11-2025,--:--,Real Betis,RCD Mallorca,Pendiente
-12,Dom 09-11-2025,--:--,RCD Mallorca,Getafe CF,Pendiente
-13,Dom 23-11-2025,--:--,Villarreal CF,RCD Mallorca,Pendiente
-14,Dom 30-11-2025,--:--,RCD Mallorca,CA Osasuna,Pendiente
-15,Dom 07-12-2025,--:--,Real Oviedo,RCD Mallorca,Pendiente
-16,Dom 14-12-2025,--:--,RCD Mallorca,Elche CF,Pendiente
-17,Dom 21-12-2025,--:--,Valencia CF,RCD Mallorca,Pendiente
-18,Dom 04-01-2026,--:--,RCD Mallorca,Girona FC,Pendiente
-19,Dom 11-01-2026,--:--,Rayo Vallecano,RCD Mallorca,Pendiente
-20,Dom 18-01-2026,--:--,RCD Mallorca,Athletic Club,Pendiente
-21,Dom 25-01-2026,--:--,Atlético de Madrid,RCD Mallorca,Pendiente
-22,Dom 01-02-2026,--:--,RCD Mallorca,Sevilla FC,Pendiente
-23,Dom 08-02-2026,--:--,FC Barcelona,RCD Mallorca,Pendiente
-24,Dom 15-02-2026,--:--,RCD Mallorca,Real Betis,Pendiente
-25,Dom 22-02-2026,--:--,Celta,RCD Mallorca,Pendiente
-26,Dom 01-03-2026,--:--,RCD Mallorca,Real Sociedad,Pendiente
-27,Dom 08-03-2026,--:--,CA Osasuna,RCD Mallorca,Pendiente
-28,Dom 15-03-2026,--:--,RCD Mallorca,RCD Espanyol de Barcelona,Pendiente
-29,Dom 22-03-2026,--:--,Elche CF,RCD Mallorca,Pendiente
-30,Dom 05-04-2026,--:--,RCD Mallorca,Real Madrid,Pendiente
-31,Dom 12-04-2026,--:--,RCD Mallorca,Rayo Vallecano,Pendiente
-32,Dom 19-04-2026,--:--,Deportivo Alavés,RCD Mallorca,Pendiente
-33,Mié 22-04-2026,--:--,RCD Mallorca,Valencia CF,Pendiente
-34,Dom 03-05-2026,--:--,Girona FC,RCD Mallorca,Pendiente
-35,Dom 10-05-2026,--:--,RCD Mallorca,Villarreal CF,Pendiente
-36,Mié 13-05-2026,--:--,Getafe CF,RCD Mallorca,Pendiente
-37,Dom 17-05-2026,--:--,Levante UD,RCD Mallorca,Pendiente
-38,Dom 24-05-2026,--:--,RCD Mallorca,Real Oviedo,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Sáb 16-08-2025,19:30,RCD Mallorca,0 - 3,FC Barcelona
+2,Sáb 23-08-2025,17:00,RCD Mallorca,VS,Celta
+3,Sáb 30-08-2025,21:30,Real Madrid,VS,RCD Mallorca
+4,Lun 15-09-2025,21:00,RCD Espanyol de Barcelona,VS,RCD Mallorca
+5,Dom 21-09-2025,--:--,RCD Mallorca,VS,Atlético de Madrid
+6,Mié 24-09-2025,--:--,Real Sociedad,VS,RCD Mallorca
+7,Dom 28-09-2025,--:--,RCD Mallorca,VS,Deportivo Alavés
+8,Dom 05-10-2025,--:--,Athletic Club,VS,RCD Mallorca
+9,Dom 19-10-2025,--:--,Sevilla FC,VS,RCD Mallorca
+10,Dom 26-10-2025,--:--,RCD Mallorca,VS,Levante UD
+11,Dom 02-11-2025,--:--,Real Betis,VS,RCD Mallorca
+12,Dom 09-11-2025,--:--,RCD Mallorca,VS,Getafe CF
+13,Dom 23-11-2025,--:--,Villarreal CF,VS,RCD Mallorca
+14,Dom 30-11-2025,--:--,RCD Mallorca,VS,CA Osasuna
+15,Dom 07-12-2025,--:--,Real Oviedo,VS,RCD Mallorca
+16,Dom 14-12-2025,--:--,RCD Mallorca,VS,Elche CF
+17,Dom 21-12-2025,--:--,Valencia CF,VS,RCD Mallorca
+18,Dom 04-01-2026,--:--,RCD Mallorca,VS,Girona FC
+19,Dom 11-01-2026,--:--,Rayo Vallecano,VS,RCD Mallorca
+20,Dom 18-01-2026,--:--,RCD Mallorca,VS,Athletic Club
+21,Dom 25-01-2026,--:--,Atlético de Madrid,VS,RCD Mallorca
+22,Dom 01-02-2026,--:--,RCD Mallorca,VS,Sevilla FC
+23,Dom 08-02-2026,--:--,FC Barcelona,VS,RCD Mallorca
+24,Dom 15-02-2026,--:--,RCD Mallorca,VS,Real Betis
+25,Dom 22-02-2026,--:--,Celta,VS,RCD Mallorca
+26,Dom 01-03-2026,--:--,RCD Mallorca,VS,Real Sociedad
+27,Dom 08-03-2026,--:--,CA Osasuna,VS,RCD Mallorca
+28,Dom 15-03-2026,--:--,RCD Mallorca,VS,RCD Espanyol de Barcelona
+29,Dom 22-03-2026,--:--,Elche CF,VS,RCD Mallorca
+30,Dom 05-04-2026,--:--,RCD Mallorca,VS,Real Madrid
+31,Dom 12-04-2026,--:--,RCD Mallorca,VS,Rayo Vallecano
+32,Dom 19-04-2026,--:--,Deportivo Alavés,VS,RCD Mallorca
+33,Mié 22-04-2026,--:--,RCD Mallorca,VS,Valencia CF
+34,Dom 03-05-2026,--:--,Girona FC,VS,RCD Mallorca
+35,Dom 10-05-2026,--:--,RCD Mallorca,VS,Villarreal CF
+36,Mié 13-05-2026,--:--,Getafe CF,VS,RCD Mallorca
+37,Dom 17-05-2026,--:--,Levante UD,VS,RCD Mallorca
+38,Dom 24-05-2026,--:--,RCD Mallorca,VS,Real Oviedo

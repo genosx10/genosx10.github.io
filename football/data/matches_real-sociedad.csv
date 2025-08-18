@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Sáb 16-08-2025,21:30,Valencia CF,Real Sociedad,Pendiente
-2,Dom 24-08-2025,19:30,Real Sociedad,RCD Espanyol de Barcelona,Pendiente
-3,Sáb 30-08-2025,19:00,Real Oviedo,Real Sociedad,Pendiente
-4,Dom 14-09-2025,--:--,Real Sociedad,Real Madrid,Pendiente
-5,Dom 21-09-2025,--:--,Real Betis,Real Sociedad,Pendiente
-6,Mié 24-09-2025,--:--,Real Sociedad,RCD Mallorca,Pendiente
-7,Dom 28-09-2025,--:--,FC Barcelona,Real Sociedad,Pendiente
-8,Dom 05-10-2025,--:--,Real Sociedad,Rayo Vallecano,Pendiente
-9,Dom 19-10-2025,--:--,Celta,Real Sociedad,Pendiente
-10,Dom 26-10-2025,--:--,Real Sociedad,Sevilla FC,Pendiente
-11,Dom 02-11-2025,--:--,Real Sociedad,Athletic Club,Pendiente
-12,Dom 09-11-2025,--:--,Elche CF,Real Sociedad,Pendiente
-13,Dom 23-11-2025,--:--,CA Osasuna,Real Sociedad,Pendiente
-14,Dom 30-11-2025,--:--,Real Sociedad,Villarreal CF,Pendiente
-15,Dom 07-12-2025,--:--,Deportivo Alavés,Real Sociedad,Pendiente
-16,Dom 14-12-2025,--:--,Real Sociedad,Girona FC,Pendiente
-17,Dom 21-12-2025,--:--,Levante UD,Real Sociedad,Pendiente
-18,Dom 04-01-2026,--:--,Real Sociedad,Atlético de Madrid,Pendiente
-19,Dom 11-01-2026,--:--,Getafe CF,Real Sociedad,Pendiente
-20,Dom 18-01-2026,--:--,Real Sociedad,FC Barcelona,Pendiente
-21,Dom 25-01-2026,--:--,Real Sociedad,Celta,Pendiente
-22,Dom 01-02-2026,--:--,Athletic Club,Real Sociedad,Pendiente
-23,Dom 08-02-2026,--:--,Real Sociedad,Elche CF,Pendiente
-24,Dom 15-02-2026,--:--,Real Madrid,Real Sociedad,Pendiente
-25,Dom 22-02-2026,--:--,Real Sociedad,Real Oviedo,Pendiente
-26,Dom 01-03-2026,--:--,RCD Mallorca,Real Sociedad,Pendiente
-27,Dom 08-03-2026,--:--,Atlético de Madrid,Real Sociedad,Pendiente
-28,Dom 15-03-2026,--:--,Real Sociedad,CA Osasuna,Pendiente
-29,Dom 22-03-2026,--:--,Villarreal CF,Real Sociedad,Pendiente
-30,Dom 05-04-2026,--:--,Real Sociedad,Levante UD,Pendiente
-31,Dom 12-04-2026,--:--,Real Sociedad,Deportivo Alavés,Pendiente
-32,Dom 19-04-2026,--:--,Rayo Vallecano,Real Sociedad,Pendiente
-33,Mié 22-04-2026,--:--,Real Sociedad,Getafe CF,Pendiente
-34,Dom 03-05-2026,--:--,Sevilla FC,Real Sociedad,Pendiente
-35,Dom 10-05-2026,--:--,Real Sociedad,Real Betis,Pendiente
-36,Mié 13-05-2026,--:--,Girona FC,Real Sociedad,Pendiente
-37,Dom 17-05-2026,--:--,Real Sociedad,Valencia CF,Pendiente
-38,Dom 24-05-2026,--:--,RCD Espanyol de Barcelona,Real Sociedad,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Sáb 16-08-2025,21:30,Valencia CF,1 - 1,Real Sociedad
+2,Dom 24-08-2025,19:30,Real Sociedad,VS,RCD Espanyol de Barcelona
+3,Sáb 30-08-2025,19:00,Real Oviedo,VS,Real Sociedad
+4,Dom 14-09-2025,--:--,Real Sociedad,VS,Real Madrid
+5,Dom 21-09-2025,--:--,Real Betis,VS,Real Sociedad
+6,Mié 24-09-2025,--:--,Real Sociedad,VS,RCD Mallorca
+7,Dom 28-09-2025,--:--,FC Barcelona,VS,Real Sociedad
+8,Dom 05-10-2025,--:--,Real Sociedad,VS,Rayo Vallecano
+9,Dom 19-10-2025,--:--,Celta,VS,Real Sociedad
+10,Dom 26-10-2025,--:--,Real Sociedad,VS,Sevilla FC
+11,Dom 02-11-2025,--:--,Real Sociedad,VS,Athletic Club
+12,Dom 09-11-2025,--:--,Elche CF,VS,Real Sociedad
+13,Dom 23-11-2025,--:--,CA Osasuna,VS,Real Sociedad
+14,Dom 30-11-2025,--:--,Real Sociedad,VS,Villarreal CF
+15,Dom 07-12-2025,--:--,Deportivo Alavés,VS,Real Sociedad
+16,Dom 14-12-2025,--:--,Real Sociedad,VS,Girona FC
+17,Dom 21-12-2025,--:--,Levante UD,VS,Real Sociedad
+18,Dom 04-01-2026,--:--,Real Sociedad,VS,Atlético de Madrid
+19,Dom 11-01-2026,--:--,Getafe CF,VS,Real Sociedad
+20,Dom 18-01-2026,--:--,Real Sociedad,VS,FC Barcelona
+21,Dom 25-01-2026,--:--,Real Sociedad,VS,Celta
+22,Dom 01-02-2026,--:--,Athletic Club,VS,Real Sociedad
+23,Dom 08-02-2026,--:--,Real Sociedad,VS,Elche CF
+24,Dom 15-02-2026,--:--,Real Madrid,VS,Real Sociedad
+25,Dom 22-02-2026,--:--,Real Sociedad,VS,Real Oviedo
+26,Dom 01-03-2026,--:--,RCD Mallorca,VS,Real Sociedad
+27,Dom 08-03-2026,--:--,Atlético de Madrid,VS,Real Sociedad
+28,Dom 15-03-2026,--:--,Real Sociedad,VS,CA Osasuna
+29,Dom 22-03-2026,--:--,Villarreal CF,VS,Real Sociedad
+30,Dom 05-04-2026,--:--,Real Sociedad,VS,Levante UD
+31,Dom 12-04-2026,--:--,Real Sociedad,VS,Deportivo Alavés
+32,Dom 19-04-2026,--:--,Rayo Vallecano,VS,Real Sociedad
+33,Mié 22-04-2026,--:--,Real Sociedad,VS,Getafe CF
+34,Dom 03-05-2026,--:--,Sevilla FC,VS,Real Sociedad
+35,Dom 10-05-2026,--:--,Real Sociedad,VS,Real Betis
+36,Mié 13-05-2026,--:--,Girona FC,VS,Real Sociedad
+37,Dom 17-05-2026,--:--,Real Sociedad,VS,Valencia CF
+38,Dom 24-05-2026,--:--,RCD Espanyol de Barcelona,VS,Real Sociedad

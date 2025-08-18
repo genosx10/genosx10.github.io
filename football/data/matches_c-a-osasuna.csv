@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Mar 19-08-2025,21:00,Real Madrid,CA Osasuna,Pendiente
-2,Dom 24-08-2025,17:00,CA Osasuna,Valencia CF,Pendiente
-3,Dom 31-08-2025,19:30,RCD Espanyol de Barcelona,CA Osasuna,Pendiente
-4,Dom 14-09-2025,18:30,CA Osasuna,Rayo Vallecano,Pendiente
-5,Dom 21-09-2025,--:--,Villarreal CF,CA Osasuna,Pendiente
-6,Mié 24-09-2025,--:--,CA Osasuna,Elche CF,Pendiente
-7,Dom 28-09-2025,--:--,Real Betis,CA Osasuna,Pendiente
-8,Dom 05-10-2025,--:--,CA Osasuna,Getafe CF,Pendiente
-9,Dom 19-10-2025,--:--,Atlético de Madrid,CA Osasuna,Pendiente
-10,Dom 26-10-2025,--:--,CA Osasuna,Celta,Pendiente
-11,Dom 02-11-2025,--:--,Real Oviedo,CA Osasuna,Pendiente
-12,Dom 09-11-2025,--:--,Sevilla FC,CA Osasuna,Pendiente
-13,Dom 23-11-2025,--:--,CA Osasuna,Real Sociedad,Pendiente
-14,Dom 30-11-2025,--:--,RCD Mallorca,CA Osasuna,Pendiente
-15,Dom 07-12-2025,--:--,CA Osasuna,Levante UD,Pendiente
-16,Dom 14-12-2025,--:--,FC Barcelona,CA Osasuna,Pendiente
-17,Dom 21-12-2025,--:--,CA Osasuna,Deportivo Alavés,Pendiente
-18,Dom 04-01-2026,--:--,CA Osasuna,Athletic Club,Pendiente
-19,Dom 11-01-2026,--:--,Girona FC,CA Osasuna,Pendiente
-20,Dom 18-01-2026,--:--,CA Osasuna,Real Oviedo,Pendiente
-21,Dom 25-01-2026,--:--,Rayo Vallecano,CA Osasuna,Pendiente
-22,Dom 01-02-2026,--:--,CA Osasuna,Villarreal CF,Pendiente
-23,Dom 08-02-2026,--:--,Celta,CA Osasuna,Pendiente
-24,Dom 15-02-2026,--:--,Elche CF,CA Osasuna,Pendiente
-25,Dom 22-02-2026,--:--,CA Osasuna,Real Madrid,Pendiente
-26,Dom 01-03-2026,--:--,Valencia CF,CA Osasuna,Pendiente
-27,Dom 08-03-2026,--:--,CA Osasuna,RCD Mallorca,Pendiente
-28,Dom 15-03-2026,--:--,Real Sociedad,CA Osasuna,Pendiente
-29,Dom 22-03-2026,--:--,CA Osasuna,Girona FC,Pendiente
-30,Dom 05-04-2026,--:--,Deportivo Alavés,CA Osasuna,Pendiente
-31,Dom 12-04-2026,--:--,CA Osasuna,Real Betis,Pendiente
-32,Dom 19-04-2026,--:--,CA Osasuna,Sevilla FC,Pendiente
-33,Mié 22-04-2026,--:--,Athletic Club,CA Osasuna,Pendiente
-34,Dom 03-05-2026,--:--,CA Osasuna,FC Barcelona,Pendiente
-35,Dom 10-05-2026,--:--,Levante UD,CA Osasuna,Pendiente
-36,Mié 13-05-2026,--:--,CA Osasuna,Atlético de Madrid,Pendiente
-37,Dom 17-05-2026,--:--,CA Osasuna,RCD Espanyol de Barcelona,Pendiente
-38,Dom 24-05-2026,--:--,Getafe CF,CA Osasuna,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Mar 19-08-2025,21:00,Real Madrid,VS,CA Osasuna
+2,Dom 24-08-2025,17:00,CA Osasuna,VS,Valencia CF
+3,Dom 31-08-2025,19:30,RCD Espanyol de Barcelona,VS,CA Osasuna
+4,Dom 14-09-2025,18:30,CA Osasuna,VS,Rayo Vallecano
+5,Dom 21-09-2025,--:--,Villarreal CF,VS,CA Osasuna
+6,Mié 24-09-2025,--:--,CA Osasuna,VS,Elche CF
+7,Dom 28-09-2025,--:--,Real Betis,VS,CA Osasuna
+8,Dom 05-10-2025,--:--,CA Osasuna,VS,Getafe CF
+9,Dom 19-10-2025,--:--,Atlético de Madrid,VS,CA Osasuna
+10,Dom 26-10-2025,--:--,CA Osasuna,VS,Celta
+11,Dom 02-11-2025,--:--,Real Oviedo,VS,CA Osasuna
+12,Dom 09-11-2025,--:--,Sevilla FC,VS,CA Osasuna
+13,Dom 23-11-2025,--:--,CA Osasuna,VS,Real Sociedad
+14,Dom 30-11-2025,--:--,RCD Mallorca,VS,CA Osasuna
+15,Dom 07-12-2025,--:--,CA Osasuna,VS,Levante UD
+16,Dom 14-12-2025,--:--,FC Barcelona,VS,CA Osasuna
+17,Dom 21-12-2025,--:--,CA Osasuna,VS,Deportivo Alavés
+18,Dom 04-01-2026,--:--,CA Osasuna,VS,Athletic Club
+19,Dom 11-01-2026,--:--,Girona FC,VS,CA Osasuna
+20,Dom 18-01-2026,--:--,CA Osasuna,VS,Real Oviedo
+21,Dom 25-01-2026,--:--,Rayo Vallecano,VS,CA Osasuna
+22,Dom 01-02-2026,--:--,CA Osasuna,VS,Villarreal CF
+23,Dom 08-02-2026,--:--,Celta,VS,CA Osasuna
+24,Dom 15-02-2026,--:--,Elche CF,VS,CA Osasuna
+25,Dom 22-02-2026,--:--,CA Osasuna,VS,Real Madrid
+26,Dom 01-03-2026,--:--,Valencia CF,VS,CA Osasuna
+27,Dom 08-03-2026,--:--,CA Osasuna,VS,RCD Mallorca
+28,Dom 15-03-2026,--:--,Real Sociedad,VS,CA Osasuna
+29,Dom 22-03-2026,--:--,CA Osasuna,VS,Girona FC
+30,Dom 05-04-2026,--:--,Deportivo Alavés,VS,CA Osasuna
+31,Dom 12-04-2026,--:--,CA Osasuna,VS,Real Betis
+32,Dom 19-04-2026,--:--,CA Osasuna,VS,Sevilla FC
+33,Mié 22-04-2026,--:--,Athletic Club,VS,CA Osasuna
+34,Dom 03-05-2026,--:--,CA Osasuna,VS,FC Barcelona
+35,Dom 10-05-2026,--:--,Levante UD,VS,CA Osasuna
+36,Mié 13-05-2026,--:--,CA Osasuna,VS,Atlético de Madrid
+37,Dom 17-05-2026,--:--,CA Osasuna,VS,RCD Espanyol de Barcelona
+38,Dom 24-05-2026,--:--,Getafe CF,VS,CA Osasuna

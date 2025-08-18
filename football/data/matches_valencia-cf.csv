@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Sáb 16-08-2025,21:30,Valencia CF,Real Sociedad,Pendiente
-2,Dom 24-08-2025,17:00,CA Osasuna,Valencia CF,Pendiente
-3,Vie 29-08-2025,21:30,Valencia CF,Getafe CF,Pendiente
-4,Dom 14-09-2025,--:--,FC Barcelona,Valencia CF,Pendiente
-5,Dom 21-09-2025,--:--,Valencia CF,Athletic Club,Pendiente
-6,Mié 24-09-2025,--:--,RCD Espanyol de Barcelona,Valencia CF,Pendiente
-7,Dom 28-09-2025,--:--,Valencia CF,Real Oviedo,Pendiente
-8,Dom 05-10-2025,--:--,Girona FC,Valencia CF,Pendiente
-9,Dom 19-10-2025,--:--,Deportivo Alavés,Valencia CF,Pendiente
-10,Dom 26-10-2025,--:--,Valencia CF,Villarreal CF,Pendiente
-11,Dom 02-11-2025,--:--,Real Madrid,Valencia CF,Pendiente
-12,Dom 09-11-2025,--:--,Valencia CF,Real Betis,Pendiente
-13,Dom 23-11-2025,--:--,Valencia CF,Levante UD,Pendiente
-14,Dom 30-11-2025,--:--,Rayo Vallecano,Valencia CF,Pendiente
-15,Dom 07-12-2025,--:--,Valencia CF,Sevilla FC,Pendiente
-16,Dom 14-12-2025,--:--,Atlético de Madrid,Valencia CF,Pendiente
-17,Dom 21-12-2025,--:--,Valencia CF,RCD Mallorca,Pendiente
-18,Dom 04-01-2026,--:--,Celta,Valencia CF,Pendiente
-19,Dom 11-01-2026,--:--,Valencia CF,Elche CF,Pendiente
-20,Dom 18-01-2026,--:--,Getafe CF,Valencia CF,Pendiente
-21,Dom 25-01-2026,--:--,Valencia CF,RCD Espanyol de Barcelona,Pendiente
-22,Dom 01-02-2026,--:--,Real Betis,Valencia CF,Pendiente
-23,Dom 08-02-2026,--:--,Valencia CF,Real Madrid,Pendiente
-24,Dom 15-02-2026,--:--,Levante UD,Valencia CF,Pendiente
-25,Dom 22-02-2026,--:--,Villarreal CF,Valencia CF,Pendiente
-26,Dom 01-03-2026,--:--,Valencia CF,CA Osasuna,Pendiente
-27,Dom 08-03-2026,--:--,Valencia CF,Deportivo Alavés,Pendiente
-28,Dom 15-03-2026,--:--,Real Oviedo,Valencia CF,Pendiente
-29,Dom 22-03-2026,--:--,Sevilla FC,Valencia CF,Pendiente
-30,Dom 05-04-2026,--:--,Valencia CF,Celta,Pendiente
-31,Dom 12-04-2026,--:--,Elche CF,Valencia CF,Pendiente
-32,Dom 19-04-2026,--:--,Valencia CF,Girona FC,Pendiente
-33,Mié 22-04-2026,--:--,RCD Mallorca,Valencia CF,Pendiente
-34,Dom 03-05-2026,--:--,Valencia CF,Atlético de Madrid,Pendiente
-35,Dom 10-05-2026,--:--,Athletic Club,Valencia CF,Pendiente
-36,Mié 13-05-2026,--:--,Valencia CF,Rayo Vallecano,Pendiente
-37,Dom 17-05-2026,--:--,Real Sociedad,Valencia CF,Pendiente
-38,Dom 24-05-2026,--:--,Valencia CF,FC Barcelona,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Sáb 16-08-2025,21:30,Valencia CF,1 - 1,Real Sociedad
+2,Dom 24-08-2025,17:00,CA Osasuna,VS,Valencia CF
+3,Vie 29-08-2025,21:30,Valencia CF,VS,Getafe CF
+4,Dom 14-09-2025,--:--,FC Barcelona,VS,Valencia CF
+5,Dom 21-09-2025,--:--,Valencia CF,VS,Athletic Club
+6,Mié 24-09-2025,--:--,RCD Espanyol de Barcelona,VS,Valencia CF
+7,Dom 28-09-2025,--:--,Valencia CF,VS,Real Oviedo
+8,Dom 05-10-2025,--:--,Girona FC,VS,Valencia CF
+9,Dom 19-10-2025,--:--,Deportivo Alavés,VS,Valencia CF
+10,Dom 26-10-2025,--:--,Valencia CF,VS,Villarreal CF
+11,Dom 02-11-2025,--:--,Real Madrid,VS,Valencia CF
+12,Dom 09-11-2025,--:--,Valencia CF,VS,Real Betis
+13,Dom 23-11-2025,--:--,Valencia CF,VS,Levante UD
+14,Dom 30-11-2025,--:--,Rayo Vallecano,VS,Valencia CF
+15,Dom 07-12-2025,--:--,Valencia CF,VS,Sevilla FC
+16,Dom 14-12-2025,--:--,Atlético de Madrid,VS,Valencia CF
+17,Dom 21-12-2025,--:--,Valencia CF,VS,RCD Mallorca
+18,Dom 04-01-2026,--:--,Celta,VS,Valencia CF
+19,Dom 11-01-2026,--:--,Valencia CF,VS,Elche CF
+20,Dom 18-01-2026,--:--,Getafe CF,VS,Valencia CF
+21,Dom 25-01-2026,--:--,Valencia CF,VS,RCD Espanyol de Barcelona
+22,Dom 01-02-2026,--:--,Real Betis,VS,Valencia CF
+23,Dom 08-02-2026,--:--,Valencia CF,VS,Real Madrid
+24,Dom 15-02-2026,--:--,Levante UD,VS,Valencia CF
+25,Dom 22-02-2026,--:--,Villarreal CF,VS,Valencia CF
+26,Dom 01-03-2026,--:--,Valencia CF,VS,CA Osasuna
+27,Dom 08-03-2026,--:--,Valencia CF,VS,Deportivo Alavés
+28,Dom 15-03-2026,--:--,Real Oviedo,VS,Valencia CF
+29,Dom 22-03-2026,--:--,Sevilla FC,VS,Valencia CF
+30,Dom 05-04-2026,--:--,Valencia CF,VS,Celta
+31,Dom 12-04-2026,--:--,Elche CF,VS,Valencia CF
+32,Dom 19-04-2026,--:--,Valencia CF,VS,Girona FC
+33,Mié 22-04-2026,--:--,RCD Mallorca,VS,Valencia CF
+34,Dom 03-05-2026,--:--,Valencia CF,VS,Atlético de Madrid
+35,Dom 10-05-2026,--:--,Athletic Club,VS,Valencia CF
+36,Mié 13-05-2026,--:--,Valencia CF,VS,Rayo Vallecano
+37,Dom 17-05-2026,--:--,Real Sociedad,VS,Valencia CF
+38,Dom 24-05-2026,--:--,Valencia CF,VS,FC Barcelona

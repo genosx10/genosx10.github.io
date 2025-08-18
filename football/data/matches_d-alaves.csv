@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Sáb 16-08-2025,21:30,Deportivo Alavés,Levante UD,Finalizado
-2,Vie 22-08-2025,21:30,Real Betis,Deportivo Alavés,Pendiente
-3,Sáb 30-08-2025,17:00,Deportivo Alavés,Atlético de Madrid,Pendiente
-4,Dom 14-09-2025,--:--,Athletic Club,Deportivo Alavés,Pendiente
-5,Dom 21-09-2025,--:--,Deportivo Alavés,Sevilla FC,Pendiente
-6,Mié 24-09-2025,--:--,Getafe CF,Deportivo Alavés,Pendiente
-7,Dom 28-09-2025,--:--,RCD Mallorca,Deportivo Alavés,Pendiente
-8,Dom 05-10-2025,--:--,Deportivo Alavés,Elche CF,Pendiente
-9,Dom 19-10-2025,--:--,Deportivo Alavés,Valencia CF,Pendiente
-10,Dom 26-10-2025,--:--,Rayo Vallecano,Deportivo Alavés,Pendiente
-11,Dom 02-11-2025,--:--,Deportivo Alavés,RCD Espanyol de Barcelona,Pendiente
-12,Dom 09-11-2025,--:--,Girona FC,Deportivo Alavés,Pendiente
-13,Dom 23-11-2025,--:--,Deportivo Alavés,Celta,Pendiente
-14,Dom 30-11-2025,--:--,FC Barcelona,Deportivo Alavés,Pendiente
-15,Dom 07-12-2025,--:--,Deportivo Alavés,Real Sociedad,Pendiente
-16,Dom 14-12-2025,--:--,Deportivo Alavés,Real Madrid,Pendiente
-17,Dom 21-12-2025,--:--,CA Osasuna,Deportivo Alavés,Pendiente
-18,Dom 04-01-2026,--:--,Deportivo Alavés,Real Oviedo,Pendiente
-19,Dom 11-01-2026,--:--,Villarreal CF,Deportivo Alavés,Pendiente
-20,Dom 18-01-2026,--:--,Atlético de Madrid,Deportivo Alavés,Pendiente
-21,Dom 25-01-2026,--:--,Deportivo Alavés,Real Betis,Pendiente
-22,Dom 01-02-2026,--:--,RCD Espanyol de Barcelona,Deportivo Alavés,Pendiente
-23,Dom 08-02-2026,--:--,Deportivo Alavés,Getafe CF,Pendiente
-24,Dom 15-02-2026,--:--,Sevilla FC,Deportivo Alavés,Pendiente
-25,Dom 22-02-2026,--:--,Deportivo Alavés,Girona FC,Pendiente
-26,Dom 01-03-2026,--:--,Levante UD,Deportivo Alavés,Pendiente
-27,Dom 08-03-2026,--:--,Valencia CF,Deportivo Alavés,Pendiente
-28,Dom 15-03-2026,--:--,Deportivo Alavés,Villarreal CF,Pendiente
-29,Dom 22-03-2026,--:--,Celta,Deportivo Alavés,Pendiente
-30,Dom 05-04-2026,--:--,Deportivo Alavés,CA Osasuna,Pendiente
-31,Dom 12-04-2026,--:--,Real Sociedad,Deportivo Alavés,Pendiente
-32,Dom 19-04-2026,--:--,Deportivo Alavés,RCD Mallorca,Pendiente
-33,Mié 22-04-2026,--:--,Real Madrid,Deportivo Alavés,Pendiente
-34,Dom 03-05-2026,--:--,Deportivo Alavés,Athletic Club,Pendiente
-35,Dom 10-05-2026,--:--,Elche CF,Deportivo Alavés,Pendiente
-36,Mié 13-05-2026,--:--,Deportivo Alavés,FC Barcelona,Pendiente
-37,Dom 17-05-2026,--:--,Real Oviedo,Deportivo Alavés,Pendiente
-38,Dom 24-05-2026,--:--,Deportivo Alavés,Rayo Vallecano,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Sáb 16-08-2025,21:30,Deportivo Alavés,2 - 1,Levante UD
+2,Vie 22-08-2025,21:30,Real Betis,VS,Deportivo Alavés
+3,Sáb 30-08-2025,17:00,Deportivo Alavés,VS,Atlético de Madrid
+4,Dom 14-09-2025,--:--,Athletic Club,VS,Deportivo Alavés
+5,Dom 21-09-2025,--:--,Deportivo Alavés,VS,Sevilla FC
+6,Mié 24-09-2025,--:--,Getafe CF,VS,Deportivo Alavés
+7,Dom 28-09-2025,--:--,RCD Mallorca,VS,Deportivo Alavés
+8,Dom 05-10-2025,--:--,Deportivo Alavés,VS,Elche CF
+9,Dom 19-10-2025,--:--,Deportivo Alavés,VS,Valencia CF
+10,Dom 26-10-2025,--:--,Rayo Vallecano,VS,Deportivo Alavés
+11,Dom 02-11-2025,--:--,Deportivo Alavés,VS,RCD Espanyol de Barcelona
+12,Dom 09-11-2025,--:--,Girona FC,VS,Deportivo Alavés
+13,Dom 23-11-2025,--:--,Deportivo Alavés,VS,Celta
+14,Dom 30-11-2025,--:--,FC Barcelona,VS,Deportivo Alavés
+15,Dom 07-12-2025,--:--,Deportivo Alavés,VS,Real Sociedad
+16,Dom 14-12-2025,--:--,Deportivo Alavés,VS,Real Madrid
+17,Dom 21-12-2025,--:--,CA Osasuna,VS,Deportivo Alavés
+18,Dom 04-01-2026,--:--,Deportivo Alavés,VS,Real Oviedo
+19,Dom 11-01-2026,--:--,Villarreal CF,VS,Deportivo Alavés
+20,Dom 18-01-2026,--:--,Atlético de Madrid,VS,Deportivo Alavés
+21,Dom 25-01-2026,--:--,Deportivo Alavés,VS,Real Betis
+22,Dom 01-02-2026,--:--,RCD Espanyol de Barcelona,VS,Deportivo Alavés
+23,Dom 08-02-2026,--:--,Deportivo Alavés,VS,Getafe CF
+24,Dom 15-02-2026,--:--,Sevilla FC,VS,Deportivo Alavés
+25,Dom 22-02-2026,--:--,Deportivo Alavés,VS,Girona FC
+26,Dom 01-03-2026,--:--,Levante UD,VS,Deportivo Alavés
+27,Dom 08-03-2026,--:--,Valencia CF,VS,Deportivo Alavés
+28,Dom 15-03-2026,--:--,Deportivo Alavés,VS,Villarreal CF
+29,Dom 22-03-2026,--:--,Celta,VS,Deportivo Alavés
+30,Dom 05-04-2026,--:--,Deportivo Alavés,VS,CA Osasuna
+31,Dom 12-04-2026,--:--,Real Sociedad,VS,Deportivo Alavés
+32,Dom 19-04-2026,--:--,Deportivo Alavés,VS,RCD Mallorca
+33,Mié 22-04-2026,--:--,Real Madrid,VS,Deportivo Alavés
+34,Dom 03-05-2026,--:--,Deportivo Alavés,VS,Athletic Club
+35,Dom 10-05-2026,--:--,Elche CF,VS,Deportivo Alavés
+36,Mié 13-05-2026,--:--,Deportivo Alavés,VS,FC Barcelona
+37,Dom 17-05-2026,--:--,Real Oviedo,VS,Deportivo Alavés
+38,Dom 24-05-2026,--:--,Deportivo Alavés,VS,Rayo Vallecano

@@ -1,39 +1,39 @@
-Jornada,Fecha,Horario,Local,Visitante,Estado
-1,Vie 15-08-2025,19:00,Girona FC,Rayo Vallecano,Finalizado
-2,Lun 25-08-2025,19:30,Athletic Club,Rayo Vallecano,Pendiente
-3,Dom 31-08-2025,21:30,Rayo Vallecano,FC Barcelona,Pendiente
-4,Dom 14-09-2025,18:30,CA Osasuna,Rayo Vallecano,Pendiente
-5,Dom 21-09-2025,--:--,Rayo Vallecano,Celta,Pendiente
-6,Mié 24-09-2025,--:--,Atlético de Madrid,Rayo Vallecano,Pendiente
-7,Dom 28-09-2025,--:--,Rayo Vallecano,Sevilla FC,Pendiente
-8,Dom 05-10-2025,--:--,Real Sociedad,Rayo Vallecano,Pendiente
-9,Dom 19-10-2025,--:--,Levante UD,Rayo Vallecano,Pendiente
-10,Dom 26-10-2025,--:--,Rayo Vallecano,Deportivo Alavés,Pendiente
-11,Dom 02-11-2025,--:--,Villarreal CF,Rayo Vallecano,Pendiente
-12,Dom 09-11-2025,--:--,Rayo Vallecano,Real Madrid,Pendiente
-13,Dom 23-11-2025,--:--,Real Oviedo,Rayo Vallecano,Pendiente
-14,Dom 30-11-2025,--:--,Rayo Vallecano,Valencia CF,Pendiente
-15,Dom 07-12-2025,--:--,RCD Espanyol de Barcelona,Rayo Vallecano,Pendiente
-16,Dom 14-12-2025,--:--,Rayo Vallecano,Real Betis,Pendiente
-17,Dom 21-12-2025,--:--,Elche CF,Rayo Vallecano,Pendiente
-18,Dom 04-01-2026,--:--,Rayo Vallecano,Getafe CF,Pendiente
-19,Dom 11-01-2026,--:--,Rayo Vallecano,RCD Mallorca,Pendiente
-20,Dom 18-01-2026,--:--,Celta,Rayo Vallecano,Pendiente
-21,Dom 25-01-2026,--:--,Rayo Vallecano,CA Osasuna,Pendiente
-22,Dom 01-02-2026,--:--,Real Madrid,Rayo Vallecano,Pendiente
-23,Dom 08-02-2026,--:--,Rayo Vallecano,Real Oviedo,Pendiente
-24,Dom 15-02-2026,--:--,Rayo Vallecano,Atlético de Madrid,Pendiente
-25,Dom 22-02-2026,--:--,Real Betis,Rayo Vallecano,Pendiente
-26,Dom 01-03-2026,--:--,Rayo Vallecano,Athletic Club,Pendiente
-27,Dom 08-03-2026,--:--,Sevilla FC,Rayo Vallecano,Pendiente
-28,Dom 15-03-2026,--:--,Rayo Vallecano,Levante UD,Pendiente
-29,Dom 22-03-2026,--:--,FC Barcelona,Rayo Vallecano,Pendiente
-30,Dom 05-04-2026,--:--,Rayo Vallecano,Elche CF,Pendiente
-31,Dom 12-04-2026,--:--,RCD Mallorca,Rayo Vallecano,Pendiente
-32,Dom 19-04-2026,--:--,Rayo Vallecano,Real Sociedad,Pendiente
-33,Mié 22-04-2026,--:--,Rayo Vallecano,RCD Espanyol de Barcelona,Pendiente
-34,Dom 03-05-2026,--:--,Getafe CF,Rayo Vallecano,Pendiente
-35,Dom 10-05-2026,--:--,Rayo Vallecano,Girona FC,Pendiente
-36,Mié 13-05-2026,--:--,Valencia CF,Rayo Vallecano,Pendiente
-37,Dom 17-05-2026,--:--,Rayo Vallecano,Villarreal CF,Pendiente
-38,Dom 24-05-2026,--:--,Deportivo Alavés,Rayo Vallecano,Pendiente
+Jornada,Fecha,Horario,Local,Resultado,Visitante
+1,Vie 15-08-2025,19:00,Girona FC,1 - 3,Rayo Vallecano
+2,Lun 25-08-2025,19:30,Athletic Club,VS,Rayo Vallecano
+3,Dom 31-08-2025,21:30,Rayo Vallecano,VS,FC Barcelona
+4,Dom 14-09-2025,18:30,CA Osasuna,VS,Rayo Vallecano
+5,Dom 21-09-2025,--:--,Rayo Vallecano,VS,Celta
+6,Mié 24-09-2025,--:--,Atlético de Madrid,VS,Rayo Vallecano
+7,Dom 28-09-2025,--:--,Rayo Vallecano,VS,Sevilla FC
+8,Dom 05-10-2025,--:--,Real Sociedad,VS,Rayo Vallecano
+9,Dom 19-10-2025,--:--,Levante UD,VS,Rayo Vallecano
+10,Dom 26-10-2025,--:--,Rayo Vallecano,VS,Deportivo Alavés
+11,Dom 02-11-2025,--:--,Villarreal CF,VS,Rayo Vallecano
+12,Dom 09-11-2025,--:--,Rayo Vallecano,VS,Real Madrid
+13,Dom 23-11-2025,--:--,Real Oviedo,VS,Rayo Vallecano
+14,Dom 30-11-2025,--:--,Rayo Vallecano,VS,Valencia CF
+15,Dom 07-12-2025,--:--,RCD Espanyol de Barcelona,VS,Rayo Vallecano
+16,Dom 14-12-2025,--:--,Rayo Vallecano,VS,Real Betis
+17,Dom 21-12-2025,--:--,Elche CF,VS,Rayo Vallecano
+18,Dom 04-01-2026,--:--,Rayo Vallecano,VS,Getafe CF
+19,Dom 11-01-2026,--:--,Rayo Vallecano,VS,RCD Mallorca
+20,Dom 18-01-2026,--:--,Celta,VS,Rayo Vallecano
+21,Dom 25-01-2026,--:--,Rayo Vallecano,VS,CA Osasuna
+22,Dom 01-02-2026,--:--,Real Madrid,VS,Rayo Vallecano
+23,Dom 08-02-2026,--:--,Rayo Vallecano,VS,Real Oviedo
+24,Dom 15-02-2026,--:--,Rayo Vallecano,VS,Atlético de Madrid
+25,Dom 22-02-2026,--:--,Real Betis,VS,Rayo Vallecano
+26,Dom 01-03-2026,--:--,Rayo Vallecano,VS,Athletic Club
+27,Dom 08-03-2026,--:--,Sevilla FC,VS,Rayo Vallecano
+28,Dom 15-03-2026,--:--,Rayo Vallecano,VS,Levante UD
+29,Dom 22-03-2026,--:--,FC Barcelona,VS,Rayo Vallecano
+30,Dom 05-04-2026,--:--,Rayo Vallecano,VS,Elche CF
+31,Dom 12-04-2026,--:--,RCD Mallorca,VS,Rayo Vallecano
+32,Dom 19-04-2026,--:--,Rayo Vallecano,VS,Real Sociedad
+33,Mié 22-04-2026,--:--,Rayo Vallecano,VS,RCD Espanyol de Barcelona
+34,Dom 03-05-2026,--:--,Getafe CF,VS,Rayo Vallecano
+35,Dom 10-05-2026,--:--,Rayo Vallecano,VS,Girona FC
+36,Mié 13-05-2026,--:--,Valencia CF,VS,Rayo Vallecano
+37,Dom 17-05-2026,--:--,Rayo Vallecano,VS,Villarreal CF
+38,Dom 24-05-2026,--:--,Deportivo Alavés,VS,Rayo Vallecano
