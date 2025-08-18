@@ -56,27 +56,35 @@ function normalizeRow(r) {
 
 function loadCSV(url) {
   return fetch(url)
-    .then(res => res.text())
-    .then(text => {
-      var lines = text.split(/\r?\n/).filter(l => l.trim() !== "");
+    .then((res) => res.text())
+    .then((text) => {
+      var lines = text.split(/\r?\n/).filter((l) => l.trim() !== "");
       var headers = lines.shift().split(",");
-      return lines
-        .map(function (line) {
-          var cols = line.split(",");
-          var obj = {};
-          for (var i = 0; i < headers.length; i++) {
-            var h = headers[i].trim();
-            obj[h] = (cols[i] != null ? cols[i] : "").trim();
-          }
-          return normalizeRow(obj);
-        })
-        // ⬇️ descartar filas totalmente vacías
-        .filter(function (r) {
-          return (r.Jornada || r.Fecha || r.Horario || r.Local || r.Visitante || r.Estado);
-        });
+      return (
+        lines
+          .map(function (line) {
+            var cols = line.split(",");
+            var obj = {};
+            for (var i = 0; i < headers.length; i++) {
+              var h = headers[i].trim();
+              obj[h] = (cols[i] != null ? cols[i] : "").trim();
+            }
+            return normalizeRow(obj);
+          })
+          // ⬇️ descartar filas totalmente vacías
+          .filter(function (r) {
+            return (
+              r.Jornada ||
+              r.Fecha ||
+              r.Horario ||
+              r.Local ||
+              r.Visitante ||
+              r.Estado
+            );
+          })
+      );
     });
 }
-
 
 /* =========================
    Estado global
@@ -156,60 +164,79 @@ function sortRows(rows) {
   const col = __SORT__.col;
   const asc = __SORT__.asc ? 1 : -1;
 
+  // pequeño ayudante para aplicar asc/desc a comparadores que ya son "asc"
+  const withDir = (cmpVal) => asc * cmpVal;
+
   return rows.slice().sort(function (a, b) {
     if (col === "Jornada") {
       const ja = parseInt(a.Jornada) || 0;
       const jb = parseInt(b.Jornada) || 0;
       if (ja !== jb) return asc * (ja - jb);
-      return asc * cmpFechaHorario(a, b);
+      // Desempate consistente con la jornada seleccionada
+      const cf = withDir(cmpFecha(a, b));
+      if (cf !== 0) return cf;
+      return withDir(cmpHorario(a, b));
     }
 
     if (col === "Fecha") {
-      const cf = cmpFecha(a, b);
-      if (cf !== 0) return asc * cf;
-      return asc * cmpHorario(a, b);
+      const cf = withDir(cmpFecha(a, b));
+      if (cf !== 0) return cf;
+      // Si la fecha es igual, usa jornada y hora en el mismo sentido
+      const cj = withDir(cmpJornada(a, b));
+      if (cj !== 0) return cj;
+      return withDir(cmpHorario(a, b));
     }
 
     if (col === "Horario") {
-      const cj = cmpJornada(a, b);
-      if (cj !== 0) return cj;
-      const cf = cmpFecha(a, b);
+      // Mantén el orden lógico también en el mismo sentido elegido
+      const ch = withDir(cmpHorario(a, b));
+      if (ch !== 0) return ch;
+      const cf = withDir(cmpFecha(a, b));
       if (cf !== 0) return cf;
-      const ch = cmpHorario(a, b);
-      return (__SORT__.asc ? 1 : -1) * ch;
+      return withDir(cmpJornada(a, b));
     }
 
     if (col === "Estado") {
-      // define tu jerarquía de estados
       const orden = ["Pendiente", "Finalizado"];
       const rank = (v) => {
         const i = orden.indexOf(v);
         return i === -1 ? orden.length : i;
       };
 
-      // 1º Estado (asc/desc)
       const ra = rank(a.Estado);
       const rb = rank(b.Estado);
       if (ra !== rb) return asc * (ra - rb);
 
-      // 2º Jornada (asc)
-      const cj = cmpJornada(a, b);
+      // Desempates en el mismo sentido
+      const cj = withDir(cmpJornada(a, b));
       if (cj !== 0) return cj;
-
-      // 3º Fecha (asc)
-      const cf = cmpFecha(a, b);
+      const cf = withDir(cmpFecha(a, b));
       if (cf !== 0) return cf;
-
-      // 4º Horario (asc)
-      return cmpHorario(a, b);
+      return withDir(cmpHorario(a, b));
     }
 
-    // alfabético genérico
+    // 🔹 CASO NUEVO: Local / Visitante con desempates en cascada
+    if (col === "Local" || col === "Visitante") {
+      const cTeam = asc * ( (a[col] || "").toString()
+        .localeCompare((b[col] || "").toString(), "es", { sensitivity: "base" }) );
+      if (cTeam !== 0) return cTeam;
+
+      const cj = withDir(cmpJornada(a, b));
+      if (cj !== 0) return cj;
+
+      const cf = withDir(cmpFecha(a, b));
+      if (cf !== 0) return cf;
+
+      return withDir(cmpHorario(a, b));
+    }
+
+    // Alfabético genérico (por si añades otras columnas de texto)
     const av = (a[col] || "").toString();
     const bv = (b[col] || "").toString();
-    return asc * av.localeCompare(bv);
+    return asc * av.localeCompare(bv, "es", { sensitivity: "base" });
   });
 }
+
 
 /* =========================
    Filtrado
@@ -381,6 +408,7 @@ function renderTable(rows) {
   document.getElementById("emptyState").classList.toggle("d-none", hasRows);
   document.getElementById("count").classList.toggle("d-none", !hasRows);
   document.getElementById("advise").classList.toggle("d-none", !hasRows);
+  document.getElementById("exportAdvise").classList.toggle("d-none", !hasRows);
   document.getElementById("count").textContent =
     __FILTERED_ROWS__.length +
     " " +
@@ -471,39 +499,56 @@ function wireSorting() {
         th.classList.add("active");
         if (ic)
           ic.className = __SORT__.asc
-            ? "bi sort-icon bi-arrow-down"
-            : "bi sort-icon bi-arrow-up";
+            ? "bi sort-icon bi-arrow-up"
+            : "bi sort-icon bi-arrow-down";
       }
     }
+  }
+
+  // 🆕 Pequeño helper para aplicar el ciclo asc → desc → sin orden (por defecto)
+  function handleSort(col) {
+    if (__SORT__.col !== col) {
+      // 1er clic sobre una columna nueva: asc
+      __SORT__ = { col: col, asc: true };
+      updateIcons(col);
+      __PAGE__ = 1;
+      render();
+      return;
+    }
+    if (__SORT__.asc) {
+      // 2º clic: desc
+      __SORT__.asc = false;
+      updateIcons(col);
+      __PAGE__ = 1;
+      render();
+      return;
+    }
+    // 3er clic: quitar orden y volver al multi-key por defecto
+    __SORT__ = { col: "multi", asc: true };
+    updateIcons(null); // vuelve a mostrar el icono neutro en todas
+    __PAGE__ = 1;
+    render();
   }
 
   function attach(th) {
     var col = th.getAttribute("data-col");
     th.addEventListener("click", function () {
-      // si se pincha la misma, alterna asc; si es nueva, arranca asc
-      if (__SORT__.col === col) __SORT__.asc = !__SORT__.asc;
-      else __SORT__ = { col: col, asc: true };
-      __PAGE__ = 1;
-      updateIcons(col);
-      render();
+      handleSort(col);
     });
     th.addEventListener("keydown", function (e) {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        if (__SORT__.col === col) __SORT__.asc = !__SORT__.asc;
-        else __SORT__ = { col: col, asc: true };
-        __PAGE__ = 1;
-        updateIcons(col);
-        render();
+        handleSort(col);
       }
     });
   }
 
   for (var i = 0; i < headers.length; i++) attach(headers[i]);
 
-  // estado inicial: orden múltiple por defecto
+  // estado inicial: orden múltiple por defecto (sin ninguna columna activa)
   updateIcons(null);
 }
+
 
 /* =========================
    Exportar a Google Calendar (.ics)
