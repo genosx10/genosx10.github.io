@@ -17,7 +17,7 @@ import requests
 SEASON_WEEKS = 38
 TZ_MADRID = ZoneInfo("Europe/Madrid")
 
-SUBSCRIPTION_KEY = os.environ.get("SUBSCRIPTION_KEY", "")
+SUBSCRIPTION_KEY = os.environ.get("SUBSCRIPTION_KEY","")
 BASE_WEEK_URL = os.environ.get("BASE_WEEK_URL","")
 
 OUT_DIR_JSON = Path("football/data/json")
