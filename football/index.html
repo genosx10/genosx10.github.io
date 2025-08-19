@@ -117,7 +117,7 @@
                       type="text"
                       id="teamFilter"
                       class="form-control"
-                      placeholder="p. ej., FC Barcelona, Sevilla..."
+                      placeholder="p. ej., FC Barcelona, Sevilla FC..."
                       inputmode="search"
                       autocomplete="off"
                     />
@@ -201,7 +201,7 @@
               Calendar
             </button>
           </div>
-          <p class="text-danger fw-bold m-0 fs-7 text-end" id="exportAdvise">
+          <p class="d-none text-danger fw-bold m-0 fs-7 text-end" id="exportAdvise">
             Asegúrate de que los partidos estén filtrados.
           </p>
         </div>
@@ -216,6 +216,7 @@
           >
             <thead class="table-light">
               <tr>
+                <th scope="col" style="width: 1%"></th>
                 <th
                   scope="col"
                   class="text-nowrap"
@@ -265,7 +266,6 @@
                 >
                   Visitante
                 </th>
-                <th scope="col" style="width: 1%"></th>
               </tr>
             </thead>
             <tbody></tbody>

@@ -71,7 +71,14 @@ function loadCSV(url) {
           return normalizeRow(obj);
         })
         .filter(function (r) {
-          return r.Jornada || r.Fecha || r.Horario || r.Local || r.Visitante || r.Resultado;
+          return (
+            r.Jornada ||
+            r.Fecha ||
+            r.Horario ||
+            r.Local ||
+            r.Visitante ||
+            r.Resultado
+          );
         });
     });
 }
@@ -137,7 +144,13 @@ function sortRows(rows) {
   const withDir = (cmpVal) => asc * cmpVal;
 
   // Blindaje + única ordenación permitida (Jornada)
-  if (col === "Local" || col === "Visitante" || col === "Fecha" || col === "Horario" || col === "Resultado") {
+  if (
+    col === "Local" ||
+    col === "Visitante" ||
+    col === "Fecha" ||
+    col === "Horario" ||
+    col === "Resultado"
+  ) {
     return multiKeySort(rows);
   }
 
@@ -171,14 +184,14 @@ function applyFilters(sourceRows) {
   // Admite separadores coma, punto y coma o barra vertical
   var teams = rawTeams
     .split(/[;,|]/)
-    .map(t => normalizeText(t.trim()))
+    .map((t) => normalizeText(t.trim()))
     .filter(Boolean);
 
   var from = document.getElementById("fromDate").value;
-  var to   = document.getElementById("toDate").value;
+  var to = document.getElementById("toDate").value;
 
   var fromTs = from ? dateStamp(from) : -Infinity;
-  var toTs   = to   ? dateStamp(to)   :  Infinity;
+  var toTs = to ? dateStamp(to) : Infinity;
 
   // Sin filtros → devolver todo
   if (teams.length === 0 && !from && !to) return sourceRows.slice();
@@ -216,7 +229,6 @@ function applyFilters(sourceRows) {
   return out;
 }
 
-
 /* =========================
    Render tabla + paginación
 ========================= */
@@ -235,7 +247,10 @@ function renderPagination(info) {
   var rangeInfo = document.getElementById("rangeInfo");
   if (!ul || !rangeInfo) return;
 
-  rangeInfo.textContent = info.total === 0 ? "" : "Mostrando " + (info.start + 1) + "–" + info.end + " de " + info.total;
+  rangeInfo.textContent =
+    info.total === 0
+      ? ""
+      : "Mostrando " + (info.start + 1) + "–" + info.end + " de " + info.total;
   ul.innerHTML = "";
 
   function addItem(label, page, disabled, aria) {
@@ -278,9 +293,15 @@ function renderPagination(info) {
     btn.className = "page-link";
     btn.type = "button";
     btn.textContent = String(p);
-    btn.addEventListener("click", (function (pageNum) {
-      return function () { __PAGE__ = pageNum; render(); };
-    })(p));
+    btn.addEventListener(
+      "click",
+      (function (pageNum) {
+        return function () {
+          __PAGE__ = pageNum;
+          render();
+        };
+      })(p)
+    );
     li.appendChild(btn);
     ul.appendChild(li);
   }
@@ -304,22 +325,30 @@ function renderTable(rows) {
     var r = rows[i];
     var tr = document.createElement("tr");
 
-    var order = ["Jornada", "Fecha", "Horario", "Local", "Resultado", "Visitante"];
-    for (var j = 0; j < order.length; j++) {
-      var k = order[j];
-      var td = document.createElement("td");
-      td.textContent = r[k] != null ? r[k] : "";
-      tr.appendChild(td);
-    }
+    var order = [
+      "Jornada",
+      "Fecha",
+      "Horario",
+      "Local",
+      "Resultado",
+      "Visitante",
+    ];
 
     var tdStar = document.createElement("td");
-    tdStar.style.width = "1%";
+    tdStar.style.width = "20px";
     var v = r.Horario || "";
     var mostrarAviso = v !== "" && !/^\d{2}:\d{2}$/.test(v);
     tdStar.textContent = mostrarAviso ? "*" : "";
     tdStar.style.color = "red";
     tdStar.style.textAlign = "left";
     tr.appendChild(tdStar);
+
+    for (var j = 0; j < order.length; j++) {
+      var k = order[j];
+      var td = document.createElement("td");
+      td.textContent = r[k] != null ? r[k] : "";
+      tr.appendChild(td);
+    }
 
     tbody.appendChild(tr);
   }
@@ -329,14 +358,18 @@ function renderTable(rows) {
   document.getElementById("emptyState").classList.toggle("d-none", hasRows);
   document.getElementById("count").classList.toggle("d-none", !hasRows);
   document.getElementById("advise").classList.toggle("d-none", !hasRows);
-  document.getElementById("exportAdvise").classList.toggle("d-none", !hasRows);
   document.getElementById("count").textContent =
-    __FILTERED_ROWS__.length + " " + (__FILTERED_ROWS__.length === 1 ? "partido" : "partidos");
+    __FILTERED_ROWS__.length +
+    " " +
+    (__FILTERED_ROWS__.length === 1 ? "partido" : "partidos");
 
   var exportWrapper = document.getElementById("exportWrapper");
   var exportBtn = document.getElementById("exportBtn");
   if (exportWrapper) exportWrapper.classList.toggle("d-none", !hasRows);
-  if (exportBtn) exportBtn.onclick = function () { exportToCalendar(__FILTERED_ROWS__); };
+  if (exportBtn)
+    exportBtn.onclick = function () {
+      exportToCalendar(__FILTERED_ROWS__);
+    };
 }
 
 /* =========================
@@ -365,11 +398,13 @@ function wireFilters() {
   document.getElementById("fromDate").addEventListener("input", onChange);
   document.getElementById("toDate").addEventListener("input", onChange);
 
-  document.getElementById("clearTeamBtn").addEventListener("click", function () {
-    document.getElementById("teamFilter").value = "";
-    __PAGE__ = 1;
-    render();
-  });
+  document
+    .getElementById("clearTeamBtn")
+    .addEventListener("click", function () {
+      document.getElementById("teamFilter").value = "";
+      __PAGE__ = 1;
+      render();
+    });
 
   document.getElementById("resetBtn").addEventListener("click", function () {
     document.getElementById("teamFilter").value = "";
@@ -402,7 +437,10 @@ function wireSorting() {
       if (th) {
         var ic = th.querySelector(".sort-icon");
         th.classList.add("active");
-        if (ic) ic.className = __SORT__.asc ? "bi sort-icon bi-arrow-up" : "bi sort-icon bi-arrow-down";
+        if (ic)
+          ic.className = __SORT__.asc
+            ? "bi sort-icon bi-arrow-up"
+            : "bi sort-icon bi-arrow-down";
       }
     }
   }
@@ -432,9 +470,14 @@ function wireSorting() {
       th.setAttribute("aria-disabled", "true");
       return;
     }
-    th.addEventListener("click", function () { handleSort(col); });
+    th.addEventListener("click", function () {
+      handleSort(col);
+    });
     th.addEventListener("keydown", function (e) {
-      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handleSort(col); }
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        handleSort(col);
+      }
     });
   }
 
@@ -447,17 +490,39 @@ function wireSorting() {
 ========================= */
 
 function generateICS(rows) {
-  function p2(n) { return (n < 10 ? "0" : "") + n; }
-  function fmtLocal(y, m, d, hh, mm, ss) { return "" + y + p2(m) + p2(d) + "T" + p2(hh) + p2(mm) + p2(ss); }
-  function parseYMD(ymd) { var p = (ymd || "").split("-"); return { y: +p[0], m: +p[1], d: +p[2] }; }
+  function p2(n) {
+    return (n < 10 ? "0" : "") + n;
+  }
+  function fmtLocal(y, m, d, hh, mm, ss) {
+    return "" + y + p2(m) + p2(d) + "T" + p2(hh) + p2(mm) + p2(ss);
+  }
+  function parseYMD(ymd) {
+    var p = (ymd || "").split("-");
+    return { y: +p[0], m: +p[1], d: +p[2] };
+  }
   function addHours(y, m, d, hh, mm, add) {
     var dt = new Date(Date.UTC(y, m - 1, d, hh, mm, 0));
     dt.setUTCHours(dt.getUTCHours() + add);
-    return { y: dt.getUTCFullYear(), m: dt.getUTCMonth() + 1, d: dt.getUTCDate(), hh: dt.getUTCHours(), mm: dt.getUTCMinutes(), ss: dt.getUTCSeconds() };
+    return {
+      y: dt.getUTCFullYear(),
+      m: dt.getUTCMonth() + 1,
+      d: dt.getUTCDate(),
+      hh: dt.getUTCHours(),
+      mm: dt.getUTCMinutes(),
+      ss: dt.getUTCSeconds(),
+    };
   }
   function fmtUTC(dt) {
-    return dt.getUTCFullYear() + p2(dt.getUTCMonth() + 1) + p2(dt.getUTCDate()) +
-           "T" + p2(dt.getUTCHours()) + p2(dt.getUTCMinutes()) + p2(dt.getUTCSeconds()) + "Z";
+    return (
+      dt.getUTCFullYear() +
+      p2(dt.getUTCMonth() + 1) +
+      p2(dt.getUTCDate()) +
+      "T" +
+      p2(dt.getUTCHours()) +
+      p2(dt.getUTCMinutes()) +
+      p2(dt.getUTCSeconds()) +
+      "Z"
+    );
   }
 
   var now = new Date();
@@ -499,9 +564,30 @@ function generateICS(rows) {
     ics += "DTSTAMP:" + dtstamp + "\n";
 
     if (hm) {
-      var startLocal = fmtLocal(ymdParts.y, ymdParts.m, ymdParts.d, hm.hh, hm.mm, 0);
-      var endParts = addHours(ymdParts.y, ymdParts.m, ymdParts.d, hm.hh, hm.mm, 2);
-      var endLocal = fmtLocal(endParts.y, endParts.m, endParts.d, endParts.hh, endParts.mm, endParts.ss);
+      var startLocal = fmtLocal(
+        ymdParts.y,
+        ymdParts.m,
+        ymdParts.d,
+        hm.hh,
+        hm.mm,
+        0
+      );
+      var endParts = addHours(
+        ymdParts.y,
+        ymdParts.m,
+        ymdParts.d,
+        hm.hh,
+        hm.mm,
+        2
+      );
+      var endLocal = fmtLocal(
+        endParts.y,
+        endParts.m,
+        endParts.d,
+        endParts.hh,
+        endParts.mm,
+        endParts.ss
+      );
       ics += "DTSTART;TZID=Europe/Madrid:" + startLocal + "\n";
       ics += "DTEND;TZID=Europe/Madrid:" + endLocal + "\n";
     } else {
@@ -559,13 +645,19 @@ function exportToCalendar(rows) {
     "valencia-cf",
     "villarreal-cf",
   ];
-  var files = TEAM_SLUGS.map(function (slug) { return "data/matches_" + slug + ".csv"; });
+  var files = TEAM_SLUGS.map(function (slug) {
+    return "data/matches_" + slug + ".csv";
+  });
 
   var i = 0;
   function next() {
     if (i >= files.length) return afterLoad();
     loadCSV(files[i])
-      .then(function (data) { __SOURCE_ROWS__ = __SOURCE_ROWS__.concat(data); i++; next(); })
+      .then(function (data) {
+        __SOURCE_ROWS__ = __SOURCE_ROWS__.concat(data);
+        i++;
+        next();
+      })
       .catch(function (e) {
         console.error(e);
         var loading = document.getElementById("loading");
@@ -582,7 +674,8 @@ function exportToCalendar(rows) {
     var unique = [];
     for (var k = 0; k < __SOURCE_ROWS__.length; k++) {
       var m = __SOURCE_ROWS__[k];
-      var key = (m.FechaISO || "") + "_" + (m.Local || "") + "_" + (m.Visitante || "");
+      var key =
+        (m.FechaISO || "") + "_" + (m.Local || "") + "_" + (m.Visitante || "");
       if (seen.has(key)) continue;
       seen.add(key);
       unique.push(m);
@@ -593,6 +686,7 @@ function exportToCalendar(rows) {
     wireSorting();
 
     document.getElementById("loading").classList.add("d-none");
+    document.getElementById("exportAdvise").classList.remove("d-none");
     __PAGE__ = 1;
     __SORT__ = { col: "multi", asc: true };
     render();
