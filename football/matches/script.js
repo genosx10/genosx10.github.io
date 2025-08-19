@@ -316,6 +316,7 @@ function renderPagination(info) {
   if (end < info.pages) addItem(String(info.pages), info.pages, false);
 
   addItem("»", info.page + 1, info.page >= info.pages, "Siguiente");
+  
 }
 
 function renderTable(rows) {
