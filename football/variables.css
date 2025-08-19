@@ -1,0 +1,137 @@
+:root,
+[data-bs-theme="light"]{
+  /* Marca moderna */
+  --brand-accent: #4f46e5; /* Indigo 600 */
+  --bs-blue: #4f46e5;      /* ≈ primary */
+  --bs-indigo: #6366f1;
+  --bs-purple: #7c3aed;
+  --bs-pink: #ec4899;
+  --bs-red: #ef4444;       /* danger */
+  --bs-orange: #fb923c;
+  --bs-yellow: #f59e0b;    /* warning */
+  --bs-green: #10b981;     /* success */
+  --bs-teal: #14b8a6;
+  --bs-cyan: #06b6d4;      /* info */
+
+  /* Neutros tipo "slate" */
+  --bs-black: #0b1220;
+  --bs-white: #ffffff;
+  --bs-gray-100: #f7f8fa;
+  --bs-gray-200: #eef1f5;
+  --bs-gray-300: #e3e7ee;
+  --bs-gray-400: #cfd6e0;
+  --bs-gray-500: #a8b1bd;
+  --bs-gray-600: #6b7280;  /* slate 500 */
+  --bs-gray-700: #4b5563;
+  --bs-gray-800: #334155;
+  --bs-gray-900: #1f2937;
+
+  /* Alias Bootstrap */
+  --bs-gray: var(--bs-gray-600);
+  --bs-gray-dark: var(--bs-gray-800);
+
+  /* Colores de intención */
+  --bs-primary: #4f46e5;
+  --bs-secondary: #64748b;  /* slate 500-600 */
+  --bs-success: #10b981;
+  --bs-info: #06b6d4;
+  --bs-warning: #f59e0b;
+  --bs-danger: #ef4444;
+  --bs-light: var(--bs-gray-100);
+  --bs-dark: #0f172a;
+
+  /* RGB (para transparencias Bootstrap) */
+  --bs-primary-rgb: 79,70,229;
+  --bs-secondary-rgb: 100,116,139;
+  --bs-success-rgb: 16,185,129;
+  --bs-info-rgb: 6,182,212;
+  --bs-warning-rgb: 245,158,11;
+  --bs-danger-rgb: 239,68,68;
+  --bs-light-rgb: 247,248,250;
+  --bs-dark-rgb: 15,23,42;
+
+  /* Emphasis / subtle (mejor contraste) */
+  --bs-primary-text-emphasis: #1e1b4b;
+  --bs-secondary-text-emphasis: #334155;
+  --bs-success-text-emphasis: #064e3b;
+  --bs-info-text-emphasis: #0b5562;
+  --bs-warning-text-emphasis: #7a4b06;
+  --bs-danger-text-emphasis: #7f1d1d;
+  --bs-light-text-emphasis: #475569;
+  --bs-dark-text-emphasis: #334155;
+
+  --bs-primary-bg-subtle: #e0e7ff;   /* indigo 100 */
+  --bs-secondary-bg-subtle: #e2e8f0; /* slate 200 */
+  --bs-success-bg-subtle: #d1fae5;   /* emerald 100 */
+  --bs-info-bg-subtle: #cffafe;      /* cyan 100 */
+  --bs-warning-bg-subtle: #fef3c7;   /* amber 100 */
+  --bs-danger-bg-subtle: #fee2e2;    /* rose 100 */
+  --bs-light-bg-subtle: var(--bs-gray-100);
+  --bs-dark-bg-subtle: #cbd5e1;
+
+  --bs-primary-border-subtle: #c7d2fe;
+  --bs-secondary-border-subtle: #cbd5e1;
+  --bs-success-border-subtle: #a7f3d0;
+  --bs-info-border-subtle: #a5f3fc;
+  --bs-warning-border-subtle: #fde68a;
+  --bs-danger-border-subtle: #fecaca;
+  --bs-light-border-subtle: var(--bs-gray-200);
+  --bs-dark-border-subtle: #94a3b8;
+
+  /* Tipografía/links */
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: #ffffff;
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: #3730a3;
+  --bs-code-color: var(--bs-pink);
+
+  /* Bordes/sombras */
+  --bs-border-color: var(--bs-gray-300);
+  --bs-border-color-translucent: rgba(15,23,42,.12);
+  --bs-box-shadow: 0 8px 24px rgba(2,6,23,.08);
+
+  /* Focus mejorado con color de marca */
+  --bs-focus-ring-color: rgba(79,70,229,.28);
+
+  /* Mantengo lo demás tal cual tu setup */
+}
+
+[data-bs-theme="dark"]{
+  color-scheme: dark;
+
+  --bs-body-bg: #0b1220;         /* noche profunda */
+  --bs-body-color: #e5e7eb;
+  --bs-emphasis-color: #fff;
+  --bs-secondary-color: rgba(229,231,235,.72);
+  --bs-secondary-bg: #121a2a;    /* contenedores */
+  --bs-tertiary-bg: #0f1626;     /* superficies */
+  --bs-border-color: #243249;
+
+  /* Marca en dark: un pelín más clara para contraste */
+  --bs-primary: #818cf8;
+  --bs-primary-rgb: 129,140,248;
+  --bs-link-color: #a5b4fc;
+  --bs-link-hover-color: #c7d2fe;
+
+  /* Subtle en dark: fondos oscuros con tinte */
+  --bs-primary-bg-subtle: #141837;
+  --bs-secondary-bg-subtle: #101826;
+  --bs-success-bg-subtle: #0b1f19;
+  --bs-info-bg-subtle: #0a1f25;
+  --bs-warning-bg-subtle: #1f1706;
+  --bs-danger-bg-subtle: #2a0f12;
+
+  --bs-primary-text-emphasis: #c7d2fe;
+  --bs-secondary-text-emphasis: #cbd5e1;
+  --bs-success-text-emphasis: #86efac;
+  --bs-info-text-emphasis: #67e8f9;
+  --bs-warning-text-emphasis: #fcd34d;
+  --bs-danger-text-emphasis: #fda4af;
+
+  --bs-primary-border-subtle: #2b2f58;
+  --bs-secondary-border-subtle: #1f2a3d;
+  --bs-success-border-subtle: #145c46;
+  --bs-info-border-subtle: #0f5563;
+  --bs-warning-border-subtle: #6e4d0d;
+  --bs-danger-border-subtle: #5f1b20;
+}
