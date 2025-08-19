@@ -1,55 +1,34 @@
-import requests
-import time
-import csv
-import re
-import random
+# file: fetch_api.py
 import os
+import re
+import csv
+import json
+import time
+import random
+import argparse
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import requests
 
 # =========================
-# CONFIGURACIÓN
+# CONFIG
 # =========================
-SEASON_YEAR = 2025
-SUBSCRIPTION_KEY = os.environ["SUBSCRIPTION_KEY"]
-BASE_URL = os.environ["BASE_URL"]
+SEASON_WEEKS = 38
+TZ_MADRID = ZoneInfo("Europe/Madrid")
 
-# Directorio de salida (relativo al repo)
-CSV_DIR = Path("./football/data")
+SUBSCRIPTION_KEY = os.environ.get("SUBSCRIPTION_KEY", "")
+BASE_WEEK_URL = os.environ.get("BASE_WEEK_URL","")
 
-# Zona horaria para formatear horarios
-TZ = ZoneInfo("Europe/Madrid")
+OUT_DIR_JSON = Path("football/data/json")
+OUT_DIR_CSV  = Path("football/data/csv")
+META_DIR     = Path("football/data/meta")
 
-# Abreviaturas de día (independientes del locale del SO)
 WEEKDAY_ABBR_ES = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 
-# Lista de equipos (slugs) a descargar
-TEAM_SLUGS = [
-    "athletic-club",
-    "atletico-de-madrid",
-    "c-a-osasuna",
-    "d-alaves",
-    "elche-c-f",
-    "fc-barcelona",
-    "getafe-cf",
-    "girona-fc",
-    "levante-ud",
-    "rayo-vallecano",
-    "rc-celta",
-    "rcd-espanyol",
-    "rcd-mallorca",
-    "real-betis",
-    "real-madrid",
-    "real-oviedo",
-    "real-sociedad",
-    "sevilla-fc",
-    "valencia-cf",
-    "villarreal-cf",
-]
 
 # =========================
-# UTILIDADES DE LIMPIEZA Y PARSEO
+# UTILIDADES
 # =========================
 def clean_team_name(name: str) -> str:
     if not name:
@@ -61,41 +40,18 @@ def clean_team_name(name: str) -> str:
     return name
 
 def parse_matches(obj):
-    if isinstance(obj, dict):
-        if isinstance(obj.get("matches"), list):
-            return obj["matches"]
-        if isinstance(obj.get("content"), list):
-            return obj["content"]
+    if isinstance(obj, dict) and isinstance(obj.get("matches"), list):
+        return obj["matches"]
     if isinstance(obj, list):
         return obj
     return []
-
-def get_competition_id(match) -> int | None:
-    comp = match.get("competition")
-    if isinstance(comp, dict) and "id" in comp:
-        return comp["id"]
-    tourn = match.get("tournament") or match.get("season") or {}
-    if isinstance(tourn, dict):
-        comp2 = tourn.get("competition") or {}
-        if isinstance(comp2, dict) and "id" in comp2:
-            return comp2["id"]
-    return None
-
-def jornada_number(gw: dict) -> str:
-    if not isinstance(gw, dict):
-        return ""
-    if gw.get("week") is not None:
-        return str(gw["week"])
-    name = gw.get("name") or gw.get("shortname") or ""
-    m = re.search(r"\d+", name)
-    return m.group(0) if m else ""
 
 def format_fecha_y_hora(iso_str: str) -> tuple[str, str]:
     if not iso_str:
         return ("", "--:--")
     try:
         dt_utc = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
-        dt_local = dt_utc.astimezone(TZ)
+        dt_local = dt_utc.astimezone(TZ_MADRID)
         weekday = WEEKDAY_ABBR_ES[dt_local.weekday()]
         fecha = f"{weekday} {dt_local.strftime('%d-%m-%Y')}"
         if dt_utc.hour == 0 and dt_utc.minute == 0 and dt_utc.second == 0:
@@ -108,101 +64,163 @@ def format_fecha_y_hora(iso_str: str) -> tuple[str, str]:
         return (fecha, "--:--")
 
 def resultado_partido(match) -> str:
-    """Devuelve 'X - Y' si el partido terminó (FullTime); si no, 'VS'."""
     status = match.get("status") or match.get("matchStatus")
     if status != "FullTime":
         return "VS"
-
     hs = match.get("home_score", match.get("homeScore"))
     as_ = match.get("away_score", match.get("awayScore"))
-
     if isinstance(hs, int) and isinstance(as_, int):
         return f"{hs} - {as_}"
     return "VS"
 
-def extract_row(match):
-    # Solo Primera División
-    comp_id = get_competition_id(match)
-    if comp_id != 1:
-        return None
-
-    jornada = jornada_number(match.get("gameweek") or {})
-
+def extract_row(match, week_label: str) -> list[str]:
     iso = match.get("date") or match.get("time") or ""
     fecha, hora = format_fecha_y_hora(iso)
-
     home = match.get("home_team") or match.get("homeTeam") or {}
     away = match.get("away_team") or match.get("awayTeam") or {}
     local = clean_team_name(home.get("nickname") or home.get("name") or "")
     visitante = clean_team_name(away.get("nickname") or away.get("name") or "")
-
     resultado = resultado_partido(match)
+    return [str(week_label), fecha, hora, local, resultado, visitante]
 
-    # Nueva estructura: Jornada, Fecha, Horario, Local, Resultado, Visitante
-    return [jornada, fecha, hora, local, resultado, visitante]
 
 # =========================
-# DESCARGA + CONVERSIÓN
+# META (Last-Modified)
 # =========================
-def fetch_team_matches(team_slug: str) -> dict:
-    params = {
-        "seasonYear": SEASON_YEAR,
-        "teamSlug": team_slug,
-        "limit": 100,
-        "orderField": "date",
-        "orderType": "asc",
-        "contentLanguage": "es",
-        "countryCode": "ES",
-        "subscription-key": SUBSCRIPTION_KEY,
-    }
-    resp = requests.get(BASE_URL, params=params, timeout=30)
+def _meta_path(week: int) -> Path:
+    META_DIR.mkdir(parents=True, exist_ok=True)
+    return META_DIR / f"week_{week}.lastmod"
+
+def _load_lastmod(week: int) -> str | None:
+    p = _meta_path(week)
+    return p.read_text().strip() if p.exists() else None
+
+def _save_lastmod(week: int, lastmod: str):
+    _meta_path(week).write_text(lastmod.strip(), encoding="utf-8")
+
+
+# =========================
+# FETCH SEMANA
+# =========================
+def fetch_week_json(week: int):
+    if not SUBSCRIPTION_KEY:
+        raise RuntimeError("Falta SUBSCRIPTION_KEY.")
+
+    url = f"{BASE_WEEK_URL}/week/{week}/matches"
+    params = {"contentLanguage": "es", "countryCode": "ES", "subscription-key": SUBSCRIPTION_KEY}
+    headers = {}
+
+    prev_lm = _load_lastmod(week)
+    if prev_lm:
+        headers["If-Modified-Since"] = prev_lm
+
+    resp = requests.get(url, params=params, headers=headers, timeout=30)
+
+    if resp.status_code == 304:
+        print(f"🔄 Semana {week}: sin cambios (If-Modified-Since).")
+        return None
+
     resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
 
-def write_matches_csv(data: dict, out_csv: Path):
-    matches = parse_matches(data)
-    with open(out_csv, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["Jornada", "Fecha", "Horario", "Local", "Resultado", "Visitante"])
+    new_lm = resp.headers.get("Last-Modified")
+    if new_lm:
+        _save_lastmod(week, new_lm)
+
+    return data
+
+
+# =========================
+# DETECCIÓN DE JORNADA
+# =========================
+def detect_current_week(now_madrid: datetime, window_days: int = 4) -> int:
+    for w in range(1, SEASON_WEEKS + 1):
+        try:
+            data = fetch_week_json(w)
+        except Exception:
+            continue
+        if not data:
+            continue
+        matches = parse_matches(data)
         for m in matches:
-            row = extract_row(m)
-            if row is not None:  # solo comp.id == 1
-                writer.writerow(row)
+            iso = m.get("date") or m.get("time")
+            if not iso:
+                continue
+            try:
+                dt = datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(TZ_MADRID)
+            except Exception:
+                continue
+            if abs((dt - now_madrid).total_seconds()) <= window_days * 86400:
+                return w
+    return 1
+
+
+# =========================
+# I/O
+# =========================
+def save_json(data: dict, week: int):
+    OUT_DIR_JSON.mkdir(parents=True, exist_ok=True)
+    path = OUT_DIR_JSON / f"matches_week_{week}.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    return path
+
+def save_csv(data: dict, week: int):
+    OUT_DIR_CSV.mkdir(parents=True, exist_ok=True)
+    path = OUT_DIR_CSV / f"matches_week_{week}.csv"
+    matches = parse_matches(data)
+    with open(path, "w", newline="", encoding="utf-8") as csvfile:
+        w = csv.writer(csvfile)
+        w.writerow(["Jornada", "Fecha", "Horario", "Local", "Resultado", "Visitante"])
+        for m in matches:
+            w.writerow(extract_row(m, str(week)))
+    return path
+
+
+# =========================
+# PROCESO POR SEMANA
+# =========================
+def process_week(week: int):
+    try:
+        data = fetch_week_json(week)
+    except Exception as e:
+        print(f"❌ Semana {week}: error al descargar: {e}")
+        return
+    if data is None:
+        return
+    p_json = save_json(data, week)
+    p_csv  = save_csv(data, week)
+    print(f"✅ Semana {week} guardada/actualizada: {p_json} | {p_csv}")
+
 
 # =========================
 # MAIN
 # =========================
 def main():
-    CSV_DIR.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser(description="Descarga jornadas (prev, actual, +3) con Last-Modified y genera JSON+CSV.")
+    parser.add_argument("--week", type=int, help="Forzar semana actual (1..38).")
+    args = parser.parse_args()
 
-    order = TEAM_SLUGS[:]
-    random.shuffle(order)
+    now_madrid = datetime.now(TZ_MADRID)
+    current = args.week if args.week else detect_current_week(now_madrid)
 
-    total = len(order)
+    weeks = []
+    if current > 1:
+        weeks.append(current - 1)
+    weeks.append(current)
+    for i in range(1, 4):  # 3 siguientes
+        if current + i <= SEASON_WEEKS:
+            weeks.append(current + i)
 
-    for i, slug in enumerate(order, start=1):
-        print(f"[{i}/{total}] Descargando: {slug}")
-        try:
-            data = fetch_team_matches(slug)
-        except requests.HTTPError as e:
-            status = e.response.status_code if e.response is not None else "?"
-            print(f"  ❌ Error HTTP {status} para {slug}: {e}")
-        except requests.RequestException as e:
-            print(f"  ❌ Error de red para {slug}: {e}")
-        else:
-            csv_path = CSV_DIR / f"matches_{slug}.csv"
-            try:
-                write_matches_csv(data, csv_path)
-                print(f"  ✅ CSV generado en: {csv_path}")
-            except Exception as e:
-                print(f"  ❌ Error al convertir a CSV para {slug}: {e}")
+    print(f"🗓️ Descargando semanas: {weeks}")
 
-        if i < total:
-            delay = random.randint(31, 50)
-            print(f"  ⏳ Esperando {delay}s antes de la próxima solicitud...")
+    for idx, w in enumerate(weeks):
+        process_week(w)
+        if idx < len(weeks) - 1:
+            delay = random.randint(35, 50)
+            print(f"⏳ Esperando {delay}s antes de la siguiente semana...")
             time.sleep(delay)
 
-    print("✅ Proceso completado.")
 
 if __name__ == "__main__":
     main()

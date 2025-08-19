@@ -620,63 +620,73 @@ function exportToCalendar(rows) {
 }
 
 /* =========================
-   Inicialización
+   Inicialización (semanas)
 ========================= */
 
 (function init() {
-  var TEAM_SLUGS = [
-    "athletic-club",
-    "atletico-de-madrid",
-    "c-a-osasuna",
-    "d-alaves",
-    "elche-c-f",
-    "fc-barcelona",
-    "getafe-cf",
-    "girona-fc",
-    "levante-ud",
-    "rayo-vallecano",
-    "rc-celta",
-    "rcd-espanyol",
-    "rcd-mallorca",
-    "real-betis",
-    "real-madrid",
-    "real-oviedo",
-    "real-sociedad",
-    "sevilla-fc",
-    "valencia-cf",
-    "villarreal-cf",
-  ];
-  var files = TEAM_SLUGS.map(function (slug) {
-    return "data/matches_" + slug + ".csv";
-  });
+  // Ajusta si cambias la ruta en tu build
+  var BASE_PATH = "data/";
+  var MAX_WEEKS = 38;
+
+  // Genera la lista de ficheros por jornada
+  var files = [];
+  for (var w = 1; w <= MAX_WEEKS; w++) {
+    files.push(BASE_PATH + "/csv/matches_week_" + w + ".csv");
+  }
+
+  var loading = document.getElementById("loading");
+  function setLoading(msg, isError) {
+    if (!loading) return;
+    loading.innerHTML = isError
+      ? '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>' +
+        msg +
+        "</span>"
+      : '<span class="text-muted">' + msg + "</span>";
+  }
 
   var i = 0;
+  var loaded = 0;
   function next() {
     if (i >= files.length) return afterLoad();
-    loadCSV(files[i])
+    var url = files[i];
+    setLoading("Cargando " + url + " … (" + (i + 1) + "/" + files.length + ")", false);
+
+    loadCSV(url)
       .then(function (data) {
-        __SOURCE_ROWS__ = __SOURCE_ROWS__.concat(data);
+        // Si el archivo existe pero viene vacío, lo ignoramos igualmente
+        if (Array.isArray(data) && data.length) {
+          __SOURCE_ROWS__ = __SOURCE_ROWS__.concat(data);
+          loaded++;
+        }
         i++;
         next();
       })
-      .catch(function (e) {
-        console.error(e);
-        var loading = document.getElementById("loading");
-        if (loading) {
-          loading.innerHTML =
-            '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>Error cargando datos</span>';
-        }
+      .catch(function () {
+        // 404 u otros errores: omitimos y continuamos
+        i++;
+        next();
       });
   }
 
   function afterLoad() {
-    // deduplicado simple
+    if (loaded === 0) {
+      setLoading("No se encontró ningún matches_week_*.csv", true);
+      return;
+    }
+
+    // Deduplicado ligero por si en el futuro se mezclan fuentes
     var seen = new Set();
     var unique = [];
     for (var k = 0; k < __SOURCE_ROWS__.length; k++) {
       var m = __SOURCE_ROWS__[k];
       var key =
-        (m.FechaISO || "") + "_" + (m.Local || "") + "_" + (m.Visitante || "");
+        (m.Jornada || "") +
+        "|" +
+        (m.FechaISO || "") +
+        "|" +
+        (m.Local || "") +
+        "|" +
+        (m.Visitante || "");
       if (seen.has(key)) continue;
       seen.add(key);
       unique.push(m);
@@ -686,7 +696,7 @@ function exportToCalendar(rows) {
     wireFilters();
     wireSorting();
 
-    document.getElementById("loading").classList.add("d-none");
+    if (loading) loading.classList.add("d-none");
     document.getElementById("exportAdvise").classList.remove("d-none");
     __PAGE__ = 1;
     __SORT__ = { col: "multi", asc: true };
