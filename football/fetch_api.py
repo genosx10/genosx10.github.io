@@ -18,11 +18,15 @@ SEASON_WEEKS = 38
 TZ_MADRID = ZoneInfo("Europe/Madrid")
 
 SUBSCRIPTION_KEY = os.environ.get("SUBSCRIPTION_KEY","")
-BASE_WEEK_URL = os.environ.get("BASE_WEEK_URL","")
+BASE_WEEK_URL_1 = os.environ.get("BASE_WEEK_URL_1","")
+BASE_WEEK_URL_2 = os.environ.get("BASE_WEEK_URL_2","")
 
-OUT_DIR_JSON = Path("football/data/json")
-OUT_DIR_CSV  = Path("football/data/csv")
-META_DIR     = Path("football/data/meta")
+OUT_DIR_JSON_1 = Path("football/data/laliga/json")
+OUT_DIR_JSON_2 = Path("football/data/laliga2/json")
+OUT_DIR_CSV_1  = Path("football/data/laliga/csv")
+OUT_DIR_CSV_2  = Path("football/data/laliga2/csv")
+META_DIR_1     = Path("football/data/laliga/meta")
+META_DIR_2     = Path("football/data/laliga2/meta")
 
 WEEKDAY_ABBR_ES = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 

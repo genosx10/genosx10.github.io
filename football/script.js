@@ -1,4 +1,3 @@
-
 /* =========================
    Utilidades
 ========================= */
@@ -93,6 +92,61 @@ var __FILTERED_ROWS__ = [];
 var __PAGE__ = 1;
 var __PAGE_SIZE__ = 10;
 var __SORT__ = { col: "multi", asc: true };
+var __WIRED__ = false;
+function ensureWired() {
+  if (!__WIRED__) {
+    wireFilters();
+    wireSorting();
+    __WIRED__ = true;
+  }
+}
+
+/* =========================
+   Caché en localStorage
+========================= */
+var CACHE_KEY = "laliga_matches_v1";
+var CACHE_MAX_AGE_MS = 1000 * 60 * 60 * 6; // 6 horas
+
+function canUseLocalStorage() {
+  try {
+    var k = "__test__";
+    localStorage.setItem(k, "1");
+    localStorage.removeItem(k);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function saveCache(rows) {
+  if (!canUseLocalStorage()) return;
+  try {
+    localStorage.setItem(
+      CACHE_KEY,
+      JSON.stringify({ ts: Date.now(), rows: rows })
+    );
+  } catch (_) {}
+}
+
+function loadCache() {
+  if (!canUseLocalStorage()) return null;
+  try {
+    var raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    var obj = JSON.parse(raw);
+    if (!obj || !Array.isArray(obj.rows)) return null;
+    return obj;
+  } catch (_) {
+    return null;
+  }
+}
+
+function clearCache() {
+  if (!canUseLocalStorage()) return;
+  try {
+    localStorage.removeItem(CACHE_KEY);
+  } catch (_) {}
+}
 
 /* =========================
    Ordenación
@@ -316,7 +370,6 @@ function renderPagination(info) {
   if (end < info.pages) addItem(String(info.pages), info.pages, false);
 
   addItem("»", info.page + 1, info.page >= info.pages, "Siguiente");
-  
 }
 
 function renderTable(rows) {
@@ -349,6 +402,7 @@ function renderTable(rows) {
       var k = order[j];
       var td = document.createElement("td");
       td.textContent = r[k] != null ? r[k] : "";
+      td.classList.add("text-truncate");
       tr.appendChild(td);
     }
 
@@ -516,6 +570,9 @@ function generateICS(rows) {
     };
   }
   function fmtUTC(dt) {
+    function p2(n) {
+      return (n < 10 ? "0" : "") + n;
+    }
     return (
       dt.getUTCFullYear() +
       p2(dt.getUTCMonth() + 1) +
@@ -594,9 +651,21 @@ function generateICS(rows) {
       ics += "DTSTART;TZID=Europe/Madrid:" + startLocal + "\n";
       ics += "DTEND;TZID=Europe/Madrid:" + endLocal + "\n";
     } else {
-      var d0 = "" + ymdParts.y + p2(ymdParts.m) + p2(ymdParts.d);
+      var d0 =
+        "" +
+        ymdParts.y +
+        (ymdParts.m < 10 ? "0" : "") +
+        ymdParts.m +
+        (ymdParts.d < 10 ? "0" : "") +
+        ymdParts.d;
       var endDay = addHours(ymdParts.y, ymdParts.m, ymdParts.d, 0, 0, 24);
-      var d1 = "" + endDay.y + p2(endDay.m) + p2(endDay.d);
+      var d1 =
+        "" +
+        endDay.y +
+        (endDay.m < 10 ? "0" : "") +
+        endDay.m +
+        (endDay.d < 10 ? "0" : "") +
+        endDay.d;
       ics += "DTSTART;VALUE=DATE:" + d0 + "\n";
       ics += "DTEND;VALUE=DATE:" + d1 + "\n";
     }
@@ -622,18 +691,124 @@ function exportToCalendar(rows) {
 }
 
 /* =========================
+   NUEVO: detección de jornada "actual"
+========================= */
+
+// YYYY-MM-DD local de "hoy"
+function todayYMD() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = (d.getMonth() + 1).toString().padStart(2, "0");
+  const day = d.getDate().toString().padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+// Devuelve la jornada que corresponde a "hoy" según rangos min–max por jornada
+function detectCurrentJornada(rows, todayTs) {
+  // Construir rangos por jornada (min y max válidos)
+  var map = new Map(); // j -> {min, max}
+  for (var i = 0; i < rows.length; i++) {
+    var r = rows[i];
+    var j = parseInt(r.Jornada) || 0;
+    var ts = dateStamp(r.FechaISO);
+    if (isNaN(ts) || j <= 0) continue;
+    var cur = map.get(j);
+    if (!cur) {
+      map.set(j, { min: ts, max: ts });
+    } else {
+      if (ts < cur.min) cur.min = ts;
+      if (ts > cur.max) cur.max = ts;
+    }
+  }
+
+  // Pasar a lista ordenada por jornada
+  var ranges = Array.from(map.entries())
+    .map(function ([j, rng]) {
+      return { j: j, min: rng.min, max: rng.max };
+    })
+    .sort(function (a, b) {
+      return a.j - b.j;
+    });
+
+  if (ranges.length === 0) return 1; // fallback
+
+  // Antes de la primera jornada → 1
+  if (todayTs <= ranges[0].min) return ranges[0].j;
+
+  for (var k = 0; k < ranges.length; k++) {
+    var r = ranges[k];
+    if (todayTs >= r.min && todayTs <= r.max) {
+      return r.j; // estamos dentro
+    }
+    if (todayTs < r.min) {
+      return r.j; // estamos antes de que empiece: próxima jornada
+    }
+  }
+
+  // Después de la última → última
+  return ranges[ranges.length - 1].j;
+}
+
+// Dada la jornada elegida, calcula la página inicial para que aparezca esa jornada
+function pageForJornada(rows, jornada, pageSize) {
+  var sorted = multiKeySort(rows);
+  var idx = -1;
+  for (var i = 0; i < sorted.length; i++) {
+    var j = parseInt(sorted[i].Jornada) || 0;
+    if (j === jornada) {
+      idx = i;
+      break;
+    }
+  }
+  if (idx === -1) return 1;
+  return Math.floor(idx / pageSize) + 1;
+}
+
+/* =========================
+   Generar Jornadas
+========================= */
+
+function generateRounds() {
+  let ddRoundsMenu = document.getElementById("dropdownRoundsMenu");
+
+  for (let i = 1; i <= 38; i++) {
+    let ddRoundsLi = document.createElement("li");
+    let ddRoundsBtn = document.createElement("button");
+
+    ddRoundsLi.appendChild(ddRoundsBtn);
+    ddRoundsBtn.id = `r${i}`;
+    ddRoundsBtn.textContent = `Jornada ${i}`;
+    ddRoundsBtn.classList.add("dropdown-item");
+
+    ddRoundsMenu.appendChild(ddRoundsLi);
+  }
+}
+
+function selectRound() {
+  let ddRoundsMenu = document.getElementById("dropdownRoundsMenu");
+  let ddMenuBtn = document.getElementById("dropdownMenuBtn");
+  ddRoundsMenu.addEventListener("click", (e) => {
+    if (e.target.id != "r") {
+      document.getElementById("r").classList.remove("d-none");
+      ddMenuBtn.textContent = e.target.textContent;
+    } else {
+      document.getElementById("r").classList.add("d-none");
+      ddMenuBtn.textContent = e.target.textContent;
+    }
+  });
+}
+/* =========================
    Inicialización (semanas)
 ========================= */
 
 (function init() {
   // Ajusta si cambias la ruta en tu build
-  var BASE_PATH = "../data/";
   var MAX_WEEKS = 38;
 
   // Genera la lista de ficheros por jornada
   var files = [];
   for (var w = 1; w <= MAX_WEEKS; w++) {
-    files.push(BASE_PATH + "/csv/matches_week_" + w + ".csv");
+    files.push("/football/data/laliga/csv/matches_week_" + w + ".csv");
   }
 
   var loading = document.getElementById("loading");
@@ -645,13 +820,47 @@ function exportToCalendar(rows) {
         "</span>"
       : '<span class="text-muted">' + msg + "</span>";
   }
+  // 🔹 Intentar servir desde caché
+  var cached = loadCache();
+  var haveFreshCache =
+    cached &&
+    typeof cached.ts === "number" &&
+    Date.now() - cached.ts < CACHE_MAX_AGE_MS;
+
+  if (haveFreshCache && Array.isArray(cached.rows) && cached.rows.length) {
+    __SOURCE_ROWS__ = cached.rows.slice(); // ya normalizados
+    ensureWired();
+
+    if (loading) loading.classList.add("d-none");
+    document.getElementById("exportAdvise").classList.remove("d-none");
+
+    __SORT__ = { col: "multi", asc: true };
+
+    var hoyYMD = todayYMD();
+    var hoyTs = dateStamp(hoyYMD);
+    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
+    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
+
+    render();
+
+    generateRounds();
+  selectRound();
+
+    // Opcional: muestra que se está refrescando en segundo plano
+    setLoading("Actualizando datos…", false);
+  } else {
+    setLoading("Cargando calendario…", false);
+  }
 
   var i = 0;
   var loaded = 0;
   function next() {
     if (i >= files.length) return afterLoad();
     var url = files[i];
-    setLoading("Cargando " + url + " … (" + (i + 1) + "/" + files.length + ")", false);
+    setLoading(
+      "Cargando " + url + " … (" + (i + 1) + "/" + files.length + ")",
+      false
+    );
 
     loadCSV(url)
       .then(function (data) {
@@ -695,13 +904,45 @@ function exportToCalendar(rows) {
     }
     __SOURCE_ROWS__ = unique;
 
-    wireFilters();
-    wireSorting();
+    // 🔹 Guardar en caché (deduplicado ya aplicado)
+    saveCache(__SOURCE_ROWS__);
+
+    ensureWired();
 
     if (loading) loading.classList.add("d-none");
     document.getElementById("exportAdvise").classList.remove("d-none");
-    __PAGE__ = 1;
+
+    // =========================
+    // Mantener lógica de jornada/página por defecto
+    // =========================
     __SORT__ = { col: "multi", asc: true };
+
+    var hoyYMD = todayYMD();
+    var hoyTs = dateStamp(hoyYMD);
+    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
+    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
+
+    render();
+
+    wireFilters();
+    wireSorting();
+
+    generateRounds();
+  selectRound();
+
+    if (loading) loading.classList.add("d-none");
+    document.getElementById("exportAdvise").classList.remove("d-none");
+
+    // =========================
+    // NUEVO: fijar jornada/página por defecto según "hoy"
+    // =========================
+    __SORT__ = { col: "multi", asc: true }; // asegurar orden Jornada → Fecha → Hora
+
+    var hoyYMD = todayYMD();
+    var hoyTs = dateStamp(hoyYMD);
+    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
+    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
+
     render();
   }
 
