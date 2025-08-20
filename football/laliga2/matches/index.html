@@ -135,7 +135,7 @@
       </div>
     </div>
   </nav>
-  <main class="container py-3 py-md-4">
+  <main id="app" data-data-dir="/football/data/laliga2/csv" data-page-size="11" class="container py-3 py-md-4">
     <!-- FILTROS -->
     <section class="mb-3">
       <div class="collapse show d-md-block" id="filtersCollapse">
@@ -290,7 +290,9 @@
     <!-- define wireFilters/wireSorting -->
     <script defer src="/football/js/calendar.js"></script>
     <script defer src="/football/js/rounds.js"></script>
-     <script defer src="/football/js/jornada.js"></script>
+    <script defer src="/football/js/jornada.js"></script>
+    <script defer src="/football/js/data-source.js"></script>
+    <script defer src="/football/js/pages/laliga.matches.bootstrap.js"></script>
     <script defer src="/football/js/init.js"></script>
     <!-- define ensureWired y ejecuta init() al final -->
 

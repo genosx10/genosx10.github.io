@@ -1,8 +1,8 @@
 /* =========================
-   Inicialización (semanas)
+   Estado global + helpers
 ========================= */
 
-// init.js (al principio del archivo)
+// Estado compartido
 window.__SOURCE_ROWS__ = [];
 window.__FILTERED_ROWS__ = [];
 window.__PAGE__ = 1;
@@ -10,11 +10,137 @@ window.__PAGE_SIZE__ = 10;
 window.__SORT__ = { col: "multi", asc: true };
 window.__WIRED__ = false;
 
-// Asegura que wireFilters() y wireSorting() existan (events.js debe haberse cargado antes)
+// Evita FOUC: lanzamos boot() tras window.load
+function boot() {
+  window.__PAGE_SIZE__ = resolvePageSize();
+  // 1) Resolver de dónde leer los CSV de esta página
+  const { baseDir, maxWeeks } = resolvePageDataConfig();
+  const files = buildWeekFiles(baseDir, maxWeeks);
+
+  // 2) Cargar desde caché SOLO si coincide el baseDir (namespaced)
+  const loading = document.getElementById("loading");
+  function setLoading(msg, isError) {
+    if (!loading) return;
+    loading.innerHTML = isError
+      ? '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>' + msg + "</span>"
+      : '<span class="text-muted">' + msg + "</span>";
+  }
+
+  // Mostrar algo mientras resolvemos
+  if (!baseDir || files.length === 0) {
+    setLoading("No se pudo resolver la carpeta de datos.", true);
+    console.error("[init] No CSV files resolved.", { baseDir, maxWeeks, files });
+    return;
+  }
+
+  const SIX_HOURS = 1000 * 60 * 60 * 6;
+  const cached = typeof loadCache === "function" ? loadCache(baseDir) : null;
+  const haveFreshCache = cached && typeof cached.ts === "number" && (Date.now() - cached.ts) < SIX_HOURS;
+
+  if (haveFreshCache) {
+    // Pinta rápido desde caché
+    window.__SOURCE_ROWS__ = cached.rows.slice();
+    ensureWired();
+    hideLoading();
+    showExportAdvise();
+
+    // Orden por defecto y jornada/página por hoy
+    window.__SORT__ = { col: "multi", asc: true };
+    const hoyTs = dateStamp(todayYMD());
+    const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
+    window.__PAGE__ = pageForJornada(window.__SOURCE_ROWS__, jActual, window.__PAGE_SIZE__);
+    render();
+
+    generateRounds();
+    selectRound();
+
+    // Indica que refrescamos en background
+    setLoading("Actualizando datos…", false);
+  } else {
+    setLoading("Cargando calendario…", false);
+  }
+
+  // 3) Carga real (en serie) de los CSV declarados para esta página
+  let i = 0;
+  let loaded = 0;
+
+  function next() {
+    if (i >= files.length) return afterLoad();
+    const url = files[i];
+
+    setLoading(`Cargando ${url} … (${i + 1}/${files.length})`, false);
+
+    loadCSV(url)
+      .then((data) => {
+        if (Array.isArray(data) && data.length) {
+          window.__SOURCE_ROWS__ = window.__SOURCE_ROWS__.concat(data);
+          loaded++;
+        }
+        i++;
+        next();
+      })
+      .catch(() => {
+        // 404 u otros errores: omitimos y seguimos
+        i++;
+        next();
+      });
+  }
+
+  function afterLoad() {
+    if (loaded === 0 && !haveFreshCache) {
+      setLoading("No se encontró ningún matches_week_*.csv", true);
+      return;
+    }
+
+    // Deduplicado ligero por si hay mezcla de fuentes
+    const seen = new Set();
+    const unique = [];
+    for (let k = 0; k < window.__SOURCE_ROWS__.length; k++) {
+      const m = window.__SOURCE_ROWS__[k];
+      const key = (m.Jornada || "") + "|" + (m.FechaISO || "") + "|" + (m.Local || "") + "|" + (m.Visitante || "");
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push(m);
+    }
+    window.__SOURCE_ROWS__ = unique;
+
+    // Guardar en caché NAMESPACED por baseDir
+    if (typeof saveCache === "function") {
+      saveCache(window.__SOURCE_ROWS__, baseDir);
+    }
+
+    ensureWired();
+    hideLoading();
+    showExportAdvise();
+
+    // Orden y jornada por defecto según "hoy"
+    window.__SORT__ = { col: "multi", asc: true };
+    const hoyTs = dateStamp(todayYMD());
+    const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
+    window.__PAGE__ = pageForJornada(window.__SOURCE_ROWS__, jActual, window.__PAGE_SIZE__);
+
+    render();
+    generateRounds();
+    selectRound();
+  }
+
+  next();
+
+  // Helpers visuales
+  function hideLoading() {
+    if (loading) loading.classList.add("d-none");
+  }
+  function showExportAdvise() {
+    const el = document.getElementById("exportAdvise");
+    if (el) el.classList.remove("d-none");
+  }
+}
+
+// Asegura que los event handlers están conectados una sola vez
 window.ensureWired = function ensureWired() {
   if (!window.__WIRED__) {
     if (typeof wireFilters !== "function" || typeof wireSorting !== "function") {
-      console.error("Faltan wireFilters o wireSorting. ¿Se cargó /football/js/events.js antes?");
+      console.error("[init] Missing wireFilters/wireSorting. Check /football/js/events.js load order.");
       return;
     }
     wireFilters();
@@ -23,150 +149,76 @@ window.ensureWired = function ensureWired() {
   }
 };
 
-(function init() {
-  // Ajusta si cambias la ruta en tu build
-  var MAX_WEEKS = 38;
+/* =========================
+   Resolución de origen de datos
+========================= */
 
-  // Genera la lista de ficheros por jornada
-  var files = [];
-  for (var w = 1; w <= MAX_WEEKS; w++) {
-    files.push("/football/data/laliga/csv/matches_week_" + w + ".csv");
+// Lee de <main id="app" data-data-dir="..." data-max-weeks="...">
+function configFromDom() {
+  const el = document.querySelector("#app[data-data-dir]");
+  if (!el) return null;
+  const baseDir = el.dataset.dataDir || "";
+  const maxWeeks = parseInt(el.dataset.maxWeeks || "38", 10);
+  if (!baseDir) return null;
+  return { baseDir, maxWeeks };
+}
+
+// Infiera desde la URL: /football/<liga>/matches/... -> /football/data/<liga>/csv
+function inferFromPath(pathname = location.pathname) {
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length >= 3 && parts[0] === "football" && parts[2] === "matches") {
+    const league = parts[1];
+    return { baseDir: `/football/data/${league}/csv`, maxWeeks: 38 };
+  }
+  return null;
+}
+
+function resolvePageDataConfig() {
+  if (window.APP_CONFIG?.baseDir) {
+    return { baseDir: window.APP_CONFIG.baseDir, maxWeeks: window.APP_CONFIG.maxWeeks || 38 };
+  }
+  return configFromDom() || inferFromPath() || { baseDir: "", maxWeeks: 0 };
+}
+
+function buildWeekFiles(baseDir, maxWeeks) {
+  const files = [];
+  for (let w = 1; w <= maxWeeks; w++) {
+    files.push(`${baseDir}/matches_week_${w}.csv`);
+  }
+  return files;
+}
+// Determina PAGE_SIZE según la URL o data attributes
+function resolvePageSize(pathname = location.pathname) {
+  // Prioridad 1: atributo en DOM, si lo quieres forzar desde HTML
+  const el = document.querySelector("#app[data-page-size]");
+  if (el && el.dataset.pageSize) {
+    const n = parseInt(el.dataset.pageSize, 10);
+    if (!Number.isNaN(n) && n > 0) return n;
   }
 
-  var loading = document.getElementById("loading");
-  function setLoading(msg, isError) {
-    if (!loading) return;
-    loading.innerHTML = isError
-      ? '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>' +
-        msg +
-        "</span>"
-      : '<span class="text-muted">' + msg + "</span>";
-  }
-  // 🔹 Intentar servir desde caché
-  var cached = loadCache();
-  var haveFreshCache =
-    cached &&
-    typeof cached.ts === "number" &&
-    Date.now() - cached.ts < CACHE_MAX_AGE_MS;
-
-  if (haveFreshCache && Array.isArray(cached.rows) && cached.rows.length) {
-    __SOURCE_ROWS__ = cached.rows.slice(); // ya normalizados
-    ensureWired();
-
-    if (loading) loading.classList.add("d-none");
-    document.getElementById("exportAdvise").classList.remove("d-none");
-
-    __SORT__ = { col: "multi", asc: true };
-
-    var hoyYMD = todayYMD();
-    var hoyTs = dateStamp(hoyYMD);
-    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
-    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
-
-    render();
-
-    generateRounds();
-  selectRound();
-
-    // Opcional: muestra que se está refrescando en segundo plano
-    setLoading("Actualizando datos…", false);
-  } else {
-    setLoading("Cargando calendario…", false);
+  // Prioridad 2: inferir por ruta /football/<liga>/matches.html
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length >= 3 && parts[0] === "football" && parts[2].startsWith("matches")) {
+    const league = parts[1];
+    const sizes = {
+      laliga: 10,
+      laliga2: 11,
+      // añade más ligas si las necesitas
+    };
+    return sizes[league] ?? 10;
   }
 
-  var i = 0;
-  var loaded = 0;
-  function next() {
-    if (i >= files.length) return afterLoad();
-    var url = files[i];
-    setLoading(
-      "Cargando " + url + " … (" + (i + 1) + "/" + files.length + ")",
-      false
-    );
+  // Fallback
+  return 10;
+}
 
-    loadCSV(url)
-      .then(function (data) {
-        // Si el archivo existe pero viene vacío, lo ignoramos igualmente
-        if (Array.isArray(data) && data.length) {
-          __SOURCE_ROWS__ = __SOURCE_ROWS__.concat(data);
-          loaded++;
-        }
-        i++;
-        next();
-      })
-      .catch(function () {
-        // 404 u otros errores: omitimos y continuamos
-        i++;
-        next();
-      });
-  }
+/* =========================
+   Arranque controlado
+========================= */
 
-  function afterLoad() {
-    if (loaded === 0) {
-      setLoading("No se encontró ningún matches_week_*.csv", true);
-      return;
-    }
-
-    // Deduplicado ligero por si en el futuro se mezclan fuentes
-    var seen = new Set();
-    var unique = [];
-    for (var k = 0; k < __SOURCE_ROWS__.length; k++) {
-      var m = __SOURCE_ROWS__[k];
-      var key =
-        (m.Jornada || "") +
-        "|" +
-        (m.FechaISO || "") +
-        "|" +
-        (m.Local || "") +
-        "|" +
-        (m.Visitante || "");
-      if (seen.has(key)) continue;
-      seen.add(key);
-      unique.push(m);
-    }
-    __SOURCE_ROWS__ = unique;
-
-    // 🔹 Guardar en caché (deduplicado ya aplicado)
-    saveCache(__SOURCE_ROWS__);
-
-    ensureWired();
-
-    if (loading) loading.classList.add("d-none");
-    document.getElementById("exportAdvise").classList.remove("d-none");
-
-    // =========================
-    // Mantener lógica de jornada/página por defecto
-    // =========================
-    __SORT__ = { col: "multi", asc: true };
-
-    var hoyYMD = todayYMD();
-    var hoyTs = dateStamp(hoyYMD);
-    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
-    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
-
-    render();
-
-    wireFilters();
-    wireSorting();
-
-    generateRounds();
-  selectRound();
-
-    if (loading) loading.classList.add("d-none");
-    document.getElementById("exportAdvise").classList.remove("d-none");
-
-    // =========================
-    // NUEVO: fijar jornada/página por defecto según "hoy"
-    // =========================
-    __SORT__ = { col: "multi", asc: true }; // asegurar orden Jornada → Fecha → Hora
-
-    var hoyYMD = todayYMD();
-    var hoyTs = dateStamp(hoyYMD);
-    var jActual = detectCurrentJornada(__SOURCE_ROWS__, hoyTs);
-    __PAGE__ = pageForJornada(__SOURCE_ROWS__, jActual, __PAGE_SIZE__);
-
-    render();
-  }
-
-  next();
-})();
+if (document.readyState === "complete") {
+  boot();
+} else {
+  // ejecuta cuando TODO (incluidas CSS) está cargado → menos FOUC y medidas coherentes
+  window.addEventListener("load", boot, { once: true });
+}
