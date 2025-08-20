@@ -1,33 +1,66 @@
+// flags globales simples
+window.__ROUNDS_BUILT__ = false;
+window.__ROUNDS_WIRED__ = false;
+
 /* =========================
    Generar Jornadas
 ========================= */
-
 function generateRounds() {
-  let ddRoundsMenu = document.getElementById("dropdownRoundsMenu");
+  const ddRoundsMenu = document.getElementById("dropdownRoundsMenu");
+  if (!ddRoundsMenu) return;
 
-  for (let i = 1; i <= 38; i++) {
-    let ddRoundsLi = document.createElement("li");
-    let ddRoundsBtn = document.createElement("button");
-
-    ddRoundsLi.appendChild(ddRoundsBtn);
-    ddRoundsBtn.id = `r${i}`;
-    ddRoundsBtn.textContent = `Jornada ${i}`;
-    ddRoundsBtn.classList.add("dropdown-item");
-
-    ddRoundsMenu.appendChild(ddRoundsLi);
+  // Limpia todo menos el primer <li> (el botón "reset" con id="r")
+  while (ddRoundsMenu.children.length > 1) {
+    ddRoundsMenu.removeChild(ddRoundsMenu.lastElementChild);
   }
+
+  // Asegura que el botón "Jornada" (id="r") sirve para limpiar
+  const resetBtn = document.getElementById("r");
+  if (resetBtn) {
+    resetBtn.setAttribute("data-value", ""); // limpiar
+    resetBtn.textContent = "Jornada";        // texto del botón limpiar
+  }
+
+  // Repobla de forma determinista
+  for (let i = 1; i <= 38; i++) {
+    const li = document.createElement("li");
+    const btn = document.createElement("button");
+    btn.className = "dropdown-item";
+    btn.setAttribute("data-value", String(i));
+    btn.textContent = `Jornada ${i}`;
+    li.appendChild(btn);
+    ddRoundsMenu.appendChild(li);
+  }
+
+  window.__ROUNDS_BUILT__ = true;
 }
 
 function selectRound() {
-  let ddRoundsMenu = document.getElementById("dropdownRoundsMenu");
-  let ddMenuBtn = document.getElementById("dropdownMenuBtn");
-  ddRoundsMenu.addEventListener("click", (e) => {
-    if (e.target.id != "r") {
-      document.getElementById("r").classList.remove("d-none");
-      ddMenuBtn.textContent = e.target.textContent;
+  if (window.__ROUNDS_WIRED__) return; // evita listeners duplicados
+
+  const menu = document.getElementById("dropdownRoundsMenu");
+  const ddMenuBtn = document.getElementById("dropdownMenuBtn");
+  const resetBtn = document.getElementById("r");
+  if (!menu || !ddMenuBtn || !resetBtn) return;
+
+  menu.addEventListener("click", (e) => {
+    const el = e.target.closest("button.dropdown-item");
+    if (!el) return;
+
+    const val = el.getAttribute("data-value");
+    if (val) {
+      window.__ROUND__ = parseInt(val, 10);
+      ddMenuBtn.textContent = el.textContent; // "Jornada X"
+      resetBtn.classList.remove("d-none");
     } else {
-      document.getElementById("r").classList.add("d-none");
-      ddMenuBtn.textContent = e.target.textContent;
+      window.__ROUND__ = null;
+      ddMenuBtn.textContent = "Jornada";
+      resetBtn.classList.add("d-none");
     }
+
+    __PAGE__ = 1;
+    render();
   });
+
+  window.__ROUNDS_WIRED__ = true;
 }

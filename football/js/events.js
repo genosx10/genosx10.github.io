@@ -20,6 +20,11 @@ function wireFilters() {
     document.getElementById("teamFilter").value = "";
     document.getElementById("fromDate").value = "";
     document.getElementById("toDate").value = "";
+    document.getElementById("dropdownMenuBtn").textContent = "Jornada";
+    document.getElementById("r").classList.add("d-none");
+
+    window.__ROUND__ = null; // 🟢 importante
+
     __SORT__ = { col: "multi", asc: true };
     __PAGE__ = 1;
     render();

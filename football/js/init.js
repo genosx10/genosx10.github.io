@@ -9,7 +9,7 @@ window.__PAGE__ = 1;
 window.__PAGE_SIZE__ = 10;
 window.__SORT__ = { col: "multi", asc: true };
 window.__WIRED__ = false;
-
+window.__ROUND__ = null;
 // Evita FOUC: lanzamos boot() tras window.load
 function boot() {
   window.__PAGE_SIZE__ = resolvePageSize();
@@ -22,20 +22,29 @@ function boot() {
   function setLoading(msg, isError) {
     if (!loading) return;
     loading.innerHTML = isError
-      ? '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>' + msg + "</span>"
+      ? '<span class="text-danger"><i class="bi bi-exclamation-triangle-fill me-1"></i>' +
+        msg +
+        "</span>"
       : '<span class="text-muted">' + msg + "</span>";
   }
 
   // Mostrar algo mientras resolvemos
   if (!baseDir || files.length === 0) {
     setLoading("No se pudo resolver la carpeta de datos.", true);
-    console.error("[init] No CSV files resolved.", { baseDir, maxWeeks, files });
+    console.error("[init] No CSV files resolved.", {
+      baseDir,
+      maxWeeks,
+      files,
+    });
     return;
   }
 
   const SIX_HOURS = 1000 * 60 * 60 * 6;
   const cached = typeof loadCache === "function" ? loadCache(baseDir) : null;
-  const haveFreshCache = cached && typeof cached.ts === "number" && (Date.now() - cached.ts) < SIX_HOURS;
+  const haveFreshCache =
+    cached &&
+    typeof cached.ts === "number" &&
+    Date.now() - cached.ts < SIX_HOURS;
 
   if (haveFreshCache) {
     // Pinta rápido desde caché
@@ -48,7 +57,11 @@ function boot() {
     window.__SORT__ = { col: "multi", asc: true };
     const hoyTs = dateStamp(todayYMD());
     const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
-    window.__PAGE__ = pageForJornada(window.__SOURCE_ROWS__, jActual, window.__PAGE_SIZE__);
+    window.__PAGE__ = pageForJornada(
+      window.__SOURCE_ROWS__,
+      jActual,
+      window.__PAGE_SIZE__
+    );
     render();
 
     generateRounds();
@@ -97,7 +110,14 @@ function boot() {
     const unique = [];
     for (let k = 0; k < window.__SOURCE_ROWS__.length; k++) {
       const m = window.__SOURCE_ROWS__[k];
-      const key = (m.Jornada || "") + "|" + (m.FechaISO || "") + "|" + (m.Local || "") + "|" + (m.Visitante || "");
+      const key =
+        (m.Jornada || "") +
+        "|" +
+        (m.FechaISO || "") +
+        "|" +
+        (m.Local || "") +
+        "|" +
+        (m.Visitante || "");
       if (seen.has(key)) continue;
       seen.add(key);
       unique.push(m);
@@ -117,7 +137,11 @@ function boot() {
     window.__SORT__ = { col: "multi", asc: true };
     const hoyTs = dateStamp(todayYMD());
     const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
-    window.__PAGE__ = pageForJornada(window.__SOURCE_ROWS__, jActual, window.__PAGE_SIZE__);
+    window.__PAGE__ = pageForJornada(
+      window.__SOURCE_ROWS__,
+      jActual,
+      window.__PAGE_SIZE__
+    );
 
     render();
     generateRounds();
@@ -139,8 +163,13 @@ function boot() {
 // Asegura que los event handlers están conectados una sola vez
 window.ensureWired = function ensureWired() {
   if (!window.__WIRED__) {
-    if (typeof wireFilters !== "function" || typeof wireSorting !== "function") {
-      console.error("[init] Missing wireFilters/wireSorting. Check /football/js/events.js load order.");
+    if (
+      typeof wireFilters !== "function" ||
+      typeof wireSorting !== "function"
+    ) {
+      console.error(
+        "[init] Missing wireFilters/wireSorting. Check /football/js/events.js load order."
+      );
       return;
     }
     wireFilters();
@@ -175,7 +204,10 @@ function inferFromPath(pathname = location.pathname) {
 
 function resolvePageDataConfig() {
   if (window.APP_CONFIG?.baseDir) {
-    return { baseDir: window.APP_CONFIG.baseDir, maxWeeks: window.APP_CONFIG.maxWeeks || 38 };
+    return {
+      baseDir: window.APP_CONFIG.baseDir,
+      maxWeeks: window.APP_CONFIG.maxWeeks || 38,
+    };
   }
   return configFromDom() || inferFromPath() || { baseDir: "", maxWeeks: 0 };
 }
@@ -198,7 +230,11 @@ function resolvePageSize(pathname = location.pathname) {
 
   // Prioridad 2: inferir por ruta /football/<liga>/matches.html
   const parts = pathname.split("/").filter(Boolean);
-  if (parts.length >= 3 && parts[0] === "football" && parts[2].startsWith("matches")) {
+  if (
+    parts.length >= 3 &&
+    parts[0] === "football" &&
+    parts[2].startsWith("matches")
+  ) {
     const league = parts[1];
     const sizes = {
       laliga: 10,
