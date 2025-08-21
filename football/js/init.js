@@ -13,11 +13,16 @@ window.__ROUND__ = null;
 // Evita FOUC: lanzamos boot() tras window.load
 function boot() {
   window.__PAGE_SIZE__ = resolvePageSize();
-  // 1) Resolver de dónde leer los CSV de esta página
-  const { baseDir, maxWeeks } = resolvePageDataConfig();
-  const files = buildWeekFiles(baseDir, maxWeeks);
+  const { baseDir } = resolvePageDataConfig();
 
-  // 2) Cargar desde caché SOLO si coincide el baseDir (namespaced)
+  // Define el archivo JSON principal según la liga
+  let jsonFile = "";
+  if (baseDir.includes("laliga2")) {
+    jsonFile = "/football/data/laliga2/matches_laliga2.json";
+  } else {
+    jsonFile = "/football/data/laliga/matches_laliga.json";
+  }
+
   const loading = document.getElementById("loading");
   function setLoading(msg, isError) {
     if (!loading) return;
@@ -28,129 +33,37 @@ function boot() {
       : '<span class="text-muted">' + msg + "</span>";
   }
 
-  // Mostrar algo mientras resolvemos
-  if (!baseDir || files.length === 0) {
-    setLoading("No se pudo resolver la carpeta de datos.", true);
-    console.error("[init] No CSV files resolved.", {
-      baseDir,
-      maxWeeks,
-      files,
-    });
+  if (!jsonFile) {
+    setLoading("No se pudo resolver el fichero de datos.", true);
     return;
   }
 
-  const SIX_HOURS = 1000 * 60 * 60 * 6;
-  const cached = typeof loadCache === "function" ? loadCache(baseDir) : null;
-  const haveFreshCache =
-    cached &&
-    typeof cached.ts === "number" &&
-    Date.now() - cached.ts < SIX_HOURS;
+  setLoading("Cargando calendario…", false);
 
-  if (haveFreshCache) {
-    // Pinta rápido desde caché
-    window.__SOURCE_ROWS__ = cached.rows.slice();
-    ensureWired();
-    hideLoading();
-    showExportAdvise();
+  // Carga el JSON principal
+  loadJSON(jsonFile)
+    .then((data) => {
+      window.__SOURCE_ROWS__ = Array.isArray(data) ? data : [];
+      ensureWired();
+      hideLoading();
+      showExportAdvise();
 
-    // Orden por defecto y jornada/página por hoy
-    window.__SORT__ = { col: "multi", asc: true };
-    const hoyTs = dateStamp(todayYMD());
-    const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
-    window.__PAGE__ = pageForJornada(
-      window.__SOURCE_ROWS__,
-      jActual,
-      window.__PAGE_SIZE__
-    );
-    render();
+      window.__SORT__ = { col: "multi", asc: true };
+      const hoyTs = dateStamp(todayYMD());
+      const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
+      window.__PAGE__ = pageForJornada(
+        window.__SOURCE_ROWS__,
+        jActual,
+        window.__PAGE_SIZE__
+      );
+      render();
+      generateRounds();
+      selectRound();
+    })
+    .catch(() => {
+      setLoading("No se pudo cargar el calendario.", true);
+    });
 
-    generateRounds();
-    selectRound();
-
-    // Indica que refrescamos en background
-    setLoading("Actualizando datos…", false);
-  } else {
-    setLoading("Cargando calendario…", false);
-  }
-
-  // 3) Carga real (en serie) de los CSV declarados para esta página
-  let i = 0;
-  let loaded = 0;
-
-  function next() {
-    if (i >= files.length) return afterLoad();
-    const url = files[i];
-
-    setLoading(`Cargando ${url} … (${i + 1}/${files.length})`, false);
-
-    loadCSV(url)
-      .then((data) => {
-        if (Array.isArray(data) && data.length) {
-          window.__SOURCE_ROWS__ = window.__SOURCE_ROWS__.concat(data);
-          loaded++;
-        }
-        i++;
-        next();
-      })
-      .catch(() => {
-        // 404 u otros errores: omitimos y seguimos
-        i++;
-        next();
-      });
-  }
-
-  function afterLoad() {
-    if (loaded === 0 && !haveFreshCache) {
-      setLoading("No se encontró ningún matches_week_*.csv", true);
-      return;
-    }
-
-    // Deduplicado ligero por si hay mezcla de fuentes
-    const seen = new Set();
-    const unique = [];
-    for (let k = 0; k < window.__SOURCE_ROWS__.length; k++) {
-      const m = window.__SOURCE_ROWS__[k];
-      const key =
-        (m.Jornada || "") +
-        "|" +
-        (m.FechaISO || "") +
-        "|" +
-        (m.Local || "") +
-        "|" +
-        (m.Visitante || "");
-      if (seen.has(key)) continue;
-      seen.add(key);
-      unique.push(m);
-    }
-    window.__SOURCE_ROWS__ = unique;
-
-    // Guardar en caché NAMESPACED por baseDir
-    if (typeof saveCache === "function") {
-      saveCache(window.__SOURCE_ROWS__, baseDir);
-    }
-
-    ensureWired();
-    hideLoading();
-    showExportAdvise();
-
-    // Orden y jornada por defecto según "hoy"
-    window.__SORT__ = { col: "multi", asc: true };
-    const hoyTs = dateStamp(todayYMD());
-    const jActual = detectCurrentJornada(window.__SOURCE_ROWS__, hoyTs);
-    window.__PAGE__ = pageForJornada(
-      window.__SOURCE_ROWS__,
-      jActual,
-      window.__PAGE_SIZE__
-    );
-
-    render();
-    generateRounds();
-    selectRound();
-  }
-
-  next();
-
-  // Helpers visuales
   function hideLoading() {
     if (loading) loading.classList.add("d-none");
   }
