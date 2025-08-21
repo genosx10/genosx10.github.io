@@ -24,8 +24,6 @@ BASE_WEEK_URL_2 = os.environ.get("BASE_WEEK_URL_2", "")
 
 OUT_DIR_JSON_1 = Path("football/data/laliga/json")
 OUT_DIR_JSON_2 = Path("football/data/laliga2/json")
-OUT_DIR_CSV_1  = Path("football/data/laliga/csv")
-OUT_DIR_CSV_2  = Path("football/data/laliga2/csv")
 META_DIR_1     = Path("football/data/laliga/meta")
 META_DIR_2     = Path("football/data/laliga2/meta")
 
@@ -40,7 +38,6 @@ class LeagueConfig:
     name: str                 # etiqueta para logs: "LaLiga", "LaLiga2", etc.
     base_week_url: str        # BASE_WEEK_URL_X
     out_dir_json: Path        # OUT_DIR_JSON_X
-    out_dir_csv: Path         # OUT_DIR_CSV_X
     meta_dir: Path            # META_DIR_X
 
 
@@ -122,8 +119,8 @@ def _save_lastmod(cfg: LeagueConfig, week: int, lastmod: str):
 # =========================
 def _outputs_exist(cfg: LeagueConfig, week: int) -> bool:
     j = cfg.out_dir_json / f"matches_week_{week}.json"
-    c = cfg.out_dir_csv  / f"matches_week_{week}.csv"
-    return j.exists() and c.exists()
+    # c = cfg.out_dir_csv  / f"matches_week_{week}.csv"
+    return j.exists()
 
 
 # =========================
@@ -205,22 +202,48 @@ def save_json(cfg: LeagueConfig, data: dict, week: int):
         json.dump(data, f, ensure_ascii=False, indent=2)
     return path
 
-def save_csv(cfg: LeagueConfig, data: dict, week: int):
-    cfg.out_dir_csv.mkdir(parents=True, exist_ok=True)
-    path = cfg.out_dir_csv / f"matches_week_{week}.csv"
-    matches = parse_matches(data)
-    with open(path, "w", newline="", encoding="utf-8") as csvfile:
-        w = csv.writer(csvfile)
-        w.writerow(["Jornada", "Fecha", "Horario", "Local", "Resultado", "Visitante"])
-        for m in matches:
-            w.writerow(extract_row(m, str(week)))
-    return path
+def update_main_json(cfg: LeagueConfig, main_json_path: Path):
+    """
+    Combina todos los archivos matches_week_{n}.json en un único archivo main_json_path.
+    Conserva las jornadas existentes si no hay datos nuevos.
+    Solo sobrescribe si hay cambios.
+    """
+    # Cargar el contenido actual si existe
+    if main_json_path.exists():
+        with open(main_json_path, "r", encoding="utf-8") as f:
+            current = json.load(f)
+    else:
+        current = {}
 
+    all_weeks = dict(current)  # Copia actual
 
-# =========================
-# PROCESO POR SEMANA por liga
-# =========================
-def process_week(cfg: LeagueConfig, week: int):
+    for week in range(1, SEASON_WEEKS + 1):
+        week_path = cfg.out_dir_json / f"matches_week_{week}.json"
+        if week_path.exists():
+            with open(week_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                matches = parse_matches(data)
+                all_weeks[str(week)] = []
+                for m in matches:
+                    row = extract_row(m, str(week))
+                    all_weeks[str(week)].append({
+                        "Jornada": int(row[0]),
+                        "Fecha": row[1],
+                        "Horario": row[2],
+                        "Local": row[3],
+                        "Resultado": row[4],
+                        "Visitante": row[5]
+                    })
+        # Si no existe el archivo, conserva lo que ya había en current
+
+    # Solo sobrescribe si hay cambios
+    if current == all_weeks:
+        print(f"🟢 Sin cambios en {main_json_path.name}, no se sobrescribe.")
+        return
+    with open(main_json_path, "w", encoding="utf-8") as f:
+        json.dump(all_weeks, f, ensure_ascii=False, indent=2)
+    print(f"🟡 {main_json_path.name} actualizado.")
+def process_week(cfg: LeagueConfig, week: int, main_json_path: Path = None):
     try:
         data = fetch_week_json(cfg, week, use_cache=True, write_meta=True)
     except Exception as e:
@@ -228,7 +251,6 @@ def process_week(cfg: LeagueConfig, week: int):
         return
 
     if data is None:
-        # 304 Not Modified. Si faltan salidas locales, forzamos un GET sin caché para crearlas.
         if not _outputs_exist(cfg, week):
             print(f"⚠️  [{cfg.name}] Semana {week}: 304 pero faltan archivos locales; forzando descarga completa...")
             try:
@@ -237,12 +259,14 @@ def process_week(cfg: LeagueConfig, week: int):
                 print(f"❌ [{cfg.name}] Semana {week}: error al forzar descarga: {e}")
                 return
         else:
-            return  # ya existen JSON/CSV, nada que hacer
+            return
 
     p_json = save_json(cfg, data, week)
-    p_csv  = save_csv(cfg, data, week)
-    print(f"✅ [{cfg.name}] Semana {week} guardada/actualizada: {p_json} | {p_csv}")
+    print(f"✅ [{cfg.name}] Semana {week} guardada/actualizada: {p_json}")
 
+    # Actualiza el archivo principal si se indica la ruta
+    if main_json_path:
+        update_main_json(cfg, main_json_path)
 
 # =========================
 # SECUENCIA COMPLETA POR LIGA
@@ -265,13 +289,20 @@ def process_league(cfg: LeagueConfig, forced_week: int | None, sleep_between_wee
 
     print(f"🗓️ [{cfg.name}] Descargando semanas: {weeks}")
 
+    # Definir ruta del archivo principal en el directorio correcto
+    if cfg.name == "LaLiga":
+        main_json_path = Path("football/data/laliga/matches_laliga.json")
+    elif cfg.name == "LaLiga2":
+        main_json_path = Path("football/data/laliga2/matches_laliga2.json")
+    else:
+        main_json_path = None
+
     for idx, w in enumerate(weeks):
-        process_week(cfg, w)
+        process_week(cfg, w, main_json_path=main_json_path)
         if idx < len(weeks) - 1:
             delay = random.randint(*sleep_between_weeks)
             print(f"⏳ [{cfg.name}] Esperando {delay}s antes de la siguiente semana...")
             time.sleep(delay)
-
 
 # =========================
 # MAIN
@@ -290,14 +321,14 @@ def main():
         name="LaLiga",
         base_week_url=BASE_WEEK_URL_1,
         out_dir_json=OUT_DIR_JSON_1,
-        out_dir_csv=OUT_DIR_CSV_1,
+       #  out_dir_csv=OUT_DIR_CSV_1,
         meta_dir=META_DIR_1,
     )
     league2 = LeagueConfig(
         name="LaLiga2",
         base_week_url=BASE_WEEK_URL_2,
         out_dir_json=OUT_DIR_JSON_2,
-        out_dir_csv=OUT_DIR_CSV_2,
+        # out_dir_csv=OUT_DIR_CSV_2,
         meta_dir=META_DIR_2,
     )
 

@@ -1,0 +1,3118 @@
+{
+  "1": [
+    {
+      "Jornada": 1,
+      "Fecha": "Vie 15-08-2025",
+      "Horario": "19:00",
+      "Local": "Girona FC",
+      "Resultado": "1 - 3",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Vie 15-08-2025",
+      "Horario": "21:30",
+      "Local": "Villarreal CF",
+      "Resultado": "2 - 0",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "19:30",
+      "Local": "RCD Mallorca",
+      "Resultado": "0 - 3",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "21:30",
+      "Local": "Deportivo Alavés",
+      "Resultado": "2 - 1",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "21:30",
+      "Local": "Valencia CF",
+      "Resultado": "1 - 1",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "17:00",
+      "Local": "Celta",
+      "Resultado": "0 - 2",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "19:30",
+      "Local": "Athletic Club",
+      "Resultado": "3 - 2",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "21:30",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "2 - 1",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Lun 18-08-2025",
+      "Horario": "21:00",
+      "Local": "Elche CF",
+      "Resultado": "1 - 1",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Mar 19-08-2025",
+      "Horario": "21:00",
+      "Local": "Real Madrid",
+      "Resultado": "1 - 0",
+      "Visitante": "CA Osasuna"
+    }
+  ],
+  "2": [
+    {
+      "Jornada": 2,
+      "Fecha": "Vie 22-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "17:00",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "19:30",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "21:30",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "17:00",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "19:30",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "19:30",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Lun 25-08-2025",
+      "Horario": "19:30",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Lun 25-08-2025",
+      "Horario": "21:30",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    }
+  ],
+  "3": [
+    {
+      "Jornada": 3,
+      "Fecha": "Vie 29-08-2025",
+      "Horario": "19:30",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Vie 29-08-2025",
+      "Horario": "21:30",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "17:00",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "19:00",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "19:30",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "17:00",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "19:00",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "19:30",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "21:30",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    }
+  ],
+  "4": [
+    {
+      "Jornada": 4,
+      "Fecha": "Vie 12-09-2025",
+      "Horario": "21:00",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "14:00",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:15",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "14:00",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "18:30",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Lun 15-09-2025",
+      "Horario": "21:00",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    }
+  ],
+  "5": [
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    }
+  ],
+  "6": [
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 27-08-2025",
+      "Horario": "21:00",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Mié 24-09-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    }
+  ],
+  "7": [
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    }
+  ],
+  "8": [
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    }
+  ],
+  "9": [
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    }
+  ],
+  "10": [
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    }
+  ],
+  "11": [
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    }
+  ],
+  "12": [
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    }
+  ],
+  "13": [
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    }
+  ],
+  "14": [
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    }
+  ],
+  "15": [
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    }
+  ],
+  "16": [
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    }
+  ],
+  "17": [
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    }
+  ],
+  "18": [
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    }
+  ],
+  "19": [
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    }
+  ],
+  "20": [
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    }
+  ],
+  "21": [
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    }
+  ],
+  "22": [
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    }
+  ],
+  "23": [
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    }
+  ],
+  "24": [
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    }
+  ],
+  "25": [
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    }
+  ],
+  "26": [
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    }
+  ],
+  "27": [
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    }
+  ],
+  "28": [
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    }
+  ],
+  "29": [
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    }
+  ],
+  "30": [
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    }
+  ],
+  "31": [
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    }
+  ],
+  "32": [
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    }
+  ],
+  "33": [
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 22-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    }
+  ],
+  "34": [
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    }
+  ],
+  "35": [
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 10-05-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    }
+  ],
+  "36": [
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Mié 13-05-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    }
+  ],
+  "37": [
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    }
+  ],
+  "38": [
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    }
+  ]
+}

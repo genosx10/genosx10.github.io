@@ -1,0 +1,3422 @@
+{
+  "1": [
+    {
+      "Jornada": 1,
+      "Fecha": "Vie 15-08-2025",
+      "Horario": "21:30",
+      "Local": "Burgos CF",
+      "Resultado": "5 - 1",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Vie 15-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Valladolid CF",
+      "Resultado": "3 - 0",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "17:00",
+      "Local": "R. Racing Club",
+      "Resultado": "3 - 1",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "19:30",
+      "Local": "Málaga CF",
+      "Resultado": "1 - 1",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "21:30",
+      "Local": "Granada CF",
+      "Resultado": "1 - 3",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "17:00",
+      "Local": "R. Sociedad B",
+      "Resultado": "1 - 0",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "19:30",
+      "Local": "Cádiz CF",
+      "Resultado": "1 - 0",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "21:30",
+      "Local": "SD Huesca",
+      "Resultado": "1 - 1",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "21:30",
+      "Local": "UD Las Palmas",
+      "Resultado": "1 - 1",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Lun 18-08-2025",
+      "Horario": "19:00",
+      "Local": "Real Sporting",
+      "Resultado": "2 - 1",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Lun 18-08-2025",
+      "Horario": "21:30",
+      "Local": "UD Almería",
+      "Resultado": "4 - 4",
+      "Visitante": "Albacete BP"
+    }
+  ],
+  "2": [
+    {
+      "Jornada": 2,
+      "Fecha": "Vie 22-08-2025",
+      "Horario": "19:30",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Vie 22-08-2025",
+      "Horario": "21:30",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Vie 22-08-2025",
+      "Horario": "21:30",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "17:00",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "19:00",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "17:00",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "19:30",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "21:30",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Lun 25-08-2025",
+      "Horario": "19:30",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Lun 25-08-2025",
+      "Horario": "21:30",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    }
+  ],
+  "3": [
+    {
+      "Jornada": 3,
+      "Fecha": "Vie 29-08-2025",
+      "Horario": "19:30",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Vie 29-08-2025",
+      "Horario": "21:30",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "17:00",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "19:00",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "21:30",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "17:00",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "17:00",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "19:30",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "21:30",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Lun 01-09-2025",
+      "Horario": "19:30",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Lun 01-09-2025",
+      "Horario": "21:30",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    }
+  ],
+  "4": [
+    {
+      "Jornada": 4,
+      "Fecha": "Vie 05-09-2025",
+      "Horario": "19:30",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Vie 05-09-2025",
+      "Horario": "21:30",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 06-09-2025",
+      "Horario": "16:15",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 06-09-2025",
+      "Horario": "18:30",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 06-09-2025",
+      "Horario": "21:00",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 07-09-2025",
+      "Horario": "14:00",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 07-09-2025",
+      "Horario": "16:15",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 07-09-2025",
+      "Horario": "16:15",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 07-09-2025",
+      "Horario": "18:30",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 07-09-2025",
+      "Horario": "18:30",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Lun 08-09-2025",
+      "Horario": "20:30",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "5": [
+    {
+      "Jornada": 5,
+      "Fecha": "Vie 12-09-2025",
+      "Horario": "20:30",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:15",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:15",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "18:30",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "21:00",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "14:00",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "16:15",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "18:30",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "18:30",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "21:00",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Lun 15-09-2025",
+      "Horario": "20:30",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    }
+  ],
+  "6": [
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    }
+  ],
+  "7": [
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "8": [
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    }
+  ],
+  "9": [
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "10": [
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "11": [
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "12": [
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    }
+  ],
+  "13": [
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 09-11-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "14": [
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    }
+  ],
+  "15": [
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "16": [
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "17": [
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "18": [
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "19": [
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "20": [
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "21": [
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "22": [
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    }
+  ],
+  "23": [
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    }
+  ],
+  "24": [
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "25": [
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Dom 08-02-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    }
+  ],
+  "26": [
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Dom 15-02-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    }
+  ],
+  "27": [
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Dom 22-02-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    }
+  ],
+  "28": [
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Dom 01-03-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "29": [
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Dom 08-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    }
+  ],
+  "30": [
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Dom 15-03-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "31": [
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Dom 22-03-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "32": [
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Dom 29-03-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "33": [
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Mié 01-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    }
+  ],
+  "34": [
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Dom 05-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    }
+  ],
+  "35": [
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Dom 12-04-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    }
+  ],
+  "36": [
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Dom 19-04-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    }
+  ],
+  "37": [
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "R. Racing Club"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 26-04-2026",
+      "Horario": "--:--",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    }
+  ],
+  "38": [
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 03-05-2026",
+      "Horario": "--:--",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    }
+  ]
+}
