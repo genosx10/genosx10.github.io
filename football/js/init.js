@@ -105,7 +105,7 @@ function configFromDom() {
   return { baseDir, maxWeeks };
 }
 
-// Infiera desde la URL: /football/<liga>/matches/... -> /football/data/<liga>/csv
+// Infiera desde la URL: /football/<liga>/matches/... -> /football/data/<liga>/
 function inferFromPath(pathname = location.pathname) {
   const parts = pathname.split("/").filter(Boolean);
   if (parts.length >= 3 && parts[0] === "football" && parts[2] === "matches") {
