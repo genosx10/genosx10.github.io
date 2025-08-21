@@ -145,41 +145,54 @@
           </div>
           <div class="card-body">
             <div class="row g-3 align-items-top">
+              <div>
+                <button class="btn bg-success-subtle text-success-emphasis border border-success-subtle active"
+                  id="teamDateBtn">
+                  Por Equipo y Fecha
+                </button>
+                <button class="btn bg-body text-body-secondary border" id="roundBtn">
+                  Por Jornada
+                </button>
+              </div>
               <!-- Equipo -->
-              <div class="col-12 col-md-12 col-lg-6">
-                <label for="teamFilter" class="form-label fw-semibold">Equipo/s</label>
-                <div class="input-group">
-                  <span class="input-group-text text-success">
-                    <i class="bi bi-people-fill"></i>
-                  </span>
-                  <input type="text" id="teamFilter" class="form-control"
-                    placeholder="p. ej., FC Barcelona, Sevilla FC..." inputmode="search" autocomplete="off" />
-                  <button id="clearTeamBtn" class="btn btn-outline-secondary" type="button" aria-label="Borrar equipo"
-                    title="Borrar equipo">
-                    <i class="bi bi-x-lg"></i>
-                  </button>
-                  <button id="resetBtn" class="btn btn-outline-danger" type="button" title="Limpiar todos los filtros">
-                    <i class="bi bi-eraser-fill me-1"></i> Limpiar
-                  </button>
+              <div class="row g-3 align-items-top" id="teamsDate">
+                <div class="col-12 col-md-12 col-lg-6">
+                  <label for="teamFilter" class="form-label fw-semibold">Equipo/s</label>
+                  <div class="input-group">
+                    <span class="input-group-text text-success">
+                      <i class="bi bi-people-fill"></i>
+                    </span>
+                    <input type="text" id="teamFilter" class="form-control"
+                      placeholder="p. ej., Cádiz CF, Real Zaragoza..." inputmode="search" autocomplete="off" />
+                    <button id="clearTeamBtn" class="btn btn-outline-secondary" type="button" aria-label="Borrar equipo"
+                      title="Borrar equipo">
+                      <i class="bi bi-x-lg"></i>
+                    </button>
+                    <button id="resetBtn" class="btn btn-outline-danger" type="button"
+                      title="Limpiar todos los filtros">
+                      <i class="bi bi-eraser-fill me-1"></i> Limpiar
+                    </button>
+                  </div>
+                  <div class="form-text mt-2">
+                    Escribe los equipos que quieras, puedes acotar por fecha.
+                  </div>
                 </div>
-                <div class="form-text mt-2">
-                  Escribe los equipos que quieras, puedes acotar por fecha.
+
+                <!-- Fechas -->
+                <div class="col-6 col-md-6 col-lg-3">
+                  <label for="fromDate" class="form-label fw-semibold">Desde</label>
+                  <input type="date" id="fromDate" class="form-control" min="2025-08-14" max="2026-05-25" />
+                </div>
+                <div class="col-6 col-md-6 col-lg-3">
+                  <label for="toDate" class="form-label fw-semibold">Hasta</label>
+                  <input type="date" id="toDate" class="form-control" min="2025-08-16" max="2026-05-25" />
                 </div>
               </div>
 
-              <!-- Fechas -->
-              <div class="col-6 col-md-6 col-lg-3">
-                <label for="fromDate" class="form-label fw-semibold">Desde</label>
-                <input type="date" id="fromDate" class="form-control" min="2025-08-14" max="2026-05-25" />
-              </div>
-              <div class="col-6 col-md-6 col-lg-3">
-                <label for="toDate" class="form-label fw-semibold">Hasta</label>
-                <input type="date" id="toDate" class="form-control" min="2025-08-16" max="2026-05-25" />
-              </div>
 
               <!-- Jornada -->
-              <div class="dropdown">
-                <button class="btn btn-md btn-primary dropdown-toggle" id="dropdownMenuBtn" type="button"
+              <div class="dropdown d-none" id="rounds">
+                <button class="btn btn-md border shadow-sm dropdown-toggle" id="dropdownMenuBtn" type="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Jornada
                 </button>
@@ -294,11 +307,11 @@
   <script defer src="/football/js/data-source.js"></script>
   <script defer src="/football/js/pages/laliga.matches.bootstrap.js"></script>
   <script defer src="/football/js/init.js"></script>
+  <script defer src="/football/js/filtersBtns.js"></script>
   <!-- define ensureWired y ejecuta init() al final -->
 
   <script defer src="/football/js/theme.js"></script>
   <script defer src="/football/js/navigation.js"></script>
-</body>
 </body>
 
 </html>

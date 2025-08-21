@@ -20,7 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SUBSCRIPTION_KEY: ${{ secrets.SUBSCRIPTION_KEY }}
-      BASE_WEEK_URL: ${{ secrets.BASE_WEEK_URL }}
+      BASE_WEEK_URL_1: ${{ secrets.BASE_WEEK_URL_1 }}
+      BASE_WEEK_URL_2: ${{ secrets.BASE_WEEK_URL_2 }}
       PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4

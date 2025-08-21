@@ -137,15 +137,24 @@
   </nav>
   <main id="app" data-data-dir="/football/data/laliga/csv" data-page-size="10" class="container py-3 py-md-4">
     <!-- FILTROS -->
-    <section class="mb-3">
-      <div class="collapse show d-md-block" id="filtersCollapse">
-        <div class="card border-0 shadow-sm">
-          <div class="card-header bg-primary-subtle text-primary fw-semibold">
-            <i class="bi bi-funnel me-1"></i> Filtros
-          </div>
-          <div class="card-body">
-            <div class="row g-3 align-items-top">
-              <!-- Equipo -->
+    <div class="collapse show d-md-block" id="filtersCollapse">
+      <div class="card border-0 shadow-sm">
+        <div class="card-header bg-primary-subtle text-primary fw-semibold">
+          <i class="bi bi-funnel me-1"></i> Filtros
+        </div>
+        <div class="card-body">
+          <div class="row g-3 align-items-top">
+            <div>
+              <button class="btn bg-success-subtle text-success-emphasis border border-success-subtle"
+                id="teamDateBtn">
+                Por Equipo y Fecha
+              </button>
+              <button class="btn bg-body text-body-secondary border" id="roundBtn">
+                Por Jornada
+              </button>
+            </div>
+            <!-- Equipo -->
+            <div class="row g-3 align-items-top" id="teamsDate">
               <div class="col-12 col-md-12 col-lg-6">
                 <label for="teamFilter" class="form-label fw-semibold">Equipo/s</label>
                 <div class="input-group">
@@ -176,21 +185,23 @@
                 <label for="toDate" class="form-label fw-semibold">Hasta</label>
                 <input type="date" id="toDate" class="form-control" min="2025-08-16" max="2026-05-25" />
               </div>
+            </div>
 
-              <!-- Jornada -->
-              <div class="dropdown">
-                <button class="btn btn-md btn-primary dropdown-toggle" id="dropdownMenuBtn" type="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Jornada
-                </button>
-                <ul class="dropdown-menu" id="dropdownRoundsMenu">
-                  <li><button class="dropdown-item d-none" id="r">Jornada</button></li>
-                </ul>
-              </div>
+
+            <!-- Jornada -->
+            <div class="dropdown d-none" id="rounds">
+              <button class="btn btn-md border shadow-sm dropdown-toggle" id="dropdownMenuBtn" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Jornada
+              </button>
+              <ul class="dropdown-menu" id="dropdownRoundsMenu">
+                <li><button class="dropdown-item d-none" id="r">Jornada</button></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <!-- CONTADOR / ESTADOS -->
@@ -280,7 +291,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Tu lógica -->
-  <!-- Utilidades y módulos -->
   <script defer src="/football/js/utils.js"></script>
   <script defer src="/football/js/csv.js"></script>
   <script defer src="/football/js/cache.js"></script>
@@ -293,10 +303,9 @@
   <script defer src="/football/js/rounds.js"></script>
   <script defer src="/football/js/jornada.js"></script>
   <script defer src="/football/js/data-source.js"></script>
-
   <script defer src="/football/js/pages/laliga.matches.bootstrap.js"></script>
-
   <script defer src="/football/js/init.js"></script>
+  <script defer src="/football/js/filtersBtns.js"></script>
   <!-- define ensureWired y ejecuta init() al final -->
 
   <script defer src="/football/js/theme.js"></script>
