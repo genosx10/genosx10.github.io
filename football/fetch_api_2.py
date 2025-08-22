@@ -18,6 +18,7 @@ TZ_MADRID = ZoneInfo("Europe/Madrid")
 
 BASE_WEEK_URL = os.environ.get("BASE_WEEK_URL_PREM", "")
 OUT_DIR_JSON = Path("football/data/premier_league/json")
+META_DIR_PREM = Path("football/data/premier_league/meta")
 
 WEEKDAY_ABBR_ES = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 
@@ -29,6 +30,7 @@ class LeagueConfig:
     name: str
     base_week_url: str
     out_dir_json: Path
+    meta_dir: Path
 
 # =========================
 # UTILIDADES
@@ -81,6 +83,20 @@ def extract_row(match, week_label: str) -> list[str]:
     return [str(week_label), fecha, hora, local, resultado, visitante]
 
 # =========================
+# META (Last-Modified) por liga
+# =========================
+def _meta_path(cfg: LeagueConfig, week: int) -> Path:
+    cfg.meta_dir.mkdir(parents=True, exist_ok=True)
+    return cfg.meta_dir / f"week_{week}.lastmod"
+
+def _load_lastmod(cfg: LeagueConfig, week: int) -> str | None:
+    p = _meta_path(cfg, week)
+    return p.read_text().strip() if p.exists() else None
+
+def _save_lastmod(cfg: LeagueConfig, week: int, lastmod: str):
+    _meta_path(cfg, week).write_text(lastmod.strip(), encoding="utf-8")
+
+# =========================
 # SALIDAS LOCALES
 # =========================
 def _outputs_exist(cfg: LeagueConfig, week: int) -> bool:
@@ -88,19 +104,32 @@ def _outputs_exist(cfg: LeagueConfig, week: int) -> bool:
     return j.exists()
 
 # =========================
-# FETCH SEMANA por liga (sin meta/lastmod)
+# FETCH SEMANA por liga (con flags de caché/meta)
 # =========================
-def fetch_week_json(cfg: LeagueConfig, week: int):
+def fetch_week_json(cfg: LeagueConfig, week: int, use_cache: bool = True, write_meta: bool = True):
     if not cfg.base_week_url:
         raise RuntimeError(f"[{cfg.name}] Falta BASE_WEEK_URL.")
 
     url = cfg.base_week_url.replace("{week}", str(week))
+    headers = {}
+    if use_cache:
+        prev_lm = _load_lastmod(cfg, week)
+        if prev_lm:
+            headers["If-Modified-Since"] = prev_lm
+
     try:
-        resp = requests.get(url, timeout=30)
+        resp = requests.get(url, timeout=30, headers=headers)
+        if use_cache and resp.status_code == 304:
+            print(f"🔄 [{cfg.name}] Semana {week}: sin cambios (If-Modified-Since).")
+            return None
         resp.raise_for_status()
-        return resp.json()
+        data = resp.json()
+        if write_meta:
+            new_lm = resp.headers.get("date")
+            if new_lm:
+                _save_lastmod(cfg, week, new_lm)
+        return data
     except Exception as e:
-        # No mostrar el enlace en el error
         raise RuntimeError(f"[{cfg.name}] Error al descargar datos de la API para la semana {week}: {type(e).__name__}") from None
 
 # =========================
@@ -235,6 +264,7 @@ def main():
         name="Premier League",
         base_week_url=BASE_WEEK_URL,
         out_dir_json=OUT_DIR_JSON,
+        meta_dir=META_DIR_PREM,
     )
 
     sleep_range = (0, 0) if args.no_sleep else (35, 50)
