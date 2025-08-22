@@ -29,7 +29,6 @@ class LeagueConfig:
     name: str
     base_week_url: str
     out_dir_json: Path
-    meta_dir: Path
 
 # =========================
 # UTILIDADES
@@ -51,7 +50,6 @@ def format_fecha_y_hora(iso_str: str) -> tuple[str, str]:
     if not iso_str:
         return ("", "--:--")
     try:
-        # Parseamos como BST (Europe/London)
         dt_naive = datetime.strptime(iso_str, "%Y-%m-%d %H:%M:%S")
         dt_london = dt_naive.replace(tzinfo=ZoneInfo("Europe/London"))
         dt_local = dt_london.astimezone(TZ_MADRID)
@@ -62,7 +60,6 @@ def format_fecha_y_hora(iso_str: str) -> tuple[str, str]:
     except Exception:
         fecha = iso_str.split("T", 1)[0] if "T" in iso_str else iso_str
         return (fecha, "--:--")
-
 
 def resultado_partido(match) -> str:
     if match.get("period") != "FullTime":
@@ -84,20 +81,6 @@ def extract_row(match, week_label: str) -> list[str]:
     return [str(week_label), fecha, hora, local, resultado, visitante]
 
 # =========================
-# META (Last-Modified) por liga
-# =========================
-def _meta_path(cfg: LeagueConfig, week: int) -> Path:
-    cfg.meta_dir.mkdir(parents=True, exist_ok=True)
-    return cfg.meta_dir / f"week_{week}.lastmod"
-
-def _load_lastmod(cfg: LeagueConfig, week: int) -> str | None:
-    p = _meta_path(cfg, week)
-    return p.read_text().strip() if p.exists() else None
-
-def _save_lastmod(cfg: LeagueConfig, week: int, lastmod: str):
-    _meta_path(cfg, week).write_text(lastmod.strip(), encoding="utf-8")
-
-# =========================
 # SALIDAS LOCALES
 # =========================
 def _outputs_exist(cfg: LeagueConfig, week: int) -> bool:
@@ -105,35 +88,16 @@ def _outputs_exist(cfg: LeagueConfig, week: int) -> bool:
     return j.exists()
 
 # =========================
-# FETCH SEMANA por liga (con flags de caché/meta)
+# FETCH SEMANA por liga (sin meta/lastmod)
 # =========================
-def fetch_week_json(cfg: LeagueConfig, week: int, use_cache: bool = True, write_meta: bool = True):
+def fetch_week_json(cfg: LeagueConfig, week: int):
     if not cfg.base_week_url:
         raise RuntimeError(f"[{cfg.name}] Falta BASE_WEEK_URL.")
 
     url = cfg.base_week_url.replace("{week}", str(week))
-    headers = {}
-
-    if use_cache:
-        prev_lm = _load_lastmod(cfg, week)
-        if prev_lm:
-            headers["If-Modified-Since"] = prev_lm
-
-    resp = requests.get(url, headers=headers, timeout=30)
-
-    if use_cache and resp.status_code == 304:
-        print(f"🔄 [{cfg.name}] Semana {week}: sin cambios (If-Modified-Since).")
-        return None
-
+    resp = requests.get(url, timeout=30)
     resp.raise_for_status()
-    data = resp.json()
-
-    if write_meta:
-        new_lm = resp.headers.get("Last-Modified")
-        if new_lm:
-            _save_lastmod(cfg, week, new_lm)
-
-    return data
+    return resp.json()
 
 # =========================
 # DETECCIÓN DE JORNADA por liga
@@ -143,7 +107,7 @@ def detect_current_week(cfg: LeagueConfig, now_london: datetime, window_days: in
     closest_delta = None
     for w in range(1, SEASON_WEEKS + 1):
         try:
-            data = fetch_week_json(cfg, w, use_cache=False, write_meta=True)
+            data = fetch_week_json(cfg, w)
         except Exception:
             continue
         if not data:
@@ -210,21 +174,15 @@ def update_main_json(cfg: LeagueConfig, main_json_path: Path):
 
 def process_week(cfg: LeagueConfig, week: int, main_json_path: Path = None):
     try:
-        data = fetch_week_json(cfg, week, use_cache=True, write_meta=True)
+        data = fetch_week_json(cfg, week)
     except Exception as e:
         print(f"❌ [{cfg.name}] Semana {week}: error al descargar: {e}")
         return
 
     if data is None:
         if not _outputs_exist(cfg, week):
-            print(f"⚠️  [{cfg.name}] Semana {week}: 304 pero faltan archivos locales; forzando descarga completa...")
-            try:
-                data = fetch_week_json(cfg, week, use_cache=False, write_meta=False)
-            except Exception as e:
-                print(f"❌ [{cfg.name}] Semana {week}: error al forzar descarga: {e}")
-                return
-        else:
-            return
+            print(f"⚠️  [{cfg.name}] Semana {week}: sin datos y faltan archivos locales.")
+        return
 
     p_json = save_json(cfg, data, week)
     print(f"✅ [{cfg.name}] Semana {week} guardada/actualizada: {p_json}")
@@ -263,7 +221,7 @@ def process_league(cfg: LeagueConfig, forced_week: int | None, sleep_between_wee
 # =========================
 def main():
     parser = argparse.ArgumentParser(
-        description="Descarga jornadas (prev, actual, +3) para Premier League con Last-Modified y genera JSON."
+        description="Descarga jornadas (prev, actual, +3) para Premier League y genera JSON."
     )
     parser.add_argument("--week", type=int, help="Forzar semana actual (1..38).")
     parser.add_argument("--no-sleep", action="store_true", help="No esperar entre semanas (útil para pruebas locales).")
