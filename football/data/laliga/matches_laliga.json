@@ -340,14 +340,6 @@
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
       "Horario": "--:--",
-      "Local": "Elche CF",
-      "Resultado": "VS",
-      "Visitante": "Real Oviedo"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
       "Local": "FC Barcelona",
       "Resultado": "VS",
       "Visitante": "Getafe CF"
@@ -356,9 +348,33 @@
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
       "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Elche CF",
+      "Resultado": "VS",
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "--:--",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 5,
@@ -380,25 +396,9 @@
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
       "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "Real Sociedad"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "RCD Espanyol de Barcelona"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "Valencia CF",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 5,

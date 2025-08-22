@@ -1,0 +1,3118 @@
+{
+  "1": [
+    {
+      "Jornada": 1,
+      "Fecha": "Vie 15-08-2025",
+      "Horario": "21:00",
+      "Local": "Liverpool",
+      "Resultado": "4 - 2",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "13:30",
+      "Local": "Aston Villa",
+      "Resultado": "0 - 0",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "1 - 1",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "15:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "3 - 1",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "3 - 0",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "3 - 0",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Sáb 16-08-2025",
+      "Horario": "18:30",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "0 - 4",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "15:00",
+      "Local": "Chelsea",
+      "Resultado": "0 - 0",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Dom 17-08-2025",
+      "Horario": "17:30",
+      "Local": "Manchester United",
+      "Resultado": "0 - 1",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 1,
+      "Fecha": "Lun 18-08-2025",
+      "Horario": "21:00",
+      "Local": "Leeds United",
+      "Resultado": "1 - 0",
+      "Visitante": "Everton"
+    }
+  ],
+  "2": [
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "18:30",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "15:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "15:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Dom 24-08-2025",
+      "Horario": "17:30",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Sáb 23-08-2025",
+      "Horario": "13:30",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Lun 25-08-2025",
+      "Horario": "21:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 2,
+      "Fecha": "Vie 22-08-2025",
+      "Horario": "21:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    }
+  ],
+  "3": [
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "20:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "15:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "13:30",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "18:30",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "17:30",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Dom 31-08-2025",
+      "Horario": "15:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 3,
+      "Fecha": "Sáb 30-08-2025",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    }
+  ],
+  "4": [
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "13:30",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "21:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "15:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Dom 14-09-2025",
+      "Horario": "17:30",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 4,
+      "Fecha": "Sáb 13-09-2025",
+      "Horario": "18:30",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    }
+  ],
+  "5": [
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "17:30",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "21:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "13:30",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "18:30",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "15:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    }
+  ],
+  "6": [
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "13:30",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Lun 29-09-2025",
+      "Horario": "21:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "17:30",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "18:30",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "15:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    }
+  ],
+  "7": [
+    {
+      "Jornada": 7,
+      "Fecha": "Vie 03-10-2025",
+      "Horario": "21:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "15:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "17:30",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "18:30",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "13:30",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "15:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "15:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    }
+  ],
+  "8": [
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "18:30",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "17:30",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "13:30",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "15:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Lun 20-10-2025",
+      "Horario": "21:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    }
+  ],
+  "9": [
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "15:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "15:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "13:30",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "17:30",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Vie 24-10-2025",
+      "Horario": "21:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "18:30",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "15:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    }
+  ],
+  "10": [
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    }
+  ],
+  "11": [
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 08-11-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    }
+  ],
+  "12": [
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    }
+  ],
+  "13": [
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    }
+  ],
+  "14": [
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "21:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    }
+  ],
+  "15": [
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Sáb 06-12-2025",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    }
+  ],
+  "16": [
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    }
+  ],
+  "17": [
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    }
+  ],
+  "18": [
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 27-12-2025",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    }
+  ],
+  "19": [
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Mar 30-12-2025",
+      "Horario": "21:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    }
+  ],
+  "20": [
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Sáb 03-01-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    }
+  ],
+  "21": [
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Mié 07-01-2026",
+      "Horario": "21:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    }
+  ],
+  "22": [
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    }
+  ],
+  "23": [
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 23,
+      "Fecha": "Sáb 24-01-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    }
+  ],
+  "24": [
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 24,
+      "Fecha": "Sáb 31-01-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    }
+  ],
+  "25": [
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 25,
+      "Fecha": "Sáb 07-02-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    }
+  ],
+  "26": [
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 26,
+      "Fecha": "Mié 11-02-2026",
+      "Horario": "21:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    }
+  ],
+  "27": [
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 27,
+      "Fecha": "Sáb 21-02-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    }
+  ],
+  "28": [
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 28,
+      "Fecha": "Sáb 28-02-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    }
+  ],
+  "29": [
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 29,
+      "Fecha": "Mié 04-03-2026",
+      "Horario": "21:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    }
+  ],
+  "30": [
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 30,
+      "Fecha": "Sáb 14-03-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    }
+  ],
+  "31": [
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 31,
+      "Fecha": "Sáb 21-03-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    }
+  ],
+  "32": [
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 32,
+      "Fecha": "Sáb 11-04-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    }
+  ],
+  "33": [
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 33,
+      "Fecha": "Sáb 18-04-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    }
+  ],
+  "34": [
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 34,
+      "Fecha": "Sáb 25-04-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    }
+  ],
+  "35": [
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 35,
+      "Fecha": "Sáb 02-05-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    }
+  ],
+  "36": [
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    },
+    {
+      "Jornada": 36,
+      "Fecha": "Sáb 09-05-2026",
+      "Horario": "16:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    }
+  ],
+  "37": [
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Bournemouth",
+      "Resultado": "VS",
+      "Visitante": "Manchester City"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Arsenal",
+      "Resultado": "VS",
+      "Visitante": "Burnley"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Aston Villa",
+      "Resultado": "VS",
+      "Visitante": "Liverpool"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Brentford",
+      "Resultado": "VS",
+      "Visitante": "Crystal Palace"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Chelsea",
+      "Resultado": "VS",
+      "Visitante": "Tottenham Hotspur"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Everton",
+      "Resultado": "VS",
+      "Visitante": "Sunderland"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Leeds United",
+      "Resultado": "VS",
+      "Visitante": "Brighton and Hove Albion"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Manchester United",
+      "Resultado": "VS",
+      "Visitante": "Nottingham Forest"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Newcastle United",
+      "Resultado": "VS",
+      "Visitante": "West Ham United"
+    },
+    {
+      "Jornada": 37,
+      "Fecha": "Dom 17-05-2026",
+      "Horario": "16:00",
+      "Local": "Wolverhampton Wanderers",
+      "Resultado": "VS",
+      "Visitante": "Fulham"
+    }
+  ],
+  "38": [
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Brighton and Hove Albion",
+      "Resultado": "VS",
+      "Visitante": "Manchester United"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Burnley",
+      "Resultado": "VS",
+      "Visitante": "Wolverhampton Wanderers"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Crystal Palace",
+      "Resultado": "VS",
+      "Visitante": "Arsenal"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Fulham",
+      "Resultado": "VS",
+      "Visitante": "Newcastle United"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Liverpool",
+      "Resultado": "VS",
+      "Visitante": "Brentford"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Manchester City",
+      "Resultado": "VS",
+      "Visitante": "Aston Villa"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Nottingham Forest",
+      "Resultado": "VS",
+      "Visitante": "Bournemouth"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Sunderland",
+      "Resultado": "VS",
+      "Visitante": "Chelsea"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "Tottenham Hotspur",
+      "Resultado": "VS",
+      "Visitante": "Everton"
+    },
+    {
+      "Jornada": 38,
+      "Fecha": "Dom 24-05-2026",
+      "Horario": "17:00",
+      "Local": "West Ham United",
+      "Resultado": "VS",
+      "Visitante": "Leeds United"
+    }
+  ]
+}

@@ -17,12 +17,22 @@ function boot() {
 
   // Define el archivo JSON principal según la liga
   let jsonFile = "";
-  if (baseDir.includes("laliga2")) {
-    jsonFile = "/football/data/laliga2/matches_laliga2.json";
-  } else {
-    jsonFile = "/football/data/laliga/matches_laliga.json";
-  }
+  const leagueFiles = {
+    laliga2: "/football/data/laliga2/matches_laliga2.json",
+    laliga: "/football/data/laliga/matches_laliga.json",
+    premier_league: "/football/data/premier_league/matches_premier_league.json",
+    //bundesliga: "/football/data/bundesliga/matches_bundesliga.json",
+    //seriea: "/football/data/seriea/matches_seriea.json",
+    // añade más ligas aquí si lo necesitas
+  };
 
+  // Detecta la liga en baseDir
+  const leagueKey = Object.keys(leagueFiles).find((key) =>
+    baseDir.includes(key)
+  );
+  if (leagueKey) {
+    jsonFile = leagueFiles[leagueKey];
+  }
   const loading = document.getElementById("loading");
   function setLoading(msg, isError) {
     if (!loading) return;

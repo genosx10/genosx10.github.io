@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>LaLiga2 — Calendario</title>
+  <title>Premier League — Calendario</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <script>
-    (function() {
+    (function () {
       var theme = localStorage.getItem('theme') || 'light';
       document.documentElement.setAttribute('data-bs-theme', theme);
     })();
@@ -19,6 +19,10 @@
 
   <link rel="stylesheet" href="/football/variables.css" />
   <style>
+    main {
+      min-height: 100vh;
+    }
+
     /* Cabecera de tabla sticky que respeta el tema */
     thead th {
       position: sticky;
@@ -90,7 +94,7 @@
         <span class="d-inline-flex justify-content-center align-items-center rounded-2 p-2 bg-primary-subtle">
           <i class="bi bi-trophy-fill text-primary"></i>
         </span>
-        <span class="fw-semibold">LaLiga2</span>
+        <span class="fw-semibold">Premier League</span>
       </a>
 
       <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#filtersCollapse"
@@ -132,13 +136,14 @@
                   </div>
                   <div>
                     <a href="/football/laliga2/matches/"
-                      class="btn text-info-emphasis border border-info-subtle bg-info-subtle" id="laLiga2Matches">
+                      class="btn bg-secondary-subtle text-secondary-emphasis border border-secondary-subtle"
+                      id="laLiga2Matches">
                       LaLiga2
                     </a>
                   </div>
                   <div>
                     <a href="/football/premier_league/matches/"
-                      class="btn bg-secondary-subtle text-secondary-emphasis border border-secondary-subtle text-nowrap"
+                      class="btn text-info-emphasis border border-info-subtle bg-info-subtle text-nowrap"
                       id="premierLeagueMatches">
                       Premier League
                     </a>
@@ -151,7 +156,7 @@
       </div>
     </div>
   </nav>
-  <main id="app" data-data-dir="/football/data/laliga2/" data-page-size="11" class="container py-3 py-md-4">
+  <main id="app" data-data-dir="/football/data/premier_league/" data-page-size="10" class="container py-3 py-md-4">
     <!-- FILTROS -->
     <section class="mb-3">
       <div class="collapse show d-md-block" id="filtersCollapse">
@@ -179,7 +184,7 @@
                       <i class="bi bi-people-fill"></i>
                     </span>
                     <input type="text" id="teamFilter" class="form-control"
-                      placeholder="p. ej., Cádiz CF, Real Zaragoza..." inputmode="search" autocomplete="off" />
+                      placeholder="p. ej., Manchester City, Liverpool..." inputmode="search" autocomplete="off" />
                     <button id="clearTeamBtn" class="btn btn-outline-secondary" type="button" aria-label="Borrar equipo"
                       title="Borrar equipo">
                       <i class="bi bi-x-lg"></i>
@@ -207,7 +212,7 @@
 
 
               <!-- Jornada -->
-            <div class="dropdown d-none justify-content-center justify-content-md-start" id="rounds">
+              <div class="dropdown d-none justify-content-center justify-content-md-start" id="rounds">
                 <button class="btn btn-md border shadow-sm dropdown-toggle" id="dropdownMenuBtn" type="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Jornada
