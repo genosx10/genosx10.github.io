@@ -18,7 +18,6 @@ TZ_MADRID = ZoneInfo("Europe/Madrid")
 
 BASE_WEEK_URL = os.environ.get("BASE_WEEK_URL_PREM", "")
 OUT_DIR_JSON = Path("football/data/premier_league/json")
-META_DIR     = Path("football/data/premier_league/meta")
 
 WEEKDAY_ABBR_ES = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 
@@ -274,7 +273,6 @@ def main():
         name="Premier League",
         base_week_url=BASE_WEEK_URL,
         out_dir_json=OUT_DIR_JSON,
-        meta_dir=META_DIR,
     )
 
     sleep_range = (0, 0) if args.no_sleep else (35, 50)
