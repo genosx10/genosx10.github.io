@@ -95,9 +95,13 @@ def fetch_week_json(cfg: LeagueConfig, week: int):
         raise RuntimeError(f"[{cfg.name}] Falta BASE_WEEK_URL.")
 
     url = cfg.base_week_url.replace("{week}", str(week))
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+    try:
+        resp = requests.get(url, timeout=30)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
+        # No mostrar el enlace en el error
+        raise RuntimeError(f"[{cfg.name}] Error al descargar datos de la API para la semana {week}: {type(e).__name__}") from None
 
 # =========================
 # DETECCIÓN DE JORNADA por liga
