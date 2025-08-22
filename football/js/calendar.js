@@ -47,7 +47,7 @@ function generateICS(rows) {
   var ics =
     "BEGIN:VCALENDAR\n" +
     "VERSION:2.0\n" +
-    "PRODID:-\\-LaLiga Calendario//ES\n" +
+    "PRODID:-\\-Calendario_Futbol//ES\n" +
     "CALSCALE:GREGORIAN\n" +
     "METHOD:PUBLISH\n" +
     "BEGIN:VTIMEZONE\n" +
