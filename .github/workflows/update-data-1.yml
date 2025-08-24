@@ -2,7 +2,7 @@ name: update-data-1
 
 on:
   schedule:
-    - cron: "0 16-22/2 * * *" # Todos los días 2h 16:00-22:00 UTC
+    - cron: "0 22 * * *" # Todos los días a las 22:00 UTC
   workflow_dispatch:
     inputs:
       week:
