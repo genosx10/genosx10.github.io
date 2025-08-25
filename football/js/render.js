@@ -127,7 +127,6 @@ function renderTable(rows) {
   document.getElementById("tableWrapper").classList.toggle("d-none", !hasRows);
   document.getElementById("emptyState").classList.toggle("d-none", hasRows);
   document.getElementById("count").classList.toggle("d-none", !hasRows);
-  document.getElementById("advise").classList.toggle("d-none", !hasRows);
   document.getElementById("exportAdvise").classList.toggle("d-none", !hasRows);
   document.getElementById("count").textContent =
     __FILTERED_ROWS__.length +
