@@ -2,7 +2,7 @@ name: update-data-2
 
 on:
   schedule:
-    - cron: "0 22 * * *" # Todos los días a las 22:00 UTC
+    - cron: "0 23 * * *" # Todos los días a las 23:00 UTC
   workflow_dispatch:
     inputs:
       week:
