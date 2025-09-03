@@ -330,8 +330,8 @@
   "5": [
     {
       "Jornada": 5,
-      "Fecha": "Sáb 20-09-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "15:00",
       "Local": "Bournemouth",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
@@ -412,8 +412,8 @@
   "6": [
     {
       "Jornada": 6,
-      "Fecha": "Sáb 27-09-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "15:00",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Fulham"
@@ -484,8 +484,8 @@
     },
     {
       "Jornada": 6,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "15:00",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "21:00",
       "Local": "Tottenham Hotspur",
       "Resultado": "VS",
       "Visitante": "Wolverhampton Wanderers"
@@ -534,8 +534,8 @@
     },
     {
       "Jornada": 7,
-      "Fecha": "Sáb 04-10-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "15:00",
       "Local": "Everton",
       "Resultado": "VS",
       "Visitante": "Crystal Palace"
