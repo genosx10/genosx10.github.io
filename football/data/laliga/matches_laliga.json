@@ -330,48 +330,48 @@
   "5": [
     {
       "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "Deportivo Alavés",
-      "Resultado": "VS",
-      "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Getafe CF"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 19-09-2025",
+      "Horario": "21:00",
       "Local": "Real Betis",
       "Resultado": "VS",
       "Visitante": "Real Sociedad"
     },
     {
       "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "Elche CF",
-      "Resultado": "VS",
-      "Visitante": "Real Oviedo"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "14:00",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Levante UD"
     },
     {
       "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "16:15",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "18:30",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "18:30",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Sáb 20-09-2025",
+      "Horario": "21:00",
       "Local": "Valencia CF",
       "Resultado": "VS",
       "Visitante": "Athletic Club"
@@ -379,15 +379,7 @@
     {
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "RCD Mallorca",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 5,
-      "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Rayo Vallecano",
       "Resultado": "VS",
       "Visitante": "Celta"
@@ -395,18 +387,26 @@
     {
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Madrid",
+      "Horario": "16:15",
+      "Local": "RCD Mallorca",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "Atlético de Madrid"
     },
     {
       "Jornada": 5,
       "Fecha": "Dom 21-09-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
+      "Horario": "18:30",
+      "Local": "Elche CF",
       "Resultado": "VS",
-      "Visitante": "CA Osasuna"
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 5,
+      "Fecha": "Dom 21-09-2025",
+      "Horario": "21:00",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
     }
   ],
   "6": [
@@ -420,40 +420,32 @@
     },
     {
       "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Mar 23-09-2025",
+      "Horario": "19:00",
       "Local": "Athletic Club",
       "Resultado": "VS",
       "Visitante": "Girona FC"
     },
     {
       "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
-      "Local": "Atlético de Madrid",
-      "Resultado": "VS",
-      "Visitante": "Rayo Vallecano"
-    },
-    {
-      "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Mar 23-09-2025",
+      "Horario": "19:00",
       "Local": "RCD Espanyol de Barcelona",
       "Resultado": "VS",
       "Visitante": "Valencia CF"
     },
     {
       "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Mar 23-09-2025",
+      "Horario": "21:30",
       "Local": "Levante UD",
       "Resultado": "VS",
       "Visitante": "Real Madrid"
     },
     {
       "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Mar 23-09-2025",
+      "Horario": "21:30",
       "Local": "Sevilla FC",
       "Resultado": "VS",
       "Visitante": "Villarreal CF"
@@ -461,7 +453,7 @@
     {
       "Jornada": 6,
       "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Horario": "19:00",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Deportivo Alavés"
@@ -469,81 +461,73 @@
     {
       "Jornada": 6,
       "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
+      "Horario": "21:30",
+      "Local": "Atlético de Madrid",
       "Resultado": "VS",
-      "Visitante": "FC Barcelona"
+      "Visitante": "Rayo Vallecano"
     },
     {
       "Jornada": 6,
       "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
+      "Horario": "21:30",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 6,
+      "Fecha": "Jue 25-09-2025",
+      "Horario": "19:30",
       "Local": "CA Osasuna",
       "Resultado": "VS",
       "Visitante": "Elche CF"
     },
     {
       "Jornada": 6,
-      "Fecha": "Mié 24-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
+      "Fecha": "Jue 25-09-2025",
+      "Horario": "21:30",
+      "Local": "Real Oviedo",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "FC Barcelona"
     }
   ],
   "7": [
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Atlético de Madrid",
+      "Fecha": "Vie 26-09-2025",
+      "Horario": "21:00",
+      "Local": "Girona FC",
       "Resultado": "VS",
-      "Visitante": "Real Madrid"
+      "Visitante": "RCD Espanyol de Barcelona"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Real Sociedad"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "CA Osasuna"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "14:00",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Levante UD"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "16:15",
+      "Local": "Atlético de Madrid",
       "Resultado": "VS",
-      "Visitante": "Sevilla FC"
+      "Visitante": "Real Madrid"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "18:30",
       "Local": "RCD Mallorca",
       "Resultado": "VS",
       "Visitante": "Deportivo Alavés"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "21:00",
       "Local": "Villarreal CF",
       "Resultado": "VS",
       "Visitante": "Athletic Club"
@@ -551,7 +535,15 @@
     {
       "Jornada": 7,
       "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "16:15",
       "Local": "Elche CF",
       "Resultado": "VS",
       "Visitante": "Celta"
@@ -559,15 +551,23 @@
     {
       "Jornada": 7,
       "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Girona FC",
+      "Horario": "18:30",
+      "Local": "Real Betis",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "CA Osasuna"
     },
     {
       "Jornada": 7,
       "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Horario": "21:00",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Lun 29-09-2025",
+      "Horario": "21:00",
       "Local": "Valencia CF",
       "Resultado": "VS",
       "Visitante": "Real Oviedo"
