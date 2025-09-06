@@ -578,33 +578,17 @@
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
       "Horario": "--:--",
-      "Local": "Athletic Club",
-      "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Getafe CF"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
     },
     {
       "Jornada": 8,
@@ -618,6 +602,30 @@
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
       "Horario": "--:--",
+      "Local": "Real Madrid",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "--:--",
       "Local": "RCD Espanyol de Barcelona",
       "Resultado": "VS",
       "Visitante": "Real Betis"
@@ -626,9 +634,9 @@
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
       "Horario": "--:--",
-      "Local": "Real Madrid",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "Getafe CF"
     },
     {
       "Jornada": 8,
@@ -645,14 +653,6 @@
       "Local": "Real Sociedad",
       "Resultado": "VS",
       "Visitante": "Rayo Vallecano"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Sevilla FC",
-      "Resultado": "VS",
-      "Visitante": "FC Barcelona"
     }
   ],
   "9": [
