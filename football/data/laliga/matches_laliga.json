@@ -576,43 +576,43 @@
   "8": [
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Deportivo Alavés",
+      "Fecha": "Vie 03-10-2025",
+      "Horario": "21:00",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Elche CF"
+      "Visitante": "Getafe CF"
     },
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Athletic Club",
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "14:00",
+      "Local": "Real Oviedo",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "Levante UD"
     },
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "16:15",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Valencia CF"
     },
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Madrid",
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "18:30",
+      "Local": "Athletic Club",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "RCD Mallorca"
     },
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "21:00",
+      "Local": "Real Madrid",
       "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
+      "Visitante": "Villarreal CF"
     },
     {
       "Jornada": 8,
@@ -625,7 +625,15 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "18:30",
       "Local": "RCD Espanyol de Barcelona",
       "Resultado": "VS",
       "Visitante": "Real Betis"
@@ -633,26 +641,18 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Getafe CF"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
-      "Resultado": "VS",
-      "Visitante": "Levante UD"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Horario": "18:30",
       "Local": "Real Sociedad",
       "Resultado": "VS",
       "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "21:00",
+      "Local": "Celta",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
     }
   ],
   "9": [

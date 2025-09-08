@@ -355,7 +355,7 @@
       "Fecha": "Lun 08-09-2025",
       "Horario": "20:30",
       "Local": "SD Eibar",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "FC Andorra"
     }
   ],
@@ -542,80 +542,32 @@
   "7": [
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "Málaga CF"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Cádiz CF",
-      "Resultado": "VS",
-      "Visitante": "AD Ceuta FC"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 26-09-2025",
+      "Horario": "20:30",
       "Local": "CD Mirandés",
       "Resultado": "VS",
       "Visitante": "Real Zaragoza"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Sporting",
-      "Resultado": "VS",
-      "Visitante": "Albacete BP"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "CD Leganés",
-      "Resultado": "VS",
-      "Visitante": "CD Castellón"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "R. Sociedad B",
-      "Resultado": "VS",
-      "Visitante": "Córdoba CF"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "18:30",
       "Local": "SD Eibar",
       "Resultado": "VS",
       "Visitante": "RC Deportivo"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "SD Huesca",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "18:30",
+      "Local": "R. Racing Club",
       "Resultado": "VS",
-      "Visitante": "Granada CF"
+      "Visitante": "FC Andorra"
     },
     {
       "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "Real Valladolid CF",
-      "Resultado": "VS",
-      "Visitante": "Cultural y Deportiva Leonesa"
-    },
-    {
-      "Jornada": 7,
-      "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 27-09-2025",
+      "Horario": "21:00",
       "Local": "UD Las Palmas",
       "Resultado": "VS",
       "Visitante": "UD Almería"
@@ -623,10 +575,58 @@
     {
       "Jornada": 7,
       "Fecha": "Dom 28-09-2025",
-      "Horario": "--:--",
-      "Local": "R. Racing Club",
+      "Horario": "14:00",
+      "Local": "R. Sociedad B",
       "Resultado": "VS",
-      "Visitante": "FC Andorra"
+      "Visitante": "Córdoba CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "16:15",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "16:15",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "18:30",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "18:30",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Dom 28-09-2025",
+      "Horario": "21:00",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Granada CF"
+    },
+    {
+      "Jornada": 7,
+      "Fecha": "Lun 29-09-2025",
+      "Horario": "20:30",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
     }
   ],
   "8": [
