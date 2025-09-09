@@ -617,18 +617,18 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Sevilla FC",
-      "Resultado": "VS",
-      "Visitante": "FC Barcelona"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
       "Horario": "14:00",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "16:15",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
     },
     {
       "Jornada": 8,

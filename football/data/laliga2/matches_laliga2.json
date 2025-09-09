@@ -632,24 +632,40 @@
   "8": [
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "CD Castellón",
-      "Resultado": "VS",
-      "Visitante": "Real Sporting"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 03-10-2025",
+      "Horario": "20:30",
       "Local": "AD Ceuta FC",
       "Resultado": "VS",
       "Visitante": "SD Eibar"
     },
     {
       "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "16:15",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "18:30",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "18:30",
+      "Local": "SD Huesca",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Sáb 04-10-2025",
+      "Horario": "21:00",
       "Local": "Granada CF",
       "Resultado": "VS",
       "Visitante": "R. Sociedad B"
@@ -657,39 +673,7 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "FC Andorra",
-      "Resultado": "VS",
-      "Visitante": "CD Leganés"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Cultural y Deportiva Leonesa",
-      "Resultado": "VS",
-      "Visitante": "Albacete BP"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "SD Huesca",
-      "Resultado": "VS",
-      "Visitante": "Burgos CF"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "UD Las Palmas",
-      "Resultado": "VS",
-      "Visitante": "Cádiz CF"
-    },
-    {
-      "Jornada": 8,
-      "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Real Zaragoza",
       "Resultado": "VS",
       "Visitante": "Córdoba CF"
@@ -697,7 +681,15 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Real Sporting"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Dom 05-10-2025",
+      "Horario": "18:30",
       "Local": "R. Racing Club",
       "Resultado": "VS",
       "Visitante": "Málaga CF"
@@ -705,18 +697,26 @@
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "RC Deportivo",
+      "Horario": "18:30",
+      "Local": "Real Valladolid CF",
       "Resultado": "VS",
-      "Visitante": "UD Almería"
+      "Visitante": "CD Mirandés"
     },
     {
       "Jornada": 8,
       "Fecha": "Dom 05-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Valladolid CF",
+      "Horario": "21:00",
+      "Local": "UD Las Palmas",
       "Resultado": "VS",
-      "Visitante": "CD Mirandés"
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 8,
+      "Fecha": "Lun 06-10-2025",
+      "Horario": "20:30",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
     }
   ],
   "9": [
