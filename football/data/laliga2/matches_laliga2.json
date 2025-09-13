@@ -373,7 +373,7 @@
       "Fecha": "Sáb 13-09-2025",
       "Horario": "16:15",
       "Local": "Cádiz CF",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "SD Eibar"
     },
     {
@@ -381,7 +381,7 @@
       "Fecha": "Sáb 13-09-2025",
       "Horario": "16:15",
       "Local": "CD Mirandés",
-      "Resultado": "VS",
+      "Resultado": "1 - 5",
       "Visitante": "RC Deportivo"
     },
     {
@@ -389,7 +389,7 @@
       "Fecha": "Sáb 13-09-2025",
       "Horario": "18:30",
       "Local": "SD Huesca",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "Málaga CF"
     },
     {
@@ -397,7 +397,7 @@
       "Fecha": "Sáb 13-09-2025",
       "Horario": "21:00",
       "Local": "Real Valladolid CF",
-      "Resultado": "VS",
+      "Resultado": "3 - 1",
       "Visitante": "UD Almería"
     },
     {
@@ -722,8 +722,40 @@
   "9": [
     {
       "Jornada": 9,
+      "Fecha": "Vie 10-10-2025",
+      "Horario": "20:30",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 11-10-2025",
+      "Horario": "16:15",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 11-10-2025",
+      "Horario": "18:30",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 11-10-2025",
+      "Horario": "18:30",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 9,
       "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Albacete BP",
       "Resultado": "VS",
       "Visitante": "AD Ceuta FC"
@@ -731,47 +763,7 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "Real Valladolid CF"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "Cádiz CF",
-      "Resultado": "VS",
-      "Visitante": "SD Huesca"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "Córdoba CF",
-      "Resultado": "VS",
-      "Visitante": "Cultural y Deportiva Leonesa"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "Granada CF",
-      "Resultado": "VS",
-      "Visitante": "UD Las Palmas"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "UD Almería",
-      "Resultado": "VS",
-      "Visitante": "Real Zaragoza"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "SD Eibar",
       "Resultado": "VS",
       "Visitante": "CD Castellón"
@@ -779,23 +771,7 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "Málaga CF",
-      "Resultado": "VS",
-      "Visitante": "RC Deportivo"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "CD Mirandés",
-      "Resultado": "VS",
-      "Visitante": "CD Leganés"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Real Sporting",
       "Resultado": "VS",
       "Visitante": "R. Racing Club"
@@ -803,10 +779,34 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 12-10-2025",
-      "Horario": "--:--",
-      "Local": "R. Sociedad B",
+      "Horario": "18:30",
+      "Local": "Burgos CF",
       "Resultado": "VS",
-      "Visitante": "FC Andorra"
+      "Visitante": "Real Valladolid CF"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "18:30",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Dom 12-10-2025",
+      "Horario": "21:00",
+      "Local": "Málaga CF",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Lun 13-10-2025",
+      "Horario": "20:30",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
     }
   ],
   "10": [
