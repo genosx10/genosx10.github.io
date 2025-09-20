@@ -463,7 +463,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "16:15",
       "Local": "Cultural y Deportiva Leonesa",
-      "Resultado": "VS",
+      "Resultado": "1 - 3",
       "Visitante": "CD Castellón"
     },
     {
@@ -471,7 +471,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "18:30",
       "Local": "CD Leganés",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "UD Las Palmas"
     },
     {
@@ -479,7 +479,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "18:30",
       "Local": "FC Andorra",
-      "Resultado": "VS",
+      "Resultado": "1 - 1",
       "Visitante": "CD Mirandés"
     },
     {
@@ -487,7 +487,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "21:00",
       "Local": "UD Almería",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Real Sporting"
     },
     {
@@ -812,64 +812,32 @@
   "10": [
     {
       "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "AD Ceuta FC",
-      "Resultado": "VS",
-      "Visitante": "CD Mirandés"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "CD Leganés",
-      "Resultado": "VS",
-      "Visitante": "Málaga CF"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 17-10-2025",
+      "Horario": "20:30",
       "Local": "FC Andorra",
       "Resultado": "VS",
       "Visitante": "Granada CF"
     },
     {
       "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "CD Castellón",
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:15",
+      "Local": "AD Ceuta FC",
       "Resultado": "VS",
-      "Visitante": "Albacete BP"
+      "Visitante": "CD Mirandés"
     },
     {
       "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Cádiz CF",
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "18:30",
+      "Local": "Real Zaragoza",
       "Resultado": "VS",
-      "Visitante": "Burgos CF"
+      "Visitante": "Cultural y Deportiva Leonesa"
     },
     {
       "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "R. Racing Club",
-      "Resultado": "VS",
-      "Visitante": "RC Deportivo"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "UD Las Palmas",
-      "Resultado": "VS",
-      "Visitante": "SD Eibar"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "21:00",
       "Local": "R. Sociedad B",
       "Resultado": "VS",
       "Visitante": "SD Huesca"
@@ -877,15 +845,23 @@
     {
       "Jornada": 10,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Zaragoza",
+      "Horario": "14:00",
+      "Local": "CD Leganés",
       "Resultado": "VS",
-      "Visitante": "Cultural y Deportiva Leonesa"
+      "Visitante": "Málaga CF"
     },
     {
       "Jornada": 10,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "16:15",
       "Local": "Real Valladolid CF",
       "Resultado": "VS",
       "Visitante": "Real Sporting"
@@ -893,10 +869,34 @@
     {
       "Jornada": 10,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Horario": "18:30",
+      "Local": "R. Racing Club",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "18:30",
       "Local": "Córdoba CF",
       "Resultado": "VS",
       "Visitante": "UD Almería"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Dom 19-10-2025",
+      "Horario": "21:00",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Lun 20-10-2025",
+      "Horario": "20:30",
+      "Local": "Cádiz CF",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
     }
   ],
   "11": [

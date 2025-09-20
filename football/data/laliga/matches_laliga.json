@@ -341,7 +341,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "14:00",
       "Local": "Girona FC",
-      "Resultado": "VS",
+      "Resultado": "0 - 4",
       "Visitante": "Levante UD"
     },
     {
@@ -349,7 +349,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "16:15",
       "Local": "Real Madrid",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "RCD Espanyol de Barcelona"
     },
     {
@@ -357,7 +357,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "18:30",
       "Local": "Deportivo Alavés",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Sevilla FC"
     },
     {
@@ -365,7 +365,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "18:30",
       "Local": "Villarreal CF",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "CA Osasuna"
     },
     {
@@ -373,7 +373,7 @@
       "Fecha": "Sáb 20-09-2025",
       "Horario": "21:00",
       "Local": "Valencia CF",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Athletic Club"
     },
     {
@@ -658,8 +658,40 @@
   "9": [
     {
       "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 17-10-2025",
+      "Horario": "21:00",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "14:00",
+      "Local": "Sevilla FC",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "16:15",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "18:30",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 9,
+      "Fecha": "Sáb 18-10-2025",
+      "Horario": "21:00",
       "Local": "Atlético de Madrid",
       "Resultado": "VS",
       "Visitante": "CA Osasuna"
@@ -667,23 +699,7 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
-      "Resultado": "VS",
-      "Visitante": "Real Sociedad"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Deportivo Alavés",
-      "Resultado": "VS",
-      "Visitante": "Valencia CF"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Elche CF",
       "Resultado": "VS",
       "Visitante": "Athletic Club"
@@ -691,23 +707,15 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
+      "Horario": "16:15",
+      "Local": "Celta",
       "Resultado": "VS",
-      "Visitante": "Girona FC"
+      "Visitante": "Real Sociedad"
     },
     {
       "Jornada": 9,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Getafe CF",
-      "Resultado": "VS",
-      "Visitante": "Real Madrid"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
+      "Horario": "18:30",
       "Local": "Levante UD",
       "Resultado": "VS",
       "Visitante": "Rayo Vallecano"
@@ -715,26 +723,18 @@
     {
       "Jornada": 9,
       "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
+      "Horario": "21:00",
+      "Local": "Getafe CF",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "Real Madrid"
     },
     {
       "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Sevilla FC",
+      "Fecha": "Lun 20-10-2025",
+      "Horario": "21:00",
+      "Local": "Deportivo Alavés",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
-    },
-    {
-      "Jornada": 9,
-      "Fecha": "Dom 19-10-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
-      "Resultado": "VS",
-      "Visitante": "Real Betis"
+      "Visitante": "Valencia CF"
     }
   ],
   "10": [
