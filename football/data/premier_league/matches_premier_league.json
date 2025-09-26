@@ -773,15 +773,15 @@
     {
       "Jornada": 10,
       "Fecha": "Sáb 01-11-2025",
-      "Horario": "16:00",
+      "Horario": "21:00",
       "Local": "Liverpool",
       "Resultado": "VS",
       "Visitante": "Aston Villa"
     },
     {
       "Jornada": 10,
-      "Fecha": "Sáb 01-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "17:30",
       "Local": "Manchester City",
       "Resultado": "VS",
       "Visitante": "Bournemouth"
@@ -796,8 +796,8 @@
     },
     {
       "Jornada": 10,
-      "Fecha": "Sáb 01-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Lun 03-11-2025",
+      "Horario": "21:00",
       "Local": "Sunderland",
       "Resultado": "VS",
       "Visitante": "Everton"
@@ -805,15 +805,15 @@
     {
       "Jornada": 10,
       "Fecha": "Sáb 01-11-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Tottenham Hotspur",
       "Resultado": "VS",
       "Visitante": "Chelsea"
     },
     {
       "Jornada": 10,
-      "Fecha": "Sáb 01-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "15:00",
       "Local": "West Ham United",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
