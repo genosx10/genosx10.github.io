@@ -497,7 +497,7 @@
       "Fecha": "Vie 26-09-2025",
       "Horario": "21:00",
       "Local": "Girona FC",
-      "Resultado": "VS",
+      "Resultado": "0 - 0",
       "Visitante": "RCD Espanyol de Barcelona"
     },
     {
@@ -740,40 +740,48 @@
   "10": [
     {
       "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Athletic Club",
+      "Fecha": "Vie 24-10-2025",
+      "Horario": "21:00",
+      "Local": "Real Sociedad",
       "Resultado": "VS",
-      "Visitante": "Getafe CF"
+      "Visitante": "Sevilla FC"
     },
     {
       "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Celta"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "14:00",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Real Oviedo"
     },
     {
       "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:15",
       "Local": "RCD Espanyol de Barcelona",
       "Resultado": "VS",
       "Visitante": "Elche CF"
     },
     {
       "Jornada": 10,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "18:30",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "21:00",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 10,
       "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "RCD Mallorca",
       "Resultado": "VS",
       "Visitante": "Levante UD"
@@ -781,23 +789,7 @@
     {
       "Jornada": 10,
       "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
-      "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "FC Barcelona"
@@ -805,18 +797,26 @@
     {
       "Jornada": 10,
       "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
+      "Horario": "18:30",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Sevilla FC"
+      "Visitante": "Celta"
     },
     {
       "Jornada": 10,
       "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Valencia CF",
+      "Horario": "21:00",
+      "Local": "Rayo Vallecano",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "Lun 27-10-2025",
+      "Horario": "21:00",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
     }
   ],
   "11": [
