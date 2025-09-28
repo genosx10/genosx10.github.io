@@ -577,7 +577,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "14:00",
       "Local": "R. Sociedad B",
-      "Resultado": "VS",
+      "Resultado": "1 - 1",
       "Visitante": "Córdoba CF"
     },
     {
@@ -585,7 +585,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "16:15",
       "Local": "Burgos CF",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Málaga CF"
     },
     {
@@ -593,7 +593,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "16:15",
       "Local": "Cádiz CF",
-      "Resultado": "VS",
+      "Resultado": "0 - 0",
       "Visitante": "AD Ceuta FC"
     },
     {
@@ -601,7 +601,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "18:30",
       "Local": "Real Sporting",
-      "Resultado": "VS",
+      "Resultado": "3 - 4",
       "Visitante": "Albacete BP"
     },
     {
@@ -609,7 +609,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "18:30",
       "Local": "Real Valladolid CF",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "Cultural y Deportiva Leonesa"
     },
     {
@@ -617,7 +617,7 @@
       "Fecha": "Dom 28-09-2025",
       "Horario": "21:00",
       "Local": "SD Huesca",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "Granada CF"
     },
     {
@@ -902,64 +902,56 @@
   "11": [
     {
       "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Albacete BP",
-      "Resultado": "VS",
-      "Visitante": "Córdoba CF"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "R. Sociedad B"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "RC Deportivo",
-      "Resultado": "VS",
-      "Visitante": "Real Valladolid CF"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "SD Eibar",
-      "Resultado": "VS",
-      "Visitante": "CD Leganés"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 24-10-2025",
+      "Horario": "20:30",
       "Local": "SD Huesca",
       "Resultado": "VS",
       "Visitante": "UD Las Palmas"
     },
     {
       "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Real Sporting",
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "14:00",
+      "Local": "Cultural y Deportiva Leonesa",
       "Resultado": "VS",
-      "Visitante": "Real Zaragoza"
+      "Visitante": "AD Ceuta FC"
     },
     {
       "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "UD Almería",
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:15",
+      "Local": "Albacete BP",
       "Resultado": "VS",
-      "Visitante": "CD Castellón"
+      "Visitante": "Córdoba CF"
     },
     {
       "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "16:15",
+      "Local": "SD Eibar",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "18:30",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "18:30",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 25-10-2025",
+      "Horario": "21:00",
       "Local": "CD Mirandés",
       "Resultado": "VS",
       "Visitante": "R. Racing Club"
@@ -967,26 +959,34 @@
     {
       "Jornada": 11,
       "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Granada CF",
-      "Resultado": "VS",
-      "Visitante": "Cádiz CF"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
-      "Local": "Cultural y Deportiva Leonesa",
-      "Resultado": "VS",
-      "Visitante": "AD Ceuta FC"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 26-10-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Málaga CF",
       "Resultado": "VS",
       "Visitante": "FC Andorra"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "18:30",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "Real Zaragoza"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "18:30",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 26-10-2025",
+      "Horario": "21:00",
+      "Local": "RC Deportivo",
+      "Resultado": "VS",
+      "Visitante": "Real Valladolid CF"
     }
   ],
   "12": [
