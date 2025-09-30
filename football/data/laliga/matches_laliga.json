@@ -569,7 +569,7 @@
       "Fecha": "Mar 30-09-2025",
       "Horario": "20:00",
       "Local": "Valencia CF",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Real Oviedo"
     }
   ],
@@ -824,17 +824,17 @@
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
       "Horario": "--:--",
-      "Local": "Atlético de Madrid",
+      "Local": "Deportivo Alavés",
       "Resultado": "VS",
-      "Visitante": "Sevilla FC"
+      "Visitante": "RCD Espanyol de Barcelona"
     },
     {
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
       "Horario": "--:--",
-      "Local": "Deportivo Alavés",
+      "Local": "Atlético de Madrid",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "Sevilla FC"
     },
     {
       "Jornada": 11,
@@ -848,25 +848,17 @@
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
       "Horario": "--:--",
-      "Local": "Getafe CF",
-      "Resultado": "VS",
-      "Visitante": "Girona FC"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Levante UD",
-      "Resultado": "VS",
-      "Visitante": "Celta"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
       "Local": "Real Betis",
       "Resultado": "VS",
       "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
     },
     {
       "Jornada": 11,
@@ -880,17 +872,25 @@
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
       "Horario": "--:--",
-      "Local": "Real Oviedo",
+      "Local": "Real Sociedad",
       "Resultado": "VS",
-      "Visitante": "CA Osasuna"
+      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
       "Horario": "--:--",
-      "Local": "Real Sociedad",
+      "Local": "Levante UD",
       "Resultado": "VS",
-      "Visitante": "Athletic Club"
+      "Visitante": "Celta"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
     },
     {
       "Jornada": 11,
