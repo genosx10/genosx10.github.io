@@ -822,48 +822,40 @@
   "11": [
     {
       "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Deportivo Alavés",
-      "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Atlético de Madrid",
-      "Resultado": "VS",
-      "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Elche CF"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 31-10-2025",
+      "Horario": "21:00",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Girona FC"
     },
     {
       "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "14:00",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:15",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "18:30",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "21:00",
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "Valencia CF"
@@ -871,15 +863,7 @@
     {
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
-    },
-    {
-      "Jornada": 11,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Levante UD",
       "Resultado": "VS",
       "Visitante": "Celta"
@@ -887,18 +871,34 @@
     {
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
+      "Horario": "16:15",
+      "Local": "Deportivo Alavés",
       "Resultado": "VS",
-      "Visitante": "CA Osasuna"
+      "Visitante": "RCD Espanyol de Barcelona"
     },
     {
       "Jornada": 11,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
+      "Horario": "18:30",
+      "Local": "FC Barcelona",
       "Resultado": "VS",
-      "Visitante": "Rayo Vallecano"
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "21:00",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 11,
+      "Fecha": "Lun 03-11-2025",
+      "Horario": "21:00",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
     }
   ],
   "12": [
