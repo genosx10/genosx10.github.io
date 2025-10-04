@@ -643,7 +643,7 @@
       "Fecha": "Sáb 04-10-2025",
       "Horario": "16:15",
       "Local": "RC Deportivo",
-      "Resultado": "VS",
+      "Resultado": "1 - 1",
       "Visitante": "UD Almería"
     },
     {
@@ -651,7 +651,7 @@
       "Fecha": "Sáb 04-10-2025",
       "Horario": "18:30",
       "Local": "FC Andorra",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "CD Leganés"
     },
     {
@@ -659,7 +659,7 @@
       "Fecha": "Sáb 04-10-2025",
       "Horario": "18:30",
       "Local": "SD Huesca",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Burgos CF"
     },
     {
@@ -667,7 +667,7 @@
       "Fecha": "Sáb 04-10-2025",
       "Horario": "21:00",
       "Local": "Granada CF",
-      "Resultado": "VS",
+      "Resultado": "5 - 2",
       "Visitante": "R. Sociedad B"
     },
     {
@@ -992,40 +992,40 @@
   "12": [
     {
       "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Albacete BP",
-      "Resultado": "VS",
-      "Visitante": "SD Huesca"
-    },
-    {
-      "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "CD Castellón",
-      "Resultado": "VS",
-      "Visitante": "Málaga CF"
-    },
-    {
-      "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Cultural y Deportiva Leonesa",
-      "Resultado": "VS",
-      "Visitante": "CD Mirandés"
-    },
-    {
-      "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 31-10-2025",
+      "Horario": "20:30",
       "Local": "R. Racing Club",
       "Resultado": "VS",
       "Visitante": "R. Sociedad B"
     },
     {
       "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "16:15",
+      "Local": "Cultural y Deportiva Leonesa",
+      "Resultado": "VS",
+      "Visitante": "CD Mirandés"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "18:30",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "18:30",
+      "Local": "CD Leganés",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Sáb 01-11-2025",
+      "Horario": "21:00",
       "Local": "UD Almería",
       "Resultado": "VS",
       "Visitante": "SD Eibar"
@@ -1033,7 +1033,7 @@
     {
       "Jornada": 12,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "FC Andorra",
       "Resultado": "VS",
       "Visitante": "Cádiz CF"
@@ -1041,15 +1041,7 @@
     {
       "Jornada": 12,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "CD Leganés",
-      "Resultado": "VS",
-      "Visitante": "Burgos CF"
-    },
-    {
-      "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Córdoba CF",
       "Resultado": "VS",
       "Visitante": "AD Ceuta FC"
@@ -1057,26 +1049,34 @@
     {
       "Jornada": 12,
       "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "18:30",
+      "Local": "CD Castellón",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 12,
+      "Fecha": "Dom 02-11-2025",
+      "Horario": "21:00",
       "Local": "Real Zaragoza",
       "Resultado": "VS",
       "Visitante": "RC Deportivo"
     },
     {
       "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Lun 03-11-2025",
+      "Horario": "20:30",
       "Local": "Real Valladolid CF",
       "Resultado": "VS",
       "Visitante": "Granada CF"
-    },
-    {
-      "Jornada": 12,
-      "Fecha": "Dom 02-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Sporting",
-      "Resultado": "VS",
-      "Visitante": "UD Las Palmas"
     }
   ],
   "13": [
