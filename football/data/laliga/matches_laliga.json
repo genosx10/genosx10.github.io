@@ -988,14 +988,6 @@
       "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
       "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Real Sociedad"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Celta"
@@ -1004,9 +996,41 @@
       "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
       "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
       "Local": "Elche CF",
       "Resultado": "VS",
       "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "--:--",
+      "Local": "Real Oviedo",
+      "Resultado": "VS",
+      "Visitante": "Rayo Vallecano"
     },
     {
       "Jornada": 13,
@@ -1023,30 +1047,6 @@
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "RCD Espanyol de Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "Girona FC"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
-      "Resultado": "VS",
-      "Visitante": "Rayo Vallecano"
     },
     {
       "Jornada": 13,
