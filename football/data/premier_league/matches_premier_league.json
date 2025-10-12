@@ -912,8 +912,8 @@
     },
     {
       "Jornada": 12,
-      "Fecha": "Sáb 22-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "17:30",
       "Local": "Arsenal",
       "Resultado": "VS",
       "Visitante": "Tottenham Hotspur"
@@ -929,7 +929,7 @@
     {
       "Jornada": 12,
       "Fecha": "Sáb 22-11-2025",
-      "Horario": "16:00",
+      "Horario": "13:30",
       "Local": "Burnley",
       "Resultado": "VS",
       "Visitante": "Chelsea"
@@ -944,8 +944,8 @@
     },
     {
       "Jornada": 12,
-      "Fecha": "Sáb 22-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 23-11-2025",
+      "Horario": "15:00",
       "Local": "Leeds United",
       "Resultado": "VS",
       "Visitante": "Aston Villa"
@@ -960,8 +960,8 @@
     },
     {
       "Jornada": 12,
-      "Fecha": "Sáb 22-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Lun 24-11-2025",
+      "Horario": "21:00",
       "Local": "Manchester United",
       "Resultado": "VS",
       "Visitante": "Everton"
@@ -969,7 +969,7 @@
     {
       "Jornada": 12,
       "Fecha": "Sáb 22-11-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Newcastle United",
       "Resultado": "VS",
       "Visitante": "Manchester City"
