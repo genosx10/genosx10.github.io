@@ -823,7 +823,7 @@
       "Fecha": "Sáb 18-10-2025",
       "Horario": "16:15",
       "Local": "AD Ceuta FC",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "CD Mirandés"
     },
     {
@@ -831,16 +831,8 @@
       "Fecha": "Sáb 18-10-2025",
       "Horario": "18:30",
       "Local": "Real Zaragoza",
-      "Resultado": "VS",
+      "Resultado": "0 - 5",
       "Visitante": "Cultural y Deportiva Leonesa"
-    },
-    {
-      "Jornada": 10,
-      "Fecha": "Sáb 18-10-2025",
-      "Horario": "21:00",
-      "Local": "R. Sociedad B",
-      "Resultado": "VS",
-      "Visitante": "SD Huesca"
     },
     {
       "Jornada": 10,
@@ -897,6 +889,14 @@
       "Local": "Cádiz CF",
       "Resultado": "VS",
       "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 10,
+      "Fecha": "",
+      "Horario": "--:--",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
     }
   ],
   "11": [
@@ -1172,72 +1172,32 @@
   "14": [
     {
       "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 14-11-2025",
+      "Horario": "20:30",
+      "Local": "Real Valladolid CF",
+      "Resultado": "VS",
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Sáb 15-11-2025",
+      "Horario": "16:00",
       "Local": "Albacete BP",
       "Resultado": "VS",
       "Visitante": "FC Andorra"
     },
     {
       "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 15-11-2025",
+      "Horario": "16:00",
       "Local": "CD Castellón",
       "Resultado": "VS",
       "Visitante": "R. Sociedad B"
     },
     {
       "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "AD Ceuta FC",
-      "Resultado": "VS",
-      "Visitante": "CD Leganés"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "Córdoba CF",
-      "Resultado": "VS",
-      "Visitante": "RC Deportivo"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "Cultural y Deportiva Leonesa",
-      "Resultado": "VS",
-      "Visitante": "Málaga CF"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "UD Almería",
-      "Resultado": "VS",
-      "Visitante": "Cádiz CF"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "CD Mirandés",
-      "Resultado": "VS",
-      "Visitante": "Burgos CF"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Sporting",
-      "Resultado": "VS",
-      "Visitante": "SD Eibar"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 15-11-2025",
+      "Horario": "21:00",
       "Local": "R. Racing Club",
       "Resultado": "VS",
       "Visitante": "Granada CF"
@@ -1245,18 +1205,58 @@
     {
       "Jornada": 14,
       "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "CD Leganés"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "16:15",
+      "Local": "UD Almería",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "16:15",
+      "Local": "Real Sporting",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "18:30",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "18:30",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "Burgos CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 16-11-2025",
+      "Horario": "21:00",
       "Local": "Real Zaragoza",
       "Resultado": "VS",
       "Visitante": "SD Huesca"
     },
     {
       "Jornada": 14,
-      "Fecha": "Dom 16-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Valladolid CF",
+      "Fecha": "Lun 17-11-2025",
+      "Horario": "20:30",
+      "Local": "Cultural y Deportiva Leonesa",
       "Resultado": "VS",
-      "Visitante": "UD Las Palmas"
+      "Visitante": "Málaga CF"
     }
   ],
   "15": [
