@@ -986,48 +986,48 @@
   "13": [
     {
       "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 21-11-2025",
+      "Horario": "21:00",
+      "Local": "Valencia CF",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "14:00",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Celta"
     },
     {
       "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "16:15",
+      "Local": "FC Barcelona",
       "Resultado": "VS",
-      "Visitante": "Girona FC"
+      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Elche CF",
-      "Resultado": "VS",
-      "Visitante": "Real Madrid"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "RCD Espanyol de Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "18:30",
       "Local": "CA Osasuna",
       "Resultado": "VS",
       "Visitante": "Real Sociedad"
     },
     {
       "Jornada": 13,
+      "Fecha": "Sáb 22-11-2025",
+      "Horario": "21:00",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
+    },
+    {
+      "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Real Oviedo",
       "Resultado": "VS",
       "Visitante": "Rayo Vallecano"
@@ -1035,15 +1035,15 @@
     {
       "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
+      "Horario": "16:15",
+      "Local": "Real Betis",
       "Resultado": "VS",
-      "Visitante": "Athletic Club"
+      "Visitante": "Girona FC"
     },
     {
       "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
+      "Horario": "18:30",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Atlético de Madrid"
@@ -1051,18 +1051,18 @@
     {
       "Jornada": 13,
       "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Valencia CF",
+      "Horario": "21:00",
+      "Local": "Elche CF",
       "Resultado": "VS",
-      "Visitante": "Levante UD"
+      "Visitante": "Real Madrid"
     },
     {
       "Jornada": 13,
-      "Fecha": "Dom 23-11-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
+      "Fecha": "Lun 24-11-2025",
+      "Horario": "21:00",
+      "Local": "RCD Espanyol de Barcelona",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "Sevilla FC"
     }
   ],
   "14": [
