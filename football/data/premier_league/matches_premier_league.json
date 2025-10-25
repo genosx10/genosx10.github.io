@@ -685,7 +685,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "21:00",
       "Local": "Brentford",
-      "Resultado": "VS",
+      "Resultado": "3 - 2",
       "Visitante": "Liverpool"
     },
     {
@@ -693,7 +693,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "16:00",
       "Local": "Chelsea",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Sunderland"
     },
     {
@@ -717,7 +717,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "18:30",
       "Local": "Manchester United",
-      "Resultado": "VS",
+      "Resultado": "4 - 2",
       "Visitante": "Brighton and Hove Albion"
     },
     {
@@ -725,7 +725,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "16:00",
       "Local": "Newcastle United",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Fulham"
     },
     {
@@ -986,8 +986,8 @@
   "13": [
     {
       "Jornada": 13,
-      "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "15:05",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Wolverhampton Wanderers"
@@ -1002,16 +1002,16 @@
     },
     {
       "Jornada": 13,
-      "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "17:30",
       "Local": "Chelsea",
       "Resultado": "VS",
       "Visitante": "Arsenal"
     },
     {
       "Jornada": 13,
-      "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "13:00",
       "Local": "Crystal Palace",
       "Resultado": "VS",
       "Visitante": "Manchester United"
@@ -1019,7 +1019,7 @@
     {
       "Jornada": 13,
       "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Everton",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
@@ -1034,8 +1034,8 @@
     },
     {
       "Jornada": 13,
-      "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "15:05",
       "Local": "Nottingham Forest",
       "Resultado": "VS",
       "Visitante": "Brighton and Hove Albion"
@@ -1051,15 +1051,15 @@
     {
       "Jornada": 13,
       "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Horario": "21:00",
       "Local": "Tottenham Hotspur",
       "Resultado": "VS",
       "Visitante": "Fulham"
     },
     {
       "Jornada": 13,
-      "Fecha": "Sáb 29-11-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "15:05",
       "Local": "West Ham United",
       "Resultado": "VS",
       "Visitante": "Liverpool"
