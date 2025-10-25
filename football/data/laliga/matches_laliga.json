@@ -751,7 +751,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "14:00",
       "Local": "Girona FC",
-      "Resultado": "VS",
+      "Resultado": "3 - 3",
       "Visitante": "Real Oviedo"
     },
     {
@@ -759,7 +759,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "16:15",
       "Local": "RCD Espanyol de Barcelona",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "Elche CF"
     },
     {
@@ -767,7 +767,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "18:30",
       "Local": "Athletic Club",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "Getafe CF"
     },
     {
@@ -775,7 +775,7 @@
       "Fecha": "Sáb 25-10-2025",
       "Horario": "21:00",
       "Local": "Valencia CF",
-      "Resultado": "VS",
+      "Resultado": "0 - 2",
       "Visitante": "Villarreal CF"
     },
     {
@@ -1086,33 +1086,9 @@
       "Jornada": 14,
       "Fecha": "Dom 30-11-2025",
       "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Getafe CF",
-      "Resultado": "VS",
-      "Visitante": "Elche CF"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Real Madrid"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Levante UD",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 14,
@@ -1142,9 +1118,33 @@
       "Jornada": 14,
       "Fecha": "Dom 30-11-2025",
       "Horario": "--:--",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
       "Local": "Sevilla FC",
       "Resultado": "VS",
       "Visitante": "Real Betis"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "--:--",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
     }
   ],
   "15": [
