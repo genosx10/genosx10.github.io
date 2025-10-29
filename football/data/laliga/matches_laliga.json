@@ -1068,8 +1068,40 @@
   "14": [
     {
       "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
+      "Fecha": "Vie 28-11-2025",
+      "Horario": "21:00",
+      "Local": "Getafe CF",
+      "Resultado": "VS",
+      "Visitante": "Elche CF"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "14:00",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "16:15",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "18:30",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Sáb 29-11-2025",
+      "Horario": "21:00",
       "Local": "Atlético de Madrid",
       "Resultado": "VS",
       "Visitante": "Real Oviedo"
@@ -1077,39 +1109,7 @@
     {
       "Jornada": 14,
       "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
-      "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Girona FC",
-      "Resultado": "VS",
-      "Visitante": "Real Madrid"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "RCD Mallorca",
-      "Resultado": "VS",
-      "Visitante": "CA Osasuna"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
-      "Resultado": "VS",
-      "Visitante": "Valencia CF"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Real Sociedad",
       "Resultado": "VS",
       "Visitante": "Villarreal CF"
@@ -1117,23 +1117,7 @@
     {
       "Jornada": 14,
       "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Levante UD",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
-    },
-    {
-      "Jornada": 14,
-      "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Sevilla FC",
       "Resultado": "VS",
       "Visitante": "Real Betis"
@@ -1141,10 +1125,26 @@
     {
       "Jornada": 14,
       "Fecha": "Dom 30-11-2025",
-      "Horario": "--:--",
-      "Local": "Getafe CF",
+      "Horario": "18:30",
+      "Local": "Celta",
       "Resultado": "VS",
-      "Visitante": "Elche CF"
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "21:00",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 14,
+      "Fecha": "Lun 01-12-2025",
+      "Horario": "21:00",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
     }
   ],
   "15": [
