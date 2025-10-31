@@ -1068,8 +1068,8 @@
   "14": [
     {
       "Jornada": 14,
-      "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Fecha": "Mar 02-12-2025",
+      "Horario": "20:30",
       "Local": "Bournemouth",
       "Resultado": "VS",
       "Visitante": "Everton"
@@ -1077,7 +1077,7 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Arsenal",
       "Resultado": "VS",
       "Visitante": "Brentford"
@@ -1085,7 +1085,7 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Brighton and Hove Albion",
       "Resultado": "VS",
       "Visitante": "Aston Villa"
@@ -1093,15 +1093,15 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Burnley",
       "Resultado": "VS",
       "Visitante": "Crystal Palace"
     },
     {
       "Jornada": 14,
-      "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Fecha": "Mar 02-12-2025",
+      "Horario": "20:30",
       "Local": "Fulham",
       "Resultado": "VS",
       "Visitante": "Manchester City"
@@ -1109,7 +1109,7 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "21:15",
       "Local": "Leeds United",
       "Resultado": "VS",
       "Visitante": "Chelsea"
@@ -1117,14 +1117,14 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "21:15",
       "Local": "Liverpool",
       "Resultado": "VS",
       "Visitante": "Sunderland"
     },
     {
       "Jornada": 14,
-      "Fecha": "Mié 03-12-2025",
+      "Fecha": "Jue 04-12-2025",
       "Horario": "21:00",
       "Local": "Manchester United",
       "Resultado": "VS",
@@ -1132,8 +1132,8 @@
     },
     {
       "Jornada": 14,
-      "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Fecha": "Mar 02-12-2025",
+      "Horario": "21:15",
       "Local": "Newcastle United",
       "Resultado": "VS",
       "Visitante": "Tottenham Hotspur"
@@ -1141,7 +1141,7 @@
     {
       "Jornada": 14,
       "Fecha": "Mié 03-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Wolverhampton Wanderers",
       "Resultado": "VS",
       "Visitante": "Nottingham Forest"
