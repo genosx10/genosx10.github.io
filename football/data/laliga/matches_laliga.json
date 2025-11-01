@@ -833,7 +833,7 @@
       "Fecha": "Sáb 01-11-2025",
       "Horario": "14:00",
       "Local": "Villarreal CF",
-      "Resultado": "VS",
+      "Resultado": "4 - 0",
       "Visitante": "Rayo Vallecano"
     },
     {
@@ -841,7 +841,7 @@
       "Fecha": "Sáb 01-11-2025",
       "Horario": "16:15",
       "Local": "Atlético de Madrid",
-      "Resultado": "VS",
+      "Resultado": "3 - 0",
       "Visitante": "Sevilla FC"
     },
     {
@@ -849,7 +849,7 @@
       "Fecha": "Sáb 01-11-2025",
       "Horario": "18:30",
       "Local": "Real Sociedad",
-      "Resultado": "VS",
+      "Resultado": "3 - 2",
       "Visitante": "Athletic Club"
     },
     {
@@ -857,7 +857,7 @@
       "Fecha": "Sáb 01-11-2025",
       "Horario": "21:00",
       "Local": "Real Madrid",
-      "Resultado": "VS",
+      "Resultado": "4 - 0",
       "Visitante": "Valencia CF"
     },
     {
@@ -1152,25 +1152,17 @@
       "Jornada": 15,
       "Fecha": "Dom 07-12-2025",
       "Horario": "--:--",
-      "Local": "Athletic Club",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 15,
-      "Fecha": "Dom 07-12-2025",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Levante UD"
-    },
-    {
-      "Jornada": 15,
-      "Fecha": "Dom 07-12-2025",
-      "Horario": "--:--",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Real Sociedad"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
     },
     {
       "Jornada": 15,
@@ -1208,6 +1200,22 @@
       "Jornada": 15,
       "Fecha": "Dom 07-12-2025",
       "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Levante UD"
+    },
+    {
+      "Jornada": 15,
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "--:--",
       "Local": "Real Oviedo",
       "Resultado": "VS",
       "Visitante": "RCD Mallorca"
@@ -1219,14 +1227,6 @@
       "Local": "Valencia CF",
       "Resultado": "VS",
       "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 15,
-      "Fecha": "Dom 07-12-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
-      "Resultado": "VS",
-      "Visitante": "Getafe CF"
     }
   ],
   "16": [
