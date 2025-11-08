@@ -841,7 +841,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "21:00",
       "Local": "Chelsea",
-      "Resultado": "VS",
+      "Resultado": "3 - 0",
       "Visitante": "Wolverhampton Wanderers"
     },
     {
@@ -857,7 +857,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "16:00",
       "Local": "Everton",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Fulham"
     },
     {
@@ -881,7 +881,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "18:30",
       "Local": "Sunderland",
-      "Resultado": "VS",
+      "Resultado": "2 - 2",
       "Visitante": "Arsenal"
     },
     {
@@ -889,7 +889,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "13:30",
       "Local": "Tottenham Hotspur",
-      "Resultado": "VS",
+      "Resultado": "2 - 2",
       "Visitante": "Manchester United"
     },
     {
@@ -897,7 +897,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "16:00",
       "Local": "West Ham United",
-      "Resultado": "VS",
+      "Resultado": "3 - 2",
       "Visitante": "Burnley"
     }
   ],
@@ -1159,15 +1159,15 @@
     {
       "Jornada": 15,
       "Fecha": "Sáb 06-12-2025",
-      "Horario": "16:00",
+      "Horario": "13:30",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Arsenal"
     },
     {
       "Jornada": 15,
-      "Fecha": "Sáb 06-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "15:00",
       "Local": "Brighton and Hove Albion",
       "Resultado": "VS",
       "Visitante": "West Ham United"
@@ -1182,8 +1182,8 @@
     },
     {
       "Jornada": 15,
-      "Fecha": "Sáb 06-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 07-12-2025",
+      "Horario": "17:30",
       "Local": "Fulham",
       "Resultado": "VS",
       "Visitante": "Crystal Palace"
@@ -1191,7 +1191,7 @@
     {
       "Jornada": 15,
       "Fecha": "Sáb 06-12-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Leeds United",
       "Resultado": "VS",
       "Visitante": "Liverpool"
@@ -1222,8 +1222,8 @@
     },
     {
       "Jornada": 15,
-      "Fecha": "Sáb 06-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Lun 08-12-2025",
+      "Horario": "21:00",
       "Local": "Wolverhampton Wanderers",
       "Resultado": "VS",
       "Visitante": "Manchester United"
