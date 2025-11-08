@@ -915,7 +915,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "14:00",
       "Local": "Girona FC",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "Deportivo Alavés"
     },
     {
@@ -923,7 +923,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "16:15",
       "Local": "Sevilla FC",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "CA Osasuna"
     },
     {
@@ -931,7 +931,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "18:30",
       "Local": "Atlético de Madrid",
-      "Resultado": "VS",
+      "Resultado": "3 - 1",
       "Visitante": "Levante UD"
     },
     {
@@ -939,7 +939,7 @@
       "Fecha": "Sáb 08-11-2025",
       "Horario": "21:00",
       "Local": "RCD Espanyol de Barcelona",
-      "Resultado": "VS",
+      "Resultado": "0 - 2",
       "Visitante": "Villarreal CF"
     },
     {
@@ -1234,25 +1234,17 @@
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
       "Horario": "--:--",
-      "Local": "Atlético de Madrid",
-      "Resultado": "VS",
-      "Visitante": "Valencia CF"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
       "Local": "Deportivo Alavés",
       "Resultado": "VS",
       "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
     },
     {
       "Jornada": 16,
@@ -1266,17 +1258,25 @@
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
       "Horario": "--:--",
-      "Local": "Getafe CF",
+      "Local": "Levante UD",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "Villarreal CF"
     },
     {
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
       "Horario": "--:--",
-      "Local": "Levante UD",
+      "Local": "Celta",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
     },
     {
       "Jornada": 16,
@@ -1290,9 +1290,9 @@
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
       "Horario": "--:--",
-      "Local": "Rayo Vallecano",
+      "Local": "Getafe CF",
       "Resultado": "VS",
-      "Visitante": "Real Betis"
+      "Visitante": "RCD Espanyol de Barcelona"
     },
     {
       "Jornada": 16,
