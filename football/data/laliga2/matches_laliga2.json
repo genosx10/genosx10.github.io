@@ -1418,6 +1418,14 @@
       "Jornada": 16,
       "Fecha": "Dom 30-11-2025",
       "Horario": "18:30",
+      "Local": "CD Mirandés",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 30-11-2025",
+      "Horario": "18:30",
       "Local": "Córdoba CF",
       "Resultado": "VS",
       "Visitante": "Cádiz CF"
@@ -1429,25 +1437,9 @@
       "Local": "CD Castellón",
       "Resultado": "VS",
       "Visitante": "UD Las Palmas"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Lun 01-12-2025",
-      "Horario": "20:30",
-      "Local": "CD Mirandés",
-      "Resultado": "VS",
-      "Visitante": "R. Sociedad B"
     }
   ],
   "17": [
-    {
-      "Jornada": 17,
-      "Fecha": "Vie 05-12-2025",
-      "Horario": "20:30",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "Albacete BP"
-    },
     {
       "Jornada": 17,
       "Fecha": "Sáb 06-12-2025",
@@ -1511,6 +1503,14 @@
       "Local": "Granada CF",
       "Resultado": "VS",
       "Visitante": "AD Ceuta FC"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Lun 08-12-2025",
+      "Horario": "16:15",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
     },
     {
       "Jornada": 17,
