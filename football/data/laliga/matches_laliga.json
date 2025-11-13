@@ -1232,64 +1232,40 @@
   "16": [
     {
       "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Deportivo Alavés",
+      "Fecha": "Vie 12-12-2025",
+      "Horario": "21:00",
+      "Local": "Real Sociedad",
       "Resultado": "VS",
-      "Visitante": "Real Madrid"
+      "Visitante": "Girona FC"
     },
     {
       "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "14:00",
       "Local": "Atlético de Madrid",
       "Resultado": "VS",
       "Visitante": "Valencia CF"
     },
     {
       "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "CA Osasuna"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Levante UD",
-      "Resultado": "VS",
-      "Visitante": "Villarreal CF"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Celta",
-      "Resultado": "VS",
-      "Visitante": "Athletic Club"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
-      "Resultado": "VS",
-      "Visitante": "Real Betis"
-    },
-    {
-      "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "16:15",
       "Local": "RCD Mallorca",
       "Resultado": "VS",
       "Visitante": "Elche CF"
     },
     {
       "Jornada": 16,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "18:30",
+      "Local": "FC Barcelona",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "21:00",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "RCD Espanyol de Barcelona"
@@ -1297,18 +1273,42 @@
     {
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
+      "Horario": "14:00",
+      "Local": "Sevilla FC",
       "Resultado": "VS",
-      "Visitante": "Girona FC"
+      "Visitante": "Real Oviedo"
     },
     {
       "Jornada": 16,
       "Fecha": "Dom 14-12-2025",
-      "Horario": "--:--",
-      "Local": "Sevilla FC",
+      "Horario": "16:15",
+      "Local": "Celta",
       "Resultado": "VS",
-      "Visitante": "Real Oviedo"
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "18:30",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "21:00",
+      "Local": "Deportivo Alavés",
+      "Resultado": "VS",
+      "Visitante": "Real Madrid"
+    },
+    {
+      "Jornada": 16,
+      "Fecha": "Lun 15-12-2025",
+      "Horario": "21:00",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "Real Betis"
     }
   ],
   "17": [
