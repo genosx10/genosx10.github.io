@@ -1324,9 +1324,9 @@
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
       "Horario": "--:--",
-      "Local": "CA Osasuna",
+      "Local": "Real Betis",
       "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
+      "Visitante": "Getafe CF"
     },
     {
       "Jornada": 17,
@@ -1340,14 +1340,6 @@
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
       "Horario": "--:--",
-      "Local": "Girona FC",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
       "Local": "Levante UD",
       "Resultado": "VS",
       "Visitante": "Real Sociedad"
@@ -1356,17 +1348,33 @@
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
       "Horario": "--:--",
-      "Local": "Real Betis",
+      "Local": "Real Madrid",
       "Resultado": "VS",
-      "Visitante": "Getafe CF"
+      "Visitante": "Sevilla FC"
     },
     {
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
       "Horario": "--:--",
-      "Local": "Real Madrid",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Sevilla FC"
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "--:--",
+      "Local": "Villarreal CF",
+      "Resultado": "VS",
+      "Visitante": "FC Barcelona"
     },
     {
       "Jornada": 17,
@@ -1383,14 +1391,6 @@
       "Local": "Valencia CF",
       "Resultado": "VS",
       "Visitante": "RCD Mallorca"
-    },
-    {
-      "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Villarreal CF",
-      "Resultado": "VS",
-      "Visitante": "FC Barcelona"
     }
   ],
   "18": [
