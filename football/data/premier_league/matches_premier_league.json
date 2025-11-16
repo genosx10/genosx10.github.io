@@ -1233,15 +1233,15 @@
     {
       "Jornada": 16,
       "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Horario": "21:00",
       "Local": "Arsenal",
       "Resultado": "VS",
       "Visitante": "Wolverhampton Wanderers"
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "17:30",
       "Local": "Brentford",
       "Resultado": "VS",
       "Visitante": "Leeds United"
@@ -1249,7 +1249,7 @@
     {
       "Jornada": 16,
       "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Burnley",
       "Resultado": "VS",
       "Visitante": "Fulham"
@@ -1264,8 +1264,8 @@
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "15:00",
       "Local": "Crystal Palace",
       "Resultado": "VS",
       "Visitante": "Manchester City"
@@ -1280,32 +1280,32 @@
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Lun 15-12-2025",
+      "Horario": "21:00",
       "Local": "Manchester United",
       "Resultado": "VS",
       "Visitante": "Bournemouth"
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "15:00",
       "Local": "Nottingham Forest",
       "Resultado": "VS",
       "Visitante": "Tottenham Hotspur"
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "15:00",
       "Local": "Sunderland",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
     },
     {
       "Jornada": 16,
-      "Fecha": "Sáb 13-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 14-12-2025",
+      "Horario": "15:00",
       "Local": "West Ham United",
       "Resultado": "VS",
       "Visitante": "Aston Villa"
