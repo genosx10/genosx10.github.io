@@ -1139,14 +1139,6 @@
     {
       "Jornada": 13,
       "Fecha": "Dom 09-11-2025",
-      "Horario": "16:15",
-      "Local": "AD Ceuta FC",
-      "Resultado": "VS",
-      "Visitante": "UD Almería"
-    },
-    {
-      "Jornada": 13,
-      "Fecha": "Dom 09-11-2025",
       "Horario": "18:30",
       "Local": "Granada CF",
       "Resultado": "3 - 1",
@@ -1167,6 +1159,14 @@
       "Local": "Burgos CF",
       "Resultado": "0 - 0",
       "Visitante": "CD Castellón"
+    },
+    {
+      "Jornada": 13,
+      "Fecha": "Mié 26-11-2025",
+      "Horario": "19:00",
+      "Local": "AD Ceuta FC",
+      "Resultado": "VS",
+      "Visitante": "UD Almería"
     }
   ],
   "14": [
