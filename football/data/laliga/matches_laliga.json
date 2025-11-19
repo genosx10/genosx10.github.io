@@ -1314,40 +1314,40 @@
   "17": [
     {
       "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Athletic Club",
+      "Fecha": "Vie 19-12-2025",
+      "Horario": "21:00",
+      "Local": "Valencia CF",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
+      "Visitante": "RCD Mallorca"
     },
     {
       "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Real Betis",
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "14:00",
+      "Local": "Real Oviedo",
       "Resultado": "VS",
-      "Visitante": "Getafe CF"
+      "Visitante": "Celta"
     },
     {
       "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Elche CF",
-      "Resultado": "VS",
-      "Visitante": "Rayo Vallecano"
-    },
-    {
-      "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "16:15",
       "Local": "Levante UD",
       "Resultado": "VS",
       "Visitante": "Real Sociedad"
     },
     {
       "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "18:30",
+      "Local": "CA Osasuna",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Sáb 20-12-2025",
+      "Horario": "21:00",
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "Sevilla FC"
@@ -1355,15 +1355,7 @@
     {
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 17,
-      "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "Girona FC",
       "Resultado": "VS",
       "Visitante": "Atlético de Madrid"
@@ -1371,7 +1363,7 @@
     {
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Villarreal CF",
       "Resultado": "VS",
       "Visitante": "FC Barcelona"
@@ -1379,18 +1371,26 @@
     {
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
+      "Horario": "18:30",
+      "Local": "Elche CF",
       "Resultado": "VS",
-      "Visitante": "Celta"
+      "Visitante": "Rayo Vallecano"
     },
     {
       "Jornada": 17,
       "Fecha": "Dom 21-12-2025",
-      "Horario": "--:--",
-      "Local": "Valencia CF",
+      "Horario": "21:00",
+      "Local": "Real Betis",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 17,
+      "Fecha": "Lun 22-12-2025",
+      "Horario": "21:00",
+      "Local": "Athletic Club",
+      "Resultado": "VS",
+      "Visitante": "RCD Espanyol de Barcelona"
     }
   ],
   "18": [
