@@ -1079,7 +1079,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "14:00",
       "Local": "RCD Mallorca",
-      "Resultado": "VS",
+      "Resultado": "2 - 2",
       "Visitante": "CA Osasuna"
     },
     {
@@ -1087,7 +1087,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "16:15",
       "Local": "FC Barcelona",
-      "Resultado": "VS",
+      "Resultado": "3 - 1",
       "Visitante": "Deportivo Alavés"
     },
     {
@@ -1095,7 +1095,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "18:30",
       "Local": "Levante UD",
-      "Resultado": "VS",
+      "Resultado": "0 - 2",
       "Visitante": "Athletic Club"
     },
     {
@@ -1103,7 +1103,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "21:00",
       "Local": "Atlético de Madrid",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Real Oviedo"
     },
     {
@@ -1398,9 +1398,9 @@
       "Jornada": 18,
       "Fecha": "Dom 04-01-2026",
       "Horario": "--:--",
-      "Local": "CA Osasuna",
+      "Local": "Deportivo Alavés",
       "Resultado": "VS",
-      "Visitante": "Athletic Club"
+      "Visitante": "Real Oviedo"
     },
     {
       "Jornada": 18,
@@ -1414,17 +1414,25 @@
       "Jornada": 18,
       "Fecha": "Dom 04-01-2026",
       "Horario": "--:--",
-      "Local": "Deportivo Alavés",
+      "Local": "Elche CF",
       "Resultado": "VS",
-      "Visitante": "Real Oviedo"
+      "Visitante": "Villarreal CF"
     },
     {
       "Jornada": 18,
       "Fecha": "Dom 04-01-2026",
       "Horario": "--:--",
-      "Local": "Elche CF",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "Athletic Club"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "--:--",
+      "Local": "Real Sociedad",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
     },
     {
       "Jornada": 18,
@@ -1438,9 +1446,9 @@
       "Jornada": 18,
       "Fecha": "Dom 04-01-2026",
       "Horario": "--:--",
-      "Local": "RCD Mallorca",
+      "Local": "Real Madrid",
       "Resultado": "VS",
-      "Visitante": "Girona FC"
+      "Visitante": "Real Betis"
     },
     {
       "Jornada": 18,
@@ -1454,17 +1462,9 @@
       "Jornada": 18,
       "Fecha": "Dom 04-01-2026",
       "Horario": "--:--",
-      "Local": "Real Madrid",
+      "Local": "RCD Mallorca",
       "Resultado": "VS",
-      "Visitante": "Real Betis"
-    },
-    {
-      "Jornada": 18,
-      "Fecha": "Dom 04-01-2026",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
+      "Visitante": "Girona FC"
     },
     {
       "Jornada": 18,
