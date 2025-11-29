@@ -997,7 +997,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "16:00",
       "Local": "Brentford",
-      "Resultado": "VS",
+      "Resultado": "3 - 1",
       "Visitante": "Burnley"
     },
     {
@@ -1021,7 +1021,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "18:30",
       "Local": "Everton",
-      "Resultado": "VS",
+      "Resultado": "1 - 4",
       "Visitante": "Newcastle United"
     },
     {
@@ -1029,7 +1029,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "16:00",
       "Local": "Manchester City",
-      "Resultado": "VS",
+      "Resultado": "3 - 2",
       "Visitante": "Leeds United"
     },
     {
@@ -1045,7 +1045,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "16:00",
       "Local": "Sunderland",
-      "Resultado": "VS",
+      "Resultado": "3 - 2",
       "Visitante": "Bournemouth"
     },
     {
@@ -1053,7 +1053,7 @@
       "Fecha": "Sáb 29-11-2025",
       "Horario": "21:00",
       "Local": "Tottenham Hotspur",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Fulham"
     },
     {
@@ -1322,8 +1322,8 @@
     },
     {
       "Jornada": 17,
-      "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Dom 21-12-2025",
+      "Horario": "17:30",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Manchester United"
@@ -1339,15 +1339,15 @@
     {
       "Jornada": 17,
       "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Horario": "21:00",
       "Local": "Everton",
       "Resultado": "VS",
       "Visitante": "Arsenal"
     },
     {
       "Jornada": 17,
-      "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Fecha": "Lun 22-12-2025",
+      "Horario": "21:00",
       "Local": "Fulham",
       "Resultado": "VS",
       "Visitante": "Nottingham Forest"
@@ -1355,7 +1355,7 @@
     {
       "Jornada": 17,
       "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Horario": "21:00",
       "Local": "Leeds United",
       "Resultado": "VS",
       "Visitante": "Crystal Palace"
@@ -1371,7 +1371,7 @@
     {
       "Jornada": 17,
       "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Horario": "13:30",
       "Local": "Newcastle United",
       "Resultado": "VS",
       "Visitante": "Chelsea"
@@ -1379,7 +1379,7 @@
     {
       "Jornada": 17,
       "Fecha": "Sáb 20-12-2025",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Tottenham Hotspur",
       "Resultado": "VS",
       "Visitante": "Liverpool"
