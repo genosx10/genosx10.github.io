@@ -1161,7 +1161,7 @@
       "Fecha": "Sáb 06-12-2025",
       "Horario": "14:00",
       "Local": "Villarreal CF",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Getafe CF"
     },
     {
@@ -1169,7 +1169,7 @@
       "Fecha": "Sáb 06-12-2025",
       "Horario": "16:15",
       "Local": "Deportivo Alavés",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "Real Sociedad"
     },
     {
@@ -1177,7 +1177,7 @@
       "Fecha": "Sáb 06-12-2025",
       "Horario": "18:30",
       "Local": "Real Betis",
-      "Resultado": "VS",
+      "Resultado": "3 - 5",
       "Visitante": "FC Barcelona"
     },
     {
@@ -1185,7 +1185,7 @@
       "Fecha": "Sáb 06-12-2025",
       "Horario": "21:00",
       "Local": "Athletic Club",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "Atlético de Madrid"
     },
     {
@@ -1478,19 +1478,19 @@
   "19": [
     {
       "Jornada": 19,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "Athletic Club",
-      "Resultado": "VS",
-      "Visitante": "Real Madrid"
+      "Fecha": "Mar 02-12-2025",
+      "Horario": "21:00",
+      "Local": "FC Barcelona",
+      "Resultado": "3 - 1",
+      "Visitante": "Atlético de Madrid"
     },
     {
       "Jornada": 19,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "FC Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
+      "Fecha": "Mié 03-12-2025",
+      "Horario": "19:00",
+      "Local": "Athletic Club",
+      "Resultado": "0 - 3",
+      "Visitante": "Real Madrid"
     },
     {
       "Jornada": 19,
@@ -1512,17 +1512,9 @@
       "Jornada": 19,
       "Fecha": "Dom 11-01-2026",
       "Horario": "--:--",
-      "Local": "Levante UD",
+      "Local": "Villarreal CF",
       "Resultado": "VS",
-      "Visitante": "RCD Espanyol de Barcelona"
-    },
-    {
-      "Jornada": 19,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
-      "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "Deportivo Alavés"
     },
     {
       "Jornada": 19,
@@ -1552,9 +1544,17 @@
       "Jornada": 19,
       "Fecha": "Dom 11-01-2026",
       "Horario": "--:--",
-      "Local": "Villarreal CF",
+      "Local": "Levante UD",
       "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
+      "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 19,
+      "Fecha": "Dom 11-01-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "RCD Mallorca"
     }
   ],
   "20": [
