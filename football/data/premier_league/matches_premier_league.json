@@ -1225,7 +1225,7 @@
       "Fecha": "Lun 08-12-2025",
       "Horario": "21:00",
       "Local": "Wolverhampton Wanderers",
-      "Resultado": "VS",
+      "Resultado": "1 - 4",
       "Visitante": "Manchester United"
     }
   ],
@@ -1479,14 +1479,14 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "21:15",
       "Local": "Arsenal",
       "Resultado": "VS",
       "Visitante": "Aston Villa"
     },
     {
       "Jornada": 19,
-      "Fecha": "Mar 30-12-2025",
+      "Fecha": "Jue 01-01-2026",
       "Horario": "21:00",
       "Local": "Brentford",
       "Resultado": "VS",
@@ -1495,7 +1495,7 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Burnley",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
@@ -1503,23 +1503,23 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Chelsea",
       "Resultado": "VS",
       "Visitante": "Bournemouth"
     },
     {
       "Jornada": 19,
-      "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Fecha": "Jue 01-01-2026",
+      "Horario": "18:30",
       "Local": "Crystal Palace",
       "Resultado": "VS",
       "Visitante": "Fulham"
     },
     {
       "Jornada": 19,
-      "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Fecha": "Jue 01-01-2026",
+      "Horario": "18:30",
       "Local": "Liverpool",
       "Resultado": "VS",
       "Visitante": "Leeds United"
@@ -1527,7 +1527,7 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "21:15",
       "Local": "Manchester United",
       "Resultado": "VS",
       "Visitante": "Wolverhampton Wanderers"
@@ -1535,14 +1535,14 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "Nottingham Forest",
       "Resultado": "VS",
       "Visitante": "Everton"
     },
     {
       "Jornada": 19,
-      "Fecha": "Mar 30-12-2025",
+      "Fecha": "Jue 01-01-2026",
       "Horario": "21:00",
       "Local": "Sunderland",
       "Resultado": "VS",
@@ -1551,7 +1551,7 @@
     {
       "Jornada": 19,
       "Fecha": "Mar 30-12-2025",
-      "Horario": "21:00",
+      "Horario": "20:30",
       "Local": "West Ham United",
       "Resultado": "VS",
       "Visitante": "Brighton and Hove Albion"
