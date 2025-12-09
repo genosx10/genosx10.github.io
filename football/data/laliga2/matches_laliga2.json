@@ -1574,17 +1574,17 @@
       "Jornada": 18,
       "Fecha": "Sáb 13-12-2025",
       "Horario": "21:00",
-      "Local": "Real Zaragoza",
-      "Resultado": "VS",
-      "Visitante": "Cádiz CF"
-    },
-    {
-      "Jornada": 18,
-      "Fecha": "Dom 14-12-2025",
-      "Horario": "14:00",
       "Local": "RC Deportivo",
       "Resultado": "VS",
       "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 18,
+      "Fecha": "Sáb 13-12-2025",
+      "Horario": "21:00",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
     },
     {
       "Jornada": 18,
