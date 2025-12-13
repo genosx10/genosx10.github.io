@@ -1243,7 +1243,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "14:00",
       "Local": "Atlético de Madrid",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Valencia CF"
     },
     {
@@ -1251,7 +1251,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "16:15",
       "Local": "RCD Mallorca",
-      "Resultado": "VS",
+      "Resultado": "3 - 1",
       "Visitante": "Elche CF"
     },
     {
@@ -1259,7 +1259,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "18:30",
       "Local": "FC Barcelona",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "CA Osasuna"
     },
     {
@@ -1267,7 +1267,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "21:00",
       "Local": "Getafe CF",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "RCD Espanyol de Barcelona"
     },
     {
@@ -1562,17 +1562,9 @@
       "Jornada": 20,
       "Fecha": "Dom 18-01-2026",
       "Horario": "--:--",
-      "Local": "Atlético de Madrid",
+      "Local": "Real Betis",
       "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 20,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "CA Osasuna",
-      "Resultado": "VS",
-      "Visitante": "Real Oviedo"
+      "Visitante": "Villarreal CF"
     },
     {
       "Jornada": 20,
@@ -1594,6 +1586,14 @@
       "Jornada": 20,
       "Fecha": "Dom 18-01-2026",
       "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Girona FC"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
       "Local": "Getafe CF",
       "Resultado": "VS",
       "Visitante": "Valencia CF"
@@ -1602,9 +1602,17 @@
       "Jornada": 20,
       "Fecha": "Dom 18-01-2026",
       "Horario": "--:--",
-      "Local": "RCD Espanyol de Barcelona",
+      "Local": "CA Osasuna",
       "Resultado": "VS",
-      "Visitante": "Girona FC"
+      "Visitante": "Real Oviedo"
+    },
+    {
+      "Jornada": 20,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "--:--",
+      "Local": "Atlético de Madrid",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
     },
     {
       "Jornada": 20,
@@ -1618,9 +1626,9 @@
       "Jornada": 20,
       "Fecha": "Dom 18-01-2026",
       "Horario": "--:--",
-      "Local": "Real Betis",
+      "Local": "Real Sociedad",
       "Resultado": "VS",
-      "Visitante": "Villarreal CF"
+      "Visitante": "FC Barcelona"
     },
     {
       "Jornada": 20,
@@ -1629,14 +1637,6 @@
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "Levante UD"
-    },
-    {
-      "Jornada": 20,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Real Sociedad",
-      "Resultado": "VS",
-      "Visitante": "FC Barcelona"
     }
   ],
   "21": [
