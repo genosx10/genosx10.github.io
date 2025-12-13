@@ -1235,7 +1235,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "21:00",
       "Local": "Arsenal",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Wolverhampton Wanderers"
     },
     {
@@ -1251,7 +1251,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "18:30",
       "Local": "Burnley",
-      "Resultado": "VS",
+      "Resultado": "2 - 3",
       "Visitante": "Fulham"
     },
     {
@@ -1259,7 +1259,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "16:00",
       "Local": "Chelsea",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Everton"
     },
     {
@@ -1275,7 +1275,7 @@
       "Fecha": "Sáb 13-12-2025",
       "Horario": "16:00",
       "Local": "Liverpool",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Brighton and Hove Albion"
     },
     {
@@ -1561,7 +1561,7 @@
     {
       "Jornada": 20,
       "Fecha": "Sáb 03-01-2026",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Bournemouth",
       "Resultado": "VS",
       "Visitante": "Arsenal"
@@ -1569,7 +1569,7 @@
     {
       "Jornada": 20,
       "Fecha": "Sáb 03-01-2026",
-      "Horario": "16:00",
+      "Horario": "13:30",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Nottingham Forest"
@@ -1584,7 +1584,7 @@
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
+      "Fecha": "Dom 04-01-2026",
       "Horario": "16:00",
       "Local": "Everton",
       "Resultado": "VS",
@@ -1592,7 +1592,7 @@
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
+      "Fecha": "Dom 04-01-2026",
       "Horario": "16:00",
       "Local": "Fulham",
       "Resultado": "VS",
@@ -1600,23 +1600,23 @@
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
-      "Horario": "16:00",
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "13:30",
       "Local": "Leeds United",
       "Resultado": "VS",
       "Visitante": "Manchester United"
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
-      "Horario": "16:00",
+      "Fecha": "Dom 04-01-2026",
+      "Horario": "18:30",
       "Local": "Manchester City",
       "Resultado": "VS",
       "Visitante": "Chelsea"
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
+      "Fecha": "Dom 04-01-2026",
       "Horario": "16:00",
       "Local": "Newcastle United",
       "Resultado": "VS",
@@ -1624,7 +1624,7 @@
     },
     {
       "Jornada": 20,
-      "Fecha": "Sáb 03-01-2026",
+      "Fecha": "Dom 04-01-2026",
       "Horario": "16:00",
       "Local": "Tottenham Hotspur",
       "Resultado": "VS",
