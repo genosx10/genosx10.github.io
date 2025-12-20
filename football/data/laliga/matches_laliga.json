@@ -1325,7 +1325,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "14:00",
       "Local": "Real Oviedo",
-      "Resultado": "VS",
+      "Resultado": "0 - 0",
       "Visitante": "Celta"
     },
     {
@@ -1333,7 +1333,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "16:15",
       "Local": "Levante UD",
-      "Resultado": "VS",
+      "Resultado": "1 - 1",
       "Visitante": "Real Sociedad"
     },
     {
@@ -1341,7 +1341,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "18:30",
       "Local": "CA Osasuna",
-      "Resultado": "VS",
+      "Resultado": "3 - 0",
       "Visitante": "Deportivo Alavés"
     },
     {
@@ -1349,7 +1349,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "21:00",
       "Local": "Real Madrid",
-      "Resultado": "VS",
+      "Resultado": "2 - 0",
       "Visitante": "Sevilla FC"
     },
     {
@@ -1644,17 +1644,17 @@
       "Jornada": 21,
       "Fecha": "Dom 25-01-2026",
       "Horario": "--:--",
-      "Local": "Atlético de Madrid",
+      "Local": "Deportivo Alavés",
       "Resultado": "VS",
-      "Visitante": "RCD Mallorca"
+      "Visitante": "Real Betis"
     },
     {
       "Jornada": 21,
       "Fecha": "Dom 25-01-2026",
       "Horario": "--:--",
-      "Local": "Deportivo Alavés",
+      "Local": "Atlético de Madrid",
       "Resultado": "VS",
-      "Visitante": "Real Betis"
+      "Visitante": "RCD Mallorca"
     },
     {
       "Jornada": 21,
@@ -1668,25 +1668,9 @@
       "Jornada": 21,
       "Fecha": "Dom 25-01-2026",
       "Horario": "--:--",
-      "Local": "Girona FC",
+      "Local": "Sevilla FC",
       "Resultado": "VS",
-      "Visitante": "Getafe CF"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 25-01-2026",
-      "Horario": "--:--",
-      "Local": "Levante UD",
-      "Resultado": "VS",
-      "Visitante": "Elche CF"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 25-01-2026",
-      "Horario": "--:--",
-      "Local": "Rayo Vallecano",
-      "Resultado": "VS",
-      "Visitante": "CA Osasuna"
+      "Visitante": "Athletic Club"
     },
     {
       "Jornada": 21,
@@ -1700,9 +1684,9 @@
       "Jornada": 21,
       "Fecha": "Dom 25-01-2026",
       "Horario": "--:--",
-      "Local": "Sevilla FC",
+      "Local": "Levante UD",
       "Resultado": "VS",
-      "Visitante": "Athletic Club"
+      "Visitante": "Elche CF"
     },
     {
       "Jornada": 21,
@@ -1711,6 +1695,22 @@
       "Local": "Valencia CF",
       "Resultado": "VS",
       "Visitante": "RCD Espanyol de Barcelona"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Girona FC",
+      "Resultado": "VS",
+      "Visitante": "Getafe CF"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Dom 25-01-2026",
+      "Horario": "--:--",
+      "Local": "Rayo Vallecano",
+      "Resultado": "VS",
+      "Visitante": "CA Osasuna"
     },
     {
       "Jornada": 21,

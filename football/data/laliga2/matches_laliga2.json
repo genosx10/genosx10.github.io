@@ -1633,7 +1633,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "14:00",
       "Local": "FC Andorra",
-      "Resultado": "VS",
+      "Resultado": "1 - 0",
       "Visitante": "RC Deportivo"
     },
     {
@@ -1641,7 +1641,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "16:15",
       "Local": "SD Huesca",
-      "Resultado": "VS",
+      "Resultado": "1 - 1",
       "Visitante": "R. Racing Club"
     },
     {
@@ -1649,7 +1649,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "18:30",
       "Local": "CD Leganés",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "Real Sporting"
     },
     {
@@ -1657,7 +1657,7 @@
       "Fecha": "Sáb 20-12-2025",
       "Horario": "21:00",
       "Local": "UD Las Palmas",
-      "Resultado": "VS",
+      "Resultado": "4 - 0",
       "Visitante": "Cultural y Deportiva Leonesa"
     },
     {
@@ -1802,32 +1802,56 @@
   "21": [
     {
       "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "SD Eibar"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Vie 09-01-2026",
+      "Horario": "20:30",
       "Local": "Cádiz CF",
       "Resultado": "VS",
       "Visitante": "Real Sporting"
     },
     {
       "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "CD Leganés",
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "14:00",
+      "Local": "CD Mirandés",
       "Resultado": "VS",
-      "Visitante": "Real Valladolid CF"
+      "Visitante": "UD Almería"
     },
     {
       "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "16:15",
+      "Local": "FC Andorra",
+      "Resultado": "VS",
+      "Visitante": "Cultural y Deportiva Leonesa"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "16:15",
+      "Local": "R. Sociedad B",
+      "Resultado": "VS",
+      "Visitante": "Albacete BP"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "18:30",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "18:30",
+      "Local": "UD Las Palmas",
+      "Resultado": "VS",
+      "Visitante": "RC Deportivo"
+    },
+    {
+      "Jornada": 21,
+      "Fecha": "Sáb 10-01-2026",
+      "Horario": "21:00",
       "Local": "R. Racing Club",
       "Resultado": "VS",
       "Visitante": "Real Zaragoza"
@@ -1835,23 +1859,15 @@
     {
       "Jornada": 21,
       "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "FC Andorra",
+      "Horario": "14:00",
+      "Local": "CD Leganés",
       "Resultado": "VS",
-      "Visitante": "Cultural y Deportiva Leonesa"
+      "Visitante": "Real Valladolid CF"
     },
     {
       "Jornada": 21,
       "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "R. Sociedad B",
-      "Resultado": "VS",
-      "Visitante": "Albacete BP"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Granada CF",
       "Resultado": "VS",
       "Visitante": "CD Castellón"
@@ -1859,34 +1875,18 @@
     {
       "Jornada": 21,
       "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
+      "Horario": "16:15",
       "Local": "Málaga CF",
       "Resultado": "VS",
       "Visitante": "AD Ceuta FC"
     },
     {
       "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Lun 12-01-2026",
+      "Horario": "20:30",
       "Local": "SD Huesca",
       "Resultado": "VS",
       "Visitante": "Córdoba CF"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "UD Las Palmas",
-      "Resultado": "VS",
-      "Visitante": "RC Deportivo"
-    },
-    {
-      "Jornada": 21,
-      "Fecha": "Dom 11-01-2026",
-      "Horario": "--:--",
-      "Local": "CD Mirandés",
-      "Resultado": "VS",
-      "Visitante": "UD Almería"
     }
   ],
   "22": [
