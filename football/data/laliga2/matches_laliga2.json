@@ -1892,56 +1892,40 @@
   "22": [
     {
       "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Albacete BP",
-      "Resultado": "VS",
-      "Visitante": "Cádiz CF"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Burgos CF",
-      "Resultado": "VS",
-      "Visitante": "SD Huesca"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Vie 16-01-2026",
+      "Horario": "20:30",
       "Local": "CD Castellón",
       "Resultado": "VS",
       "Visitante": "CD Leganés"
     },
     {
       "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "14:00",
       "Local": "AD Ceuta FC",
       "Resultado": "VS",
       "Visitante": "Real Valladolid CF"
     },
     {
       "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Córdoba CF",
-      "Resultado": "VS",
-      "Visitante": "Málaga CF"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "16:15",
       "Local": "Cultural y Deportiva Leonesa",
       "Resultado": "VS",
       "Visitante": "Real Sporting"
     },
     {
       "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "18:30",
+      "Local": "Real Zaragoza",
+      "Resultado": "VS",
+      "Visitante": "R. Sociedad B"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Sáb 17-01-2026",
+      "Horario": "21:00",
       "Local": "UD Almería",
       "Resultado": "VS",
       "Visitante": "RC Deportivo"
@@ -1949,23 +1933,7 @@
     {
       "Jornada": 22,
       "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Granada CF",
-      "Resultado": "VS",
-      "Visitante": "SD Eibar"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "R. Racing Club",
-      "Resultado": "VS",
-      "Visitante": "UD Las Palmas"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
+      "Horario": "14:00",
       "Local": "CD Mirandés",
       "Resultado": "VS",
       "Visitante": "FC Andorra"
@@ -1973,10 +1941,42 @@
     {
       "Jornada": 22,
       "Fecha": "Dom 18-01-2026",
-      "Horario": "--:--",
-      "Local": "Real Zaragoza",
+      "Horario": "16:15",
+      "Local": "R. Racing Club",
       "Resultado": "VS",
-      "Visitante": "R. Sociedad B"
+      "Visitante": "UD Las Palmas"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "18:30",
+      "Local": "Albacete BP",
+      "Resultado": "VS",
+      "Visitante": "Cádiz CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "18:30",
+      "Local": "Burgos CF",
+      "Resultado": "VS",
+      "Visitante": "SD Huesca"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "21:00",
+      "Local": "Córdoba CF",
+      "Resultado": "VS",
+      "Visitante": "Málaga CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Lun 19-01-2026",
+      "Horario": "20:30",
+      "Local": "Granada CF",
+      "Resultado": "VS",
+      "Visitante": "SD Eibar"
     }
   ],
   "23": [
