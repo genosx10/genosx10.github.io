@@ -1399,7 +1399,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "16:00",
       "Local": "Arsenal",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Brighton and Hove Albion"
     },
     {
@@ -1407,7 +1407,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "16:00",
       "Local": "Brentford",
-      "Resultado": "VS",
+      "Resultado": "4 - 1",
       "Visitante": "Bournemouth"
     },
     {
@@ -1415,7 +1415,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "16:00",
       "Local": "Burnley",
-      "Resultado": "VS",
+      "Resultado": "0 - 0",
       "Visitante": "Everton"
     },
     {
@@ -1423,7 +1423,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "18:30",
       "Local": "Chelsea",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Aston Villa"
     },
     {
@@ -1439,7 +1439,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "16:00",
       "Local": "Liverpool",
-      "Resultado": "VS",
+      "Resultado": "2 - 1",
       "Visitante": "Wolverhampton Wanderers"
     },
     {
@@ -1455,7 +1455,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "13:30",
       "Local": "Nottingham Forest",
-      "Resultado": "VS",
+      "Resultado": "1 - 2",
       "Visitante": "Manchester City"
     },
     {
@@ -1471,7 +1471,7 @@
       "Fecha": "Sáb 27-12-2025",
       "Horario": "16:00",
       "Local": "West Ham United",
-      "Resultado": "VS",
+      "Resultado": "0 - 1",
       "Visitante": "Fulham"
     }
   ],
@@ -1724,16 +1724,16 @@
   "22": [
     {
       "Jornada": 22,
-      "Fecha": "Sáb 17-01-2026",
-      "Horario": "16:00",
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "17:30",
       "Local": "Aston Villa",
       "Resultado": "VS",
       "Visitante": "Everton"
     },
     {
       "Jornada": 22,
-      "Fecha": "Sáb 17-01-2026",
-      "Horario": "16:00",
+      "Fecha": "Lun 19-01-2026",
+      "Horario": "21:00",
       "Local": "Brighton and Hove Albion",
       "Resultado": "VS",
       "Visitante": "Bournemouth"
@@ -1765,7 +1765,7 @@
     {
       "Jornada": 22,
       "Fecha": "Sáb 17-01-2026",
-      "Horario": "16:00",
+      "Horario": "13:30",
       "Local": "Manchester United",
       "Resultado": "VS",
       "Visitante": "Manchester City"
@@ -1773,7 +1773,7 @@
     {
       "Jornada": 22,
       "Fecha": "Sáb 17-01-2026",
-      "Horario": "16:00",
+      "Horario": "18:30",
       "Local": "Nottingham Forest",
       "Resultado": "VS",
       "Visitante": "Arsenal"
@@ -1796,8 +1796,8 @@
     },
     {
       "Jornada": 22,
-      "Fecha": "Sáb 17-01-2026",
-      "Horario": "16:00",
+      "Fecha": "Dom 18-01-2026",
+      "Horario": "15:00",
       "Local": "Wolverhampton Wanderers",
       "Resultado": "VS",
       "Visitante": "Newcastle United"
