@@ -1734,9 +1734,41 @@
       "Jornada": 22,
       "Fecha": "Dom 01-02-2026",
       "Horario": "--:--",
+      "Local": "Real Betis",
+      "Resultado": "VS",
+      "Visitante": "Valencia CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Mallorca",
+      "Resultado": "VS",
+      "Visitante": "Sevilla FC"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
       "Local": "CA Osasuna",
       "Resultado": "VS",
       "Visitante": "Villarreal CF"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "RCD Espanyol de Barcelona",
+      "Resultado": "VS",
+      "Visitante": "Deportivo Alavés"
+    },
+    {
+      "Jornada": 22,
+      "Fecha": "Dom 01-02-2026",
+      "Horario": "--:--",
+      "Local": "Levante UD",
+      "Resultado": "VS",
+      "Visitante": "Atlético de Madrid"
     },
     {
       "Jornada": 22,
@@ -1758,33 +1790,9 @@
       "Jornada": 22,
       "Fecha": "Dom 01-02-2026",
       "Horario": "--:--",
-      "Local": "Levante UD",
+      "Local": "Real Oviedo",
       "Resultado": "VS",
-      "Visitante": "Atlético de Madrid"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 01-02-2026",
-      "Horario": "--:--",
-      "Local": "RCD Espanyol de Barcelona",
-      "Resultado": "VS",
-      "Visitante": "Deportivo Alavés"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 01-02-2026",
-      "Horario": "--:--",
-      "Local": "RCD Mallorca",
-      "Resultado": "VS",
-      "Visitante": "Sevilla FC"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 01-02-2026",
-      "Horario": "--:--",
-      "Local": "Real Betis",
-      "Resultado": "VS",
-      "Visitante": "Valencia CF"
+      "Visitante": "Girona FC"
     },
     {
       "Jornada": 22,
@@ -1793,14 +1801,6 @@
       "Local": "Real Madrid",
       "Resultado": "VS",
       "Visitante": "Rayo Vallecano"
-    },
-    {
-      "Jornada": 22,
-      "Fecha": "Dom 01-02-2026",
-      "Horario": "--:--",
-      "Local": "Real Oviedo",
-      "Resultado": "VS",
-      "Visitante": "Girona FC"
     }
   ],
   "23": [
